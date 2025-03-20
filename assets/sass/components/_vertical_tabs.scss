@@ -1,0 +1,38 @@
+.vertical-tabs-container {
+  display: flex;
+  border:1px solid $tertiary-color;
+}
+
+.vertical-tabs {
+  width: 200px;
+  background-color: $secondary-color;
+  padding-top: 20px;
+}
+
+.vertical-tab {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid $tertiary-color;
+  font-family: $secondary-font;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 300;
+  color: $primary-text-color;
+}
+
+.vertical-tab:hover {background-color: $tertiary-color;}
+
+.vertical-tab.active {
+  background-color: $primary-color;
+}
+
+.vertical-tab-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: $primary-color;
+  border-left:1px solid $tertiary-color;
+}
+
+.vertical-tab-pane {display: none;}
+.vertical-tab-pane.active {display: block;}

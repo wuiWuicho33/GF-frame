@@ -1,0 +1,43 @@
+/*Deafult theme*/
+@import 'theme/_default_colors';
+
+/*Base*/
+@import 'base/styles';
+@import 'base/utilities';
+@import 'base/others';
+@import 'base/grid';
+@import 'base/flexbox';
+
+/*Components*/
+@import 'components/_table';
+@import 'components/_multiple_select';
+@import 'components/_alerts';
+@import 'components/_switch';
+@import 'components/_tabs';
+@import 'components/_vertical_tabs';
+@import 'components/_card';
+@import 'components/_modal';
+@import 'components/_gallery';
+@import 'components/_pagination_area';
+@import 'components/_tooltip';
+@import 'components/_accordion';
+@import 'components/_back_to_top';
+@import 'components/_form';
+@import 'components/_search';
+@import 'components/_upload_files';
+@import 'components/_buttons';
+
+/*Dashboard layout*/
+@import 'dashboard/_layout_sidebar';
+@import 'dashboard/_main_header';
+@import 'dashboard/_sidebar_menu';
+@import 'dashboard/_quicklinks_menu';
+@import 'dashboard/_user_panel';
+
+/*Website layout*/
+@import 'navs/_standar_navbar';
+@import 'layouts/_sections';
+//@import 'layouts/_pullitzer'; 
+//@import 'navs/_social_links';
+
+

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ContentLab - home</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <link rel="icon" href="../assets/img/favicon.png" type="image/png">
+    <!-- Styles -->
+    <link href="../assets/css/main.css" rel="stylesheet" type="text/css" />        
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- ======
+    * NAVBAR *
+    ======= -->    
+    <nav class="navbar navbar_fixed">
+      <div class="navbar-wrapper container">
+        <!-- Navbar-brand
+        ================================= -->  
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img src="../assets/img/logo-default.svg" alt="Logo">
+          </a>
+        </div>
+        <!-- Navbar Menu
+        ================================= -->  
+        <div class="navbar-menu">
+          <div class="navbar-left"></div>
+          <div class="navbar-right">
+            <a href="#" class="navbar-link">Link</a>
+            <a href="#" class="navbar-link">Link</a>
+            <a href="#" class="navbar-link">Link</a>
+          </div>
+        </div>
+        <!-- Toggler
+        ================================= -->  
+        <button class="navbar-toggler">
+          <span>&#9776;</span>
+        </button>      
+      </div>
+    </nav>
+    
+    <div style="margin-top: 60px;"></div>
+
+    <!-- =========
+    * MAIN *
+    ========== -->    
+    <section class="bg-light py-4">
+      <div class="container">  
+        <!-- Tab
+        ================================= -->  
+        <div class="tabs-container">
+          <!-- ====== Buttons ====== --> 
+          <div class="tabs tabs-center">
+            <button class="tab-button active" data-target="tab-01" aria-controls="tab-01" role="tab">Decididas</button>
+            <button class="tab-button" data-target="tab-02" aria-controls="tab-02" role="tab">Prueba sistemas</button>
+          </div>
+          <!-- ====== Content ====== --> 
+          <div class="tab-content">
+            <!-- ------ Tab-pane-01 ------ -->
+            <div class="tab-pane active" id="tab-01" role="tabpanel">                                  
+              <div class="grid grid-cols-12">
+                <!-- Column-01 -->
+                <div class="col-span-12 md:col-span-4">
+                  <img src="../assets/img/300x300.png" class="w-100" alt="lorem">
+                </div>
+                <!-- Column-02 -->
+                <div class="col-span-12 md:col-span-8">
+                  <!-- Search container -->
+                  <div class="flex items-center flex-row mb-2">
+                    <div class="search-container">
+                      <input type="text" class="search form-control" placeholder="No. de empleado">
+                      <button type="submit" class="search-button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>                     
+                  </div>
+                  <!-- Form -->               
+                  <form class="grid gap-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
+                      <div class="item">
+                        <label for="name">Nombre <span>*</span></label>
+                        <input class="form-control" type="text" id="name" name="name" placeholder="Escribe tu nombre aquí" required>
+                      </div>
+                      <div class="item">
+                        <label for="lastname">Apellido <span>*</span></label>
+                        <input class="form-control" type="text" id="lastname" name="lastname" placeholder="Escribe tu apellido aquí" required>
+                      </div>                  
+                      <div class="item">
+                        <label for="email">Correo electrónico <span>*</span></label>
+                        <input class="form-control" type="email" id="email" name="email" placeholder="Escribe tu correo electrónico aquí" required>
+                      </div>
+                      <div class="item">
+                        <label for="phone">Celular <span>*</span></label>
+                        <input class="form-control" type="tel" id="phone" name="phone" placeholder="Escribe tu número de celular aquí" required>
+                      </div>                                    
+                      <div class="item">
+                        <label for="area">Área de trabajo <span>*</span></label>
+                        <input class="form-control" type="text" id="area" name="area" placeholder="Escribe el área de trabajo aquí" required>
+                      </div>                  
+                      <div class="item">
+                        <label for="position">Puesto <span>*</span></label>
+                        <input class="form-control" type="text" id="position" name="position" placeholder="Escribe el puesto aquí" required>
+                      </div>          
+                      <div class="item">
+                        <label for="passes">Pases <span>*</span></label>
+                        <select id="passes" name="passes" class="form-control" required>
+                          <option value="" disabled selected>-- Selecciona el No. de pases--</option>
+                          <option value="01">01</option>
+                          <option value="02">02</option>
+                          <option value="03">03</option>                      
+                          <option value="04">04</option>
+                          <option value="05">05</option>
+                        </select> 
+                      </div>                                                                   
+                    </div>                 
+                  </form>  
+                </div>                      
+              </div>                                      
+              <div class="flex justify-end">
+                <button class="btn btn-dark">
+                  <i class="fa-solid fa-floppy-disk"></i> Guardar
+                </button>     
+              </div>
+            </div>
+            <!-- ------ Tab-pane-02 ------ -->
+            <div class="tab-pane" id="tab-02" role="tabpanel">            
+              <!-- Columnas -->
+              <div class="grid grid-cols-12">
+                <!-- Column-01 -->
+                <div class="col-span-12 md:col-span-4">
+                  <img src="../assets/img/300x300.png" class="w-100" alt="lorem">
+                </div>
+                <!-- Column-02 -->
+                <div class="col-span-12 md:col-span-8">        
+                  <!-- Search-container -->      
+                  <div class="flex items-center flex-row mb-2">
+                    <div class="search-container">
+                      <input type="text" class="search form-control" placeholder="No. de empleado">
+                      <button type="submit" class="search-button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>                     
+                  </div>      
+                  <!-- Form -->               
+                  <form class="grid gap-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
+                      <div class="item">
+                        <label for="name">Nombre <span>*</span></label>
+                        <input class="form-control" type="text" id="name" name="name" placeholder="Escribe tu nombre aquí" required>
+                      </div>
+                      <div class="item">
+                        <label for="lastname">Apellido <span>*</span></label>
+                        <input class="form-control" type="text" id="lastname" name="lastname" placeholder="Escribe tu apellido aquí" required>
+                      </div>                  
+                      <div class="item">
+                        <label for="email">Correo electrónico <span>*</span></label>
+                        <input class="form-control" type="email" id="email" name="email" placeholder="Escribe tu correo electrónico aquí" required>
+                      </div>
+                      <div class="item">
+                        <label for="phone">Celular <span>*</span></label>
+                        <input class="form-control" type="tel" id="phone" name="phone" placeholder="Escribe tu número de celular aquí" required>
+                      </div>                                    
+                      <div class="item">
+                        <label for="area">Área de trabajo <span>*</span></label>
+                        <input class="form-control" type="text" id="area" name="area" placeholder="Escribe el área de trabajo aquí" required>
+                      </div>                  
+                      <div class="item">
+                        <label for="position">Puesto <span>*</span></label>
+                        <input class="form-control" type="text" id="position" name="position" placeholder="Escribe el puesto aquí" required>
+                      </div> 
+                      <div class="item">
+                        <label for="passes">Pases <span>*</span></label>
+                        <select id="passes" name="passes" class="form-control" required>
+                          <option value="" disabled selected>-- Selecciona el No. de pases--</option>
+                          <option value="01">01</option>
+                          <option value="02">02</option>
+                          <option value="03">03</option>                      
+                          <option value="04">04</option>
+                          <option value="05">05</option>
+                        </select> 
+                      </div>                                                                   
+                    </div>  
+                    <div class="grid grid-cols-1">
+                      <div class="item">
+                        <label for="question">Cuéntanos, ¿Por qué te sientes agradecid@ este año?<span>*</span></label>
+                        <textarea class="form-control" id="question" name="question" rows="5" cols="50" placeholder="Escribe tu respuesta." required></textarea>                
+                      </div>                                
+                      <div class="file_upload">
+                        <label for="archivo">Selecciona un archivo:</label>
+                        <input type="file" id="archivo" name="archivo" accept="image/*,application/pdf,.doc,.docx" required>
+                      </div>                      
+                      <fieldset class="form-group-inline">
+                        <legend>¿Cuál ha sido tu experiencia en GF?</legend>
+                        <label class="radio-label">
+                          <input type="radio" name="opcion" value="opcion1">
+                          Mala
+                        </label>
+                        <label class="radio-label">
+                          <input type="radio" name="opcion" value="opcion2" checked>
+                          Buena
+                        </label>
+                        <label class="radio-label">
+                          <input type="radio" name="opcion" value="opcion3" checked>
+                          Excelente
+                        </label>                                                
+                      </fieldset>   
+                    </div>                                    
+                  </form>  
+                </div>                      
+              </div>                                      
+              <div class="flex justify-end mt-4">
+                <button class="btn btn-dark">
+                  <i class="fa-solid fa-floppy-disk"></i> Guardar
+                </button>     
+              </div>
+            </div>
+          </div>
+        </div>                                   
+      </div>     
+    </section>     
+          
+    <!-- =========
+    * FOOTER *
+    ========== -->         
+    <footer class="bg-darker py-3">
+      <div class="container">  
+        <div class="info">          
+          <p>Grupo Fórmula @Todos los derechos reservados</p>                    
+          <p>Consulta nuestro <a href="#">Aviso de Privacidad</a></p>          
+        </div>   
+      </div>     
+    </footer>     
+
+    <!--///////
+    SCRIPTS
+    ////////-->
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/91705bc097.js" crossorigin="anonymous"></script>    
+    <!-- jQuery 2.1.3 -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <!-- Main JS -->    
+    <script src="../assets/js/santandar_nav.js"></script>	 
+    <script src="../assets/js/tabs.js"></script>	
+
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.ico">
+	<title>Elementos por página</title>
+  <!-- Swiper carousel -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />  
+	<link href="../assets/css/main_dashboard.css" rel="stylesheet">
+</head>
+<body> 
+
+  <!-- ======
+  * SECTION *
+  ======= -->
+  <section class="bg-light">
+    <div class="container-fluid">              
+      <!-- Paginador
+      ====================== -->      
+      <div class="flex flex-row items-center justify-between"> 
+        <!-- ===== Elementos por página ===== --> 
+        <div class="form-group-inline">
+          <label for="pageNumber03">Elementos <span class="d-none d-sm-inline">por página:</span> </label>
+          <select class="form-control" id="pageNumber03">
+            <option selected>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>                                                        
+          </select>
+        </div>        
+        <!-- ===== Pagination ===== -->         
+        <div class="pagination">
+          <button id="prevPage" class="controls" aria-label="Página anterior">
+              <i class="fa-solid fa-caret-left"></i>
+              <span class="text">Anterior</span>
+          </button>
+          <input id="pageNumber04" type="number" class="page-input" aria-label="Número de página" min="1" placeholder="1">
+          <span class="total-pages" id="totalPages">de 100</span>
+          <button id="nextPage" class="controls" aria-label="Página siguiente">
+              <span class="text">Siguiente</span>
+              <i class="fa-solid fa-caret-right"></i>
+          </button>
+        </div>          
+      </div>               
+    </div>
+  </section>
+
+<!--///////
+SCRIPTS
+////////-->
+<!-- Fontawesome -->
+<script src="https://kit.fontawesome.com/91705bc097.js" crossorigin="anonymous"></script>
+<!-- Jquery last version -->
+<script src="../assets/js/jquery.min.js"></script>
+<!-- Main JS -->
+<script src="../assets/js/main.js"></script>	
+
+</body>
+</html>

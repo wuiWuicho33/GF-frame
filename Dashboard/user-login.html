@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.ico">
+	<title>Puestos y perfiles - Login</title>
+  <!-- Swiper carousel -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />  
+	<link href="../assets/css/main_dashboard.css" rel="stylesheet">
+</head>
+<body> 
+
+  <!-- =========
+  * LOGIN *
+  ========== -->
+  <div class="login-container">
+    <!-- Login-box
+    ========================================== -->         
+    <div class="login-box">
+      <!-- ====== Cover ====== -->
+      <div class="cover">
+        <img src="../assets/img/form-cover.jpg" alt="Logo">
+      </div>
+      <!-- ====== Login-body ====== -->       
+      <div class="login-body">
+        <header class="text-center mb-4">
+          <h2>Iniciar sesión</h2>
+        </header>
+        <!-- == Login-form == -->
+        <form action="#">
+          <div class="form-group">
+            <label for="username">Nombre de usuario:</label>
+            <input class="form-control" type="text" id="username" name="username"  required placeholder="Escribe tu nombre">
+          </div>          
+          <div class="form-group">
+            <label for="password">Contraseña:</label>
+            <input class="form-control" type="password" id="password" name="password"  required placeholder="Escribe tu contraseña">
+          </div>
+          <!-- Checkbox -->
+          <div class="form-group">
+            <label class="checkbox-label">
+              <input type="checkbox" name="newsletter" value="sí">
+              Recordar contraseña
+            </label>
+          </div>          
+          <!-- Capcha-->
+           <div class="capcha-content text-center">
+            <img src="../assets/img/capcha.png">
+           </div>
+        </form>
+        <!-- == Footer == -->
+        <footer>
+          <button type="submit" class="btn btn-default btn-block">Iniciar sesión</button>
+          <p>
+            <a href="#" class="btn-link">¿Olvidaste tu contraseña?</a><br>
+            ¿No tienes una cuenta? <a href="register.html" class="btn-link">Regístrate aquí</a>
+          </p>
+        </footer>
+      </div>
+    </div>    
+  </div>
+
+<!--///////
+SCRIPTS
+////////-->
+<!-- Fontawesome -->
+<script src="https://kit.fontawesome.com/91705bc097.js" crossorigin="anonymous"></script>
+<!-- Jquery last version -->
+<script src="../assets/js/jquery.min.js"></script>
+<!-- Main JS -->
+<script src="../assets/js/main.js"></script>	
+
+</body>
+</html>

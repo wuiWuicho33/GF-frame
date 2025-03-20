@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.ico">
+	<title>Date-list</title>
+  <!-- Swiper carousel -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />  
+	<link href="../assets/css/main_dashboard.css" rel="stylesheet">
+</head>
+<style>
+  ul.date-list {
+    display: flex;
+    gap:0.5rem;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    li:first-child{display: none;}
+  }
+  @media (min-width: 1280px) {
+    ul.date-list {
+      li:first-child{display:block;}
+    }
+  }
+</style>
+<body> 
+
+  <!-- ======
+  * SECTION *
+  ======= -->
+  <section class="bg-light">
+    <div class="container-fluid">
+      <!-- Date-list
+      ------------------------- -->              
+      <ul class="date-list">
+        <li>Creado: </li>
+        <li><i class="fa-regular fa-calendar"></i> 12/08/2024</li>
+        <li><i class="fa-regular fa-clock"></i> 12/08/2024</li>
+      </ul>                         
+    </div>
+  </section>  
+
+<!--///////
+SCRIPTS
+////////-->
+<!-- Fontawesome -->
+<script src="https://kit.fontawesome.com/91705bc097.js" crossorigin="anonymous"></script>
+<!-- Jquery last version -->
+<script src="../assets/js/jquery.min.js"></script>
+<!-- Main JS -->
+<script src="../assets/js/main.js"></script>	
+
+</body>
+</html>

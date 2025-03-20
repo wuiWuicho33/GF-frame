@@ -1,0 +1,93 @@
+/* ==============================================
+# LAYOUT
+============================================== */
+header.hero{
+  background-image: url(../img/background-forms.png);
+  background-size: cover;
+  background-attachment: fixed;    
+  background-color:$primary-text-color;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;  
+
+  .hero_content{
+    display: flex;
+    flex-direction: column-reverse;
+    h1{
+      font-size: 2.3rem;
+      color:$sixty-color;
+    }
+    p{color:$primary-color;}    
+
+    img{ margin-bottom: 1rem;}
+  }
+}
+
+.text-vertical-align{
+  display: block;
+  margin: auto 0;
+} 
+
+/*
+.bases_card {
+  background: linear-gradient(0deg, $sixty-color, $seventy-color);
+  padding: 40px;
+  color:#ffffff;
+
+  h5,.material-symbols-outlined{color:$primary-color;}
+}
+
+.foot{
+  background-image: url(../img/background-forms.png);
+  background-size: cover;
+  background-attachment: fixed;    
+  background-color:$primary-text-color;
+  width: 100%;
+  height: 150px;
+}
+*/
+
+footer .info{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  p{margin: 0;}
+
+  a, p{font-size: 0.875rem;}
+
+}
+
+/*A partir de 1024px se aplicarán estos estilos => 1024px
+Tabletas horizontales*/
+@media (min-width: 1024px) {
+
+  header.hero{
+    height: 100vh;
+
+    .hero_content{
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+
+      h1{font-size: 3.5rem;}      
+  
+      > div {flex: 0 0 48%;}  
+      
+      img{ margin-bottom: 0;}
+    }     
+  }
+
+  /*
+  .foot{height: 200px;}  
+  */
+  
+  footer .info{
+    flex-direction: row;
+    justify-content: space-between;
+    text-align:inherit;
+  }  
+ 
+}
