@@ -11,21 +11,23 @@
   <body class="default-theme">
 
     <div class="wrapper fixed">                  
-      <!-- ==============
-      Main-header section
-      =============== -->
+      <!-- ========
+      * HEADER *
+      ========= -->
       <header class="main-header">
-        <!-- Logo -->
+        <!-- Logo
+        ========================================== -->  
         <a href="noticias.html" class="logo">
           <img src="../assets/img/logo-default.svg" alt="">
         </a>
-        <!-- Header sidebar-navbar: style can be found in header.less -->
+        <!-- Sidebar-navbar
+        ========================================== -->  
         <nav class="sidebar-navbar navbar-static-top" role="navigation">
-          <!-- Sidebar toggle button-->
+          <!-- ====== Sidebar toggle button ====== --> 
           <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
             <span class="sr-only">Toggle navigation</span>
           </a>
-          <!-- quicklinks-menu -->            
+          <!-- ====== Quicklinks-menu ====== -->
           <ul class="quicklinks-menu">
             <li class="dropdown">
               <a href="#">
@@ -122,12 +124,13 @@
         </nav>
       </header> 
 
-      <!-- ===========
-      Sidebar section
-      ============ -->
+      <!-- ========
+      * SIDEBAR *
+      ========= -->
       <aside class="main-sidebar">
         <section class="sidebar">          
-          <!-- Sidebar user panel -->
+          <!-- User-panel
+          ========================================== -->             
           <div class="user-panel">
             <div class="image">
               <img src="../assets/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
@@ -137,7 +140,8 @@
               <a href="#"><i class="fa-solid fa-circle text-success fa-xs"></i> Online</a>
             </div>
           </div>     
-          <!-- Sidebar-menu -->
+          <!-- Sidebar-menu 
+          ========================================== -->                       
           <ul class="sidebar-menu">     
             <li>
               <a href="#"><i class="fa-solid fa-book"></i> Link</a>
@@ -195,31 +199,50 @@
         </section>
       </aside>
 
-      <!-- ==================
-      Content-wrapper section
-      =================== -->
-      <div class="content-wrapper">
-        <!-- ====== Title ====== -->
+      <!-- ==============
+      * CONTENT-WRAPPER *
+      =============== -->      
+      <div class="content-wrapper">                 
+        <!-- Content-header
+        ========================================== -->                       
         <div class="content-header">
           <h1>Forms</h1>          
         </div> 
-
-        <!-- Main content -->
-        <section class="content-body">                        
-          <!-- Card -->
+        <!-- Content-body
+        ========================================== -->                       
+        <section class="content-body">                                  
+          <!-- ====== Card ====== --> 
           <div class="card">
+            <!-- ------ Card-header ------ -->
             <div class="card-header">
               <h4>Campos</h4>
             </div>
+            <!-- ------ Card-body ------ -->
             <div class="card-body">                    
+              <!-- Search-container -->      
+              <div class="flex items-center flex-row mb-2">
+                <div class="search-container">
+                  <input type="text" class="search form-control" placeholder="No. de empleado">
+                  <button type="submit" class="search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>                     
+              </div>      
+              <!-- Form -->
               <form class="grid gap-4">
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-                  <!-- Input -->
+                  <div class="item">                    
+                    <label for="name">Nombre <span>*</span></label>
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Escribe tu nombre aquí" required>
+                  </div>        
                   <div class="item">
-                    <label for="example-input">Example input <span>*</span></label>
-                    <input class="form-control" type="text" id="example-input" example-input="example-input" placeholder="Ingresa un nombre" required>
-                  </div>                     
-                  <!-- Select -->
+                    <label for="email">Correo electrónico <span>*</span></label>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="Escribe tu correo electrónico aquí" required>
+                  </div>
+                  <div class="item">
+                    <label for="phone">Celular <span>*</span></label>
+                    <input class="form-control" type="tel" id="phone" name="phone" placeholder="Escribe tu número de celular aquí" required>
+                  </div>                                                                        
                   <div class="item">
                     <label for="example-select">Example select <span>*</span></label>
                     <select id="example-select" name="example-select" class="form-control" required>
@@ -231,7 +254,6 @@
                       <option value="Five">Five</option>
                     </select> 
                   </div>
-                  <!-- Fecha y hora -->
                   <div class="item">
                     <label for="datetime-01">Date and time example <span>*</span></label>
                     <input id="datetime-01" type="datetime-local" name="datetime" class="form-control" required>
@@ -249,8 +271,7 @@
                     <input type="file" id="archivo" name="archivo" accept="image/*,application/pdf,.doc,.docx" required>
                   </div>
                 </div>                                               
-                <div class="flex gap-4">
-                  <!-- Switch-group -->                          
+                <div class="flex gap-4">                    
                   <div class="switch-group">              
                     <p>Destacar:</p>
                     <span class="switch-label">No</span>
@@ -258,8 +279,7 @@
                       <input type="checkbox" class="switch-input">
                       <span class="slider"></span>
                     </label>
-                  </div> 
-                  <!-- Switch-group -->                          
+                  </div>                          
                   <div class="switch-group">
                     <p>Estado:</p>
                     <span class="switch-label">Inactivo</span>
@@ -270,31 +290,25 @@
                   </div>                                   
                 </div>  
 
-
                 <fieldset class="form-group-inline">
-                  <legend>Radio and checkboxes</legend>
-                  
+                  <legend>Radio and checkboxes</legend>                  
                   <label class="checkbox-label">
                       <input type="checkbox" id="checkbox1">
                       Opción 1
-                  </label>
-                  
+                  </label>                  
                   <label class="checkbox-label">
                       <input type="checkbox" id="checkbox2">
                       Opción 2
-                  </label>
-              
+                  </label>              
                   <label class="radio-label">
                       <input type="radio" name="opcion" id="radio1">
                       Opción A
-                  </label>
-                  
+                  </label>                  
                   <label class="radio-label">
                       <input type="radio" name="opcion" id="radio2">
                       Opción B
                   </label>
               </fieldset>    
-
 
               </form>            
             </div>
@@ -302,9 +316,9 @@
         </section>
       </div>
 
-      <!-- ==========
-      Footer section
-      =========== -->
+      <!-- ==============
+      * FOOTER *
+      =============== -->
       <footer class="main-footer">
         <div class="pull-right hidden-xs">
           Global Media S.A de C.V.
