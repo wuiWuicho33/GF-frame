@@ -36,5 +36,7 @@
 
 @media (min-width: 768px) {   
   /* Search-container */
-  .search-container {width: auto;}
+  .search-container {
+    &.w-auto{width: auto;}    
+  }
 }

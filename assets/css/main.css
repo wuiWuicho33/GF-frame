@@ -3774,7 +3774,7 @@ output:after {
 
 @media (min-width: 768px) {
   /* Search-container */
-  .search-container {
+  .search-container.w-auto {
     width: auto;
   }
 }
