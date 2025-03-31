@@ -1,18 +1,6 @@
 /*=========
 COMPONENTES
 =========*/
-/* # Alert
----------------------------------------------- */
-function closeAlert(button) {
-	const alert = button.parentElement; // Selecciona el contenedor de alerta
-	alert.classList.add('hide');
-  
-	// Esperar a que termine la transición antes de eliminar el elemento
-	setTimeout(() => {
-	  alert.style.display = 'none';
-	}, 500);
-  }
-
 /* # Upload image
 ---------------------------------------------- */
   document.getElementById("subirImagenBtn").addEventListener("click", function() {
@@ -157,18 +145,6 @@ ordenContainer.addEventListener('click', function() {
         ordenIcon.classList.add('fa-arrow-up-a-z');
     }
 });
-
-/* # Alert
----------------------------------------------- */
-function closeAlert(button) {
-	const alert = button.parentElement; // Selecciona el contenedor de alerta
-	alert.classList.add('hide');
-  
-	// Esperar a que termine la transición antes de eliminar el elemento
-	setTimeout(() => {
-	  alert.style.display = 'none';
-	}, 500);
-}
 
 /* # Multiple select
 ---------------------------------------------- */
