@@ -2861,16 +2861,12 @@ table.align-right .switch-group {
 .tabs-container {
   width: 100%;
   margin: auto;
-  margin-top: 20px;
 }
-
-.tabs {
+.tabs-container .tabs {
   display: flex;
-  border: 1px solid #cedaf8;
   border-bottom: none;
-  background-color: #ebf5f8;
 }
-.tabs.tabs-center {
+.tabs-container .tabs.tabs-center {
   justify-content: center;
 }
 
@@ -2879,39 +2875,33 @@ table.align-right .switch-group {
 .tab-button {
   padding: 10px 20px;
   border: none;
-  background: #ebf5f8;
+  background: #ffffff;
   cursor: pointer;
   transition: background 0.3s;
   outline: none;
-  border-right: 1px solid #cedaf8;
   font-family: "Roboto", serif;
   font-size: 1rem;
   text-align: center;
   font-weight: 300;
   color: #011E44;
+  border-bottom: 2px solid #ffffff;
 }
-
-.tab-button.active {
-  background: #ffffff;
-}
-
-.tab-button:hover, .tab-button:focus {
-  background: #cedaf8;
+.tab-button.active, .tab-button:hover, .tab-button:focus {
+  border-color: #0F4C95;
+  font-weight: bold;
+  color: #0F4C95;
 }
 
 /* # Tab-content
 ------------------------------------ */
 .tab-content {
   background-color: #ffffff;
-  border: 1px solid #cedaf8;
-  padding: 20px;
+  padding-top: 20px;
 }
-
-.tab-pane {
+.tab-content .tab-pane {
   display: none;
 }
-
-.tab-pane.active {
+.tab-content .tab-pane.active {
   display: block;
 }
 
