@@ -2907,47 +2907,38 @@ table.align-right .switch-group {
 
 .vertical-tabs-container {
   display: flex;
-  border: 1px solid #cedaf8;
 }
-
-.vertical-tabs {
+.vertical-tabs-container .vertical-tabs {
   width: 200px;
-  background-color: #ebf5f8;
   padding-top: 20px;
 }
-
-.vertical-tab {
+.vertical-tabs-container .vertical-tabs .vertical-tab {
   padding: 10px 15px;
   cursor: pointer;
+  background-color: #ffffff;
   transition: background-color 0.3s ease;
-  border-bottom: 1px solid #cedaf8;
   font-family: "Roboto", serif;
   font-size: 1rem;
   text-align: center;
   font-weight: 300;
   color: #011E44;
+  border-bottom: 2px solid #ffffff;
 }
-
-.vertical-tab:hover {
-  background-color: #cedaf8;
-}
-
-.vertical-tab.active {
-  background-color: #ffffff;
+.vertical-tabs-container .vertical-tabs .vertical-tab.active, .vertical-tabs-container .vertical-tabs .vertical-tab:hover {
+  border-color: #0F4C95;
+  font-weight: bold;
+  color: #0F4C95;
 }
 
 .vertical-tab-content {
   flex-grow: 1;
   padding: 20px;
   background-color: #ffffff;
-  border-left: 1px solid #cedaf8;
 }
-
-.vertical-tab-pane {
+.vertical-tab-content .vertical-tab-pane {
   display: none;
 }
-
-.vertical-tab-pane.active {
+.vertical-tab-content .vertical-tab-pane.active {
   display: block;
 }
 
