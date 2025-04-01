@@ -1,0 +1,26 @@
+Otra forma de agregar botón group
+
+/* Button */
+.button-group {
+  display: flex;
+  border-radius: 4px; 
+  border: 1px solid $highlight-color; 
+  
+  button {
+    border: none;
+    margin: 0;
+    border-radius: 0; 
+    flex: 1; /* Para que los botones ocupen el espacio disponible */
+    /* Estilo del primer y último botón */
+    &:first-child {
+      border-top-left-radius: 4px; 
+      border-bottom-left-radius: 4px; 
+    }
+    &:last-child {
+      border-top-right-radius: 4px; 
+      border-bottom-right-radius: 4px; 
+    }
+    /* Eliminar el borde izquierdo entre los botones */
+    &:not(:last-child) {border-right: 1px solid $secondary-color;}
+  }    
+}
