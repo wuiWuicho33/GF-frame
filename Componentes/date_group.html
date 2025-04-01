@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>GF - Sweet alert</title>
+    <title>GF - Date_group</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link rel="icon" href="../assets/img/favicon.png" type="image/png">
     <!-- Styles -->
@@ -188,22 +188,22 @@
                   <a href="tabs.html">
                     <i class="fa-regular fa-circle"></i> Tabs
                   </a>
-                </li>                                                               
+                </li> 
                 <li>
                   <a href="tooltips.html">
                     <i class="fa-regular fa-circle"></i> Tooltips
                   </a>
-                </li>
-                <li class="active">
+                </li>      
+                <li>
                   <a href="sweet-alert.html">
                     <i class="fa-regular fa-circle"></i> Sweet alert
                   </a>
                 </li>
-                <li>
+                <li class="active">
                   <a href="accordion.html">
                     <i class="fa-regular fa-circle"></i> Accordion
                   </a>
-                </li>                                                                                                                                                                                                                                                                                                                                                                                                     
+                </li>                                                                                                                                                                                       
               </ul>
             </li>          
           </ul>
@@ -216,15 +216,24 @@
       <div class="content-wrapper">
         <!-- ====== Title ====== -->
         <div class="content-header">
-          <h1>Sweet Alert</h1>          
+          <h1>Accordion</h1>          
         </div> 
 
         <!-- Main content -->
         <section class="content-body">                        
-          <!-- Botón: Alerta de éxito -->
-          <button class="btn btn-dark" id="alertaExitoBtn">Mostrar Alerta de Éxito</button>
-          <!-- Botón: Alerta de error -->
-          <button class="btn btn-dark" id="alertaErrorBtn">Mostrar Alerta de Error</button>         
+      <!-- -----
+      Date-group
+      ------ -->                                    
+      <div class="date-group">
+        <div class="date-container">
+            <input type="text" id="start-text-input" class="text-input" value="Fecha de inicio" readonly>
+            <input type="date" id="start-date-input" class="date-input">
+        </div>              
+        <div class="date-container">
+            <input type="text" id="end-text-input" class="text-input" value="Fecha final" readonly>
+            <input type="date" id="end-date-input" class="date-input">
+        </div>
+      </div> 
         </section>
       </div>
 
@@ -249,8 +258,10 @@
     <script src="../assets/js/jquery.min.js"></script>      
     <!-- Sidebar layout -->
     <script src="../assets/js/sidebar_layout.js" type="text/javascript"></script>
-    <!-- Components -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.0/dist/sweetalert2.all.min.js"></script>        
-    <script src="../assets/js/sweet-alert.js" type="text/javascript"></script>    
+    <!-- Components -->    
+    <script src="../assets/js/alerts.js" type="text/javascript"></script>
+    <script src="../assets/js/accordeon.js" type="text/javascript"></script>
+    <script src="../assets/js/date_group.js" type="text/javascript"></script>
+
   </body>
 </html>
