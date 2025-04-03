@@ -3321,8 +3321,8 @@ Tabletas horizontales*/
 }
 
 .acordeon-header {
-  background-color: #007bff;
-  color: white;
+  background-color: #ffffff;
+  color: #011E44;
   padding: 15px;
   text-align: left;
   font-size: 16px;
@@ -3330,7 +3330,7 @@ Tabletas horizontales*/
   border: none;
   cursor: pointer;
   outline: none;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -3338,14 +3338,14 @@ Tabletas horizontales*/
 }
 
 .acordeon-header:hover {
-  background-color: #0056b3;
+  background-color: #cedaf8;
 }
 
 .acordeon-body {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   padding: 15px;
   display: none;
-  border-radius: 5px;
+  border-radius: 0 0 0.25rem 0.25rem;
 }
 
 .acordeon-body p {

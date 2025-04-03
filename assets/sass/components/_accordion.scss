@@ -10,8 +10,8 @@
 }
 
 .acordeon-header {
-  background-color: #007bff;
-  color: white;
+  background-color: $primary-color;
+  color: $primary-text-color;
   padding: 15px;
   text-align: left;
   font-size: 16px;
@@ -19,7 +19,7 @@
   border: none;
   cursor: pointer;
   outline: none;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,14 +27,14 @@
 }
 
 .acordeon-header:hover {
-  background-color: #0056b3;
+  background-color: $tertiary-color;
 }
 
 .acordeon-body {
-  background-color: #f1f1f1;
+  background-color: $primary-color;
   padding: 15px;
   display: none;
-  border-radius: 5px;
+  border-radius: 0 0 0.25rem 0.25rem;
 }
 
 .acordeon-body p {
