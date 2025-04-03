@@ -3310,137 +3310,58 @@ Tabletas horizontales*/
   }
 }
 /* ==============================================
-# Accordion
+# ACCORDEON
 ============================================== */
 .acordeon {
+  max-width: 100%;
+}
+
+.acordeon-item {
+  margin-bottom: 10px;
+}
+
+.acordeon-header {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-size: 16px;
   width: 100%;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-}
-.acordeon .acordeon-item {
-  margin-bottom: 0.25rem;
-}
-.acordeon .acordeon-item .acordeon-header {
+  border: none;
   cursor: pointer;
-}
-.acordeon .acordeon-item .acordeon-header,
-.acordeon .acordeon-item .acordeon-inner {
+  outline: none;
+  border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
-  color: #011E44;
-  padding: 10px 15px;
-  width: 100%;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-  font-size: 0.875rem;
   transition: background-color 0.3s;
-  /* Rote el ícono cuando el panel está abierto */
 }
-.acordeon .acordeon-item .acordeon-header:hover,
-.acordeon .acordeon-item .acordeon-inner:hover {
-  background-color: #cedaf8;
-}
-.acordeon .acordeon-item .acordeon-header:hover .right-content,
-.acordeon .acordeon-item .acordeon-inner:hover .right-content {
-  display: block;
-}
-.acordeon .acordeon-item .acordeon-header.open .acordeon-icon,
-.acordeon .acordeon-item .acordeon-inner.open .acordeon-icon {
-  transform: rotate(180deg);
-}
-.acordeon .acordeon-item .acordeon-header .left-content,
-.acordeon .acordeon-item .acordeon-inner .left-content {
-  display: flex;
-  align-items: center;
-}
-.acordeon .acordeon-item .acordeon-header .left-content .acordeon-icon,
-.acordeon .acordeon-item .acordeon-inner .left-content .acordeon-icon {
-  transition: transform 0.3s ease;
-  margin-right: 10px;
-}
-.acordeon .acordeon-item .acordeon-header .right-content,
-.acordeon .acordeon-item .acordeon-inner .right-content {
-  display: none;
-}
-.acordeon .acordeon-item .acordeon-header .right-content .switch-group, .acordeon .acordeon-item .acordeon-header .right-content a,
-.acordeon .acordeon-item .acordeon-inner .right-content .switch-group,
-.acordeon .acordeon-item .acordeon-inner .right-content a {
-  display: inline-block;
-  margin-left: 0.5rem;
+
+.acordeon-header:hover {
+  background-color: #0056b3;
 }
 
 .acordeon-body {
-  background-color: none;
-  padding: 0.25rem 0.5rem 0;
+  background-color: #f1f1f1;
+  padding: 15px;
   display: none;
-}
-
-.acordeon-subitem {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffffff;
-  padding: 10px 15px;
   border-radius: 5px;
-  margin-bottom: 0.25rem;
-  font-size: 0.875rem;
-  line-height: 2rem;
-}
-.acordeon-subitem:last-child {
-  margin-bottom: 0;
-}
-.acordeon-subitem:hover {
-  background-color: #cedaf8;
-}
-.acordeon-subitem:hover .right-content {
-  display: block;
-}
-.acordeon-subitem .right-content {
-  display: none;
-}
-.acordeon-subitem .right-content .switch-group, .acordeon-subitem .right-content a {
-  display: inline-block;
-  margin-left: 0.5rem;
 }
 
-@media (max-width: 425px) {
-  .acordeon-header,
-  .acordeon-inner {
-    height: auto;
-    flex-direction: column;
-    width: 100%;
-  }
-  .acordeon-header .left-content,
-  .acordeon-inner .left-content {
-    gap: 1rem;
-  }
-  .acordeon-header .right-content,
-  .acordeon-inner .right-content {
-    margin-top: 1rem;
-  }
-  .acordeon-header .right-content a,
-  .acordeon-inner .right-content a {
-    margin-left: 1rem !important;
-  }
-  .acordeon-subitem {
-    flex-direction: column;
-  }
-  .acordeon-subitem .right-content {
-    margin-top: 0.5rem;
-  }
-  .acordeon-subitem .right-content a {
-    margin-left: 1rem !important;
-  }
+.acordeon-body p {
+  margin: 0;
 }
-@media (min-width: 768px) {
-  .acordeon-header,
-  .acordeon-inner {
-    height: 3rem;
-  }
+
+/* Estilos para el ícono */
+.acordeon-icon {
+  transition: transform 0.3s ease;
 }
+
+/* Rote el ícono cuando el panel está abierto */
+.acordeon-header.open .acordeon-icon {
+  transform: rotate(180deg);
+}
+
 /* ==============================================
 # Back to top
 ============================================== */
