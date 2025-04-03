@@ -3315,17 +3315,15 @@ Tabletas horizontales*/
 .acordeon {
   max-width: 100%;
 }
-
-.acordeon-item {
+.acordeon .acordeon-item {
   margin-bottom: 10px;
 }
-
-.acordeon-header {
+.acordeon .acordeon-item .acordeon-header {
   background-color: #ffffff;
   color: #011E44;
   padding: 15px;
   text-align: left;
-  font-size: 16px;
+  font-size: 1rem;
   width: 100%;
   border: none;
   cursor: pointer;
@@ -3335,31 +3333,26 @@ Tabletas horizontales*/
   justify-content: space-between;
   align-items: center;
   transition: background-color 0.3s;
+  /* Estilos para el ícono */
+  /* Rote el ícono cuando el panel está abierto */
 }
-
-.acordeon-header:hover {
+.acordeon .acordeon-item .acordeon-header:hover {
   background-color: #cedaf8;
 }
-
-.acordeon-body {
+.acordeon .acordeon-item .acordeon-header .acordeon-icon {
+  transition: transform 0.3s ease;
+}
+.acordeon .acordeon-item .acordeon-header.open .acordeon-icon {
+  transform: rotate(180deg);
+}
+.acordeon .acordeon-item .acordeon-body {
   background-color: #ffffff;
   padding: 15px;
   display: none;
   border-radius: 0 0 0.25rem 0.25rem;
 }
-
-.acordeon-body p {
+.acordeon .acordeon-item .acordeon-body p {
   margin: 0;
-}
-
-/* Estilos para el ícono */
-.acordeon-icon {
-  transition: transform 0.3s ease;
-}
-
-/* Rote el ícono cuando el panel está abierto */
-.acordeon-header.open .acordeon-icon {
-  transform: rotate(180deg);
 }
 
 /* ==============================================
