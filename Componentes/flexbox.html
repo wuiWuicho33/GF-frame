@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>GF - Flexbox</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <link rel="icon" href="../assets/img/favicon.png" type="image/png">
+    <!-- Styles -->
+    <link href="../assets/css/main.css" rel="stylesheet" type="text/css" />         
+  </head>
+  <body class="default-theme">
+
+    <div class="wrapper fixed">                  
+      <!-- ==============
+      Main-header section
+      =============== -->
+      <header class="main-header">
+        <!-- Logo -->
+        <a href="noticias.html" class="logo">
+          <img src="../assets/img/logo-default.svg" alt="">
+        </a>
+        <!-- Header sidebar-navbar: style can be found in header.less -->
+        <nav class="sidebar-navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <!-- quicklinks-menu -->            
+          <ul class="quicklinks-menu">
+            <li class="dropdown">
+              <a href="#">
+                <i class="fa-regular fa-envelope"></i>
+                <span class="label label-success">4</span>
+              </a>
+              <!-- Dropdown -->
+              <ul class="dropdown-menu">
+                <li class="dm-header"><a>Tienes 3 mensajes</a></li>
+                <li>
+                  <a href="#"> 
+                    <div class="message-links">
+                      <img class="" src="../assets/img/user2-160x160.jpg">
+                      <div>
+                        <h4>Lorem ipsum dolor</h4>
+                        <p>Lorem ipsum, dolor sit amet...</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"> 
+                    <div class="message-links">
+                      <img class="" src="../assets/img/user2-160x160.jpg">
+                      <div>
+                        <h4>Lorem ipsum dolor</h4>
+                        <p>Lorem ipsum, dolor sit amet...</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"> 
+                    <div class="message-links">
+                      <img class="" src="../assets/img/user2-160x160.jpg">
+                      <div>
+                        <h4>Lorem ipsum dolor</h4>
+                        <p>Lorem ipsum, dolor sit amet...</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="dm-footer"><a href="#"> Ver todo </a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">
+                <i class="fa-regular fa-bell"></i>
+                <span class="label label-success">10</span>
+              </a>
+              <!-- Dropdown -->
+              <ul class="dropdown-menu">
+                <li class="dm-header"><a>Tienes 3 notificaciones</a></li>
+                <li><a href="#"><i class="fa-solid fa-bell"></i> Lorem ipsum, dolor sit amet...</a></li>
+                <li><a href="#"><i class="fa-solid fa-bell"></i> Lorem ipsum, dolor sit amet...</a></li>
+                <li><a href="#"><i class="fa-solid fa-bell"></i> Lorem ipsum, dolor sit amet...</a></li>
+                <li class="dm-footer"><a href="#"> Ver todo </a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">
+                <i class="fa-solid fa-flag"></i>
+                <span class="label label-danger">9</span>
+              </a>
+              <!-- Dropdown -->
+              <ul class="dropdown-menu">
+                <li class="dm-header"><a>Tienes 3 Red flags</a></li>
+                <li><a href="#"><i class="fa-solid fa-flag"></i> Lorem ipsum, dolor sit amet...</a></li>
+                <li><a href="#"><i class="fa-solid fa-flag"></i> Lorem ipsum, dolor sit amet...</a></li>
+                <li><a href="#"><i class="fa-solid fa-flag"></i> Lorem ipsum, dolor sit amet...</a></li>
+                <li class="dm-footer"><a href="#"> Ver todo </a></li>
+              </ul>
+            </li>
+            <li class="user dropdown">
+              <!--Usuario con imagen .jpg-->
+              <!--
+              <a href="#">
+                <img src="../assets/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
+                <span class="hidden-xs">Nombre de usuario</span>
+              </a>              
+              -->
+              <a href="#">
+                <i class="fa-solid fa-user"></i>
+                <span class="hidden-xs">Nombre de usuario</span>
+              </a>
+              <!-- Dropdown -->
+              <ul class="dropdown-menu">
+                <li><a href="#"><i class="fa-solid fa-user"></i> Mi perfil</a></li>
+                <li><a href="#"><i class="fa-solid fa-gear"></i> Ajustes</a></li>
+                <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</a></li>
+              </ul>
+            </li>
+          </ul>         
+        </nav>
+      </header> 
+
+      <!-- ===========
+      Sidebar section
+      ============ -->
+      <aside class="main-sidebar">
+        <section class="sidebar">          
+          <!-- Sidebar user panel -->
+          <div class="user-panel">
+            <div class="image">
+              <img src="../assets/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
+            </div>
+            <div class="info">
+              <p>Nombre de usuario</p>
+              <a href="#"><i class="fa-solid fa-circle text-success fa-xs"></i> Online</a>
+            </div>
+          </div>     
+          <!-- Sidebar-menu -->
+          <ul class="sidebar-menu">     
+            <li>
+              <a href="#"><i class="fa-solid fa-book"></i> Link</a>
+            </li>
+            <li class="treeview active">
+              <a href="#">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <span>Utilities</span>
+                <i class="fa-solid fa-angle-left pull-right"></i>
+              </a>              
+              <ul class="treeview-menu">
+                <li class="active">
+                  <a href="grid.html">
+                    <i class="fa-regular fa-circle"></i> Grid
+                  </a>
+                </li>
+                <li>
+                  <a href="flexbox.html">
+                    <i class="fa-regular fa-circle"></i> Flexbox
+                  </a>
+                </li>                                                  
+              </ul>
+            </li>
+            <li class="treeview">
+              <a href="#">
+                <i class="fa-solid fa-table"></i>
+                <span>UI Kits</span>
+                <i class="fa-solid fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li>
+                  <a href="tipography.html">
+                    <i class="fa-regular fa-circle"></i> Tipography
+                  </a>
+                </li>                
+                <li>
+                  <a href="buttons.html">
+                    <i class="fa-regular fa-circle"></i> Botones
+                  </a>
+                </li>
+                <li>
+                  <a href="tables.html">
+                    <i class="fa-regular fa-circle"></i> Tables
+                  </a>
+                </li>                
+                <li>
+                  <a href="alerts.html">
+                    <i class="fa-regular fa-circle"></i> Alertas
+                  </a>
+                </li>                
+                <li>
+                  <a href="forms.html">
+                    <i class="fa-regular fa-circle"></i> Forms
+                  </a>
+                </li>                                
+                <li>
+                  <a href="modal.html">
+                    <i class="fa-regular fa-circle"></i> Modal
+                  </a>
+                </li>                                               
+                <li>
+                  <a href="tabs.html">
+                    <i class="fa-regular fa-circle"></i> Tabs
+                  </a>
+                </li>
+                <li>
+                  <a href="tooltips.html">
+                    <i class="fa-regular fa-circle"></i> Tooltips
+                  </a>
+                </li>
+                <li>
+                  <a href="sweet-alert.html">
+                    <i class="fa-regular fa-circle"></i> Sweet alert
+                  </a>
+                </li>  
+                <li>
+                  <a href="accordion.html">
+                    <i class="fa-regular fa-circle"></i> Accordion
+                  </a>
+                </li>                                                                                                                                                                                                                                                                                                                                                                                                   
+              </ul>
+            </li>          
+          </ul>
+        </section>
+      </aside>
+
+      <!-- ==================
+      Content-wrapper section
+      =================== -->
+      <div class="content-wrapper">
+        <!-- ====== Title ====== -->
+        <div class="content-header">
+          <h1>Flexbox</h1>          
+        </div> 
+
+        <!-- Main content -->
+        <section class="content-body grid gap-5">                        
+          <!-- Display-flex
+          ============================-->
+          <div>
+            <h3 class="mb-0">Display:flex;</h3>
+            <p>Le indica al contenedor que tendrá propiedades flexibles, y que sus elementos secundarios también serán flexibles.</p>
+          </div> 
+          <!-- Example -->                   
+          <div class="flex gap-4">
+            <div class="grid-item">Col 1</div>
+            <div class="grid-item">Col 1</div>
+            <div class="grid-item">Col 1</div>
+          </div>                           
+
+          <!-- Flex direction
+          ============================-->
+          <div>
+            <h3 class="mb-0">Flex direction</h3>
+            <p>Esta propiedad establece la dirección de los elementos al interior de un contenedor, y tiene cuatro valores:</p>
+          </div>       
+          <!-- Example -->   
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4"> 
+            <div>
+              <h5 class="mb-0">row</h5>
+              <p>Este valor viene por defecto.</p>
+              <div class="flex flex-row gap-4">
+                <div class="grid-item">Col 1</div>
+                <div class="grid-item">Col 2</div>
+              </div>                 
+            </div> 
+            <div>
+              <h5 class="mb-0">row-reverse</h5>
+              <p>Los elementos comienzan al revés.</p>
+              <div class="flex flex-row-reverse gap-4">
+                <div class="grid-item">Col 1</div>
+                <div class="grid-item">Col 2</div>
+              </div>                 
+            </div> 
+            <div>
+              <h5 class="mb-0">column</h5>
+              <p>Los elementos los pone en columnas.</p>
+              <div class="flex flex-col gap-4">
+                <div class="grid-item">Col 1</div>
+                <div class="grid-item">Col 2</div>
+              </div>                 
+            </div> 
+            <div>
+              <h5 class="mb-0">column-reverse</h5>
+              <p>Los elementos los pone en columnas.</p>
+              <div class="flex flex-col-reverse gap-4">
+                <div class="grid-item">Col 1</div>
+                <div class="grid-item">Col 2</div>
+              </div>                 
+            </div>            
+          </div>
+
+          <!-- Three-Columns
+          ============================-->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4">
+            <!-- Grid-item -->  
+            <div class="grid-item">Col 1</div>
+            <!-- Grid-item -->  
+            <div class="grid-item">Col 2</div>
+            <!-- Grid-item -->  
+            <div class="grid-item">Col 3</div>
+            <!-- Grid-item -->  
+            <div class="grid-item">Col 4</div>            
+          </div>          
+
+          <!-- Diferent sizes
+          ============================-->
+          <div class="grid grid-cols-12">
+            <!-- Grid-item -->  
+            <div class="grid-item col-span-12 md:col-span-4">Col 1</div>
+            <!-- Grid-item -->  
+            <div class="grid-item col-span-12 md:col-span-8">Col 2</div>                      
+          </div>
+                    
+          <!-- Diferent sizes
+          ============================-->
+          <div class="grid grid-cols-12">
+            <!-- Grid-item -->  
+             <div class="grid-item col-span-12 md:col-span-9">Col 1</div>
+            <!-- Grid-item -->  
+            <div class="grid-item col-span-12 md:col-span-3">Col 2</div>                        
+          </div>
+
+        </section>
+      </div>
+
+      <!-- ==========
+      Footer section
+      =========== -->
+      <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+          Global Media S.A de C.V.
+        </div>
+        <strong>Copyright &copy; 2024 <a href="https://www.nextaisolutions.com/">nextaisolutions.com</a></strong> Todos los derechos reservados.
+      </footer>
+
+    </div>
+
+    <!--///////
+    SCRIPTS
+    ////////-->
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/91705bc097.js" crossorigin="anonymous"></script>
+    <!-- jQuery 2.1.3 -->
+    <script src="../assets/js/jquery.min.js"></script>      
+    <!-- Sidebar layout -->
+    <script src="../assets/js/sidebar_layout.js" type="text/javascript"></script>
+    
+  </body>
+</html>
