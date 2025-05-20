@@ -77,11 +77,6 @@
 }
 .nopadding{padding: 0px;}
 
-/*
-.hidden{display:none;}
-.hidden-sm {display: none;}
-*/
-
 /*Float*/
 .float-left{float: left;}
 .float-right{float: right;}
@@ -91,7 +86,6 @@
 .d-block {display: block;}
 .d-inline {display: inline;}
 .d-inline-block {display: inline-block;}
-.d-flex {display: flex;}
 .d-grid {display: grid;}
 .d-table {display: table;}
 .d-table-row {display: table-row;}
@@ -108,28 +102,6 @@
   border: 0;
 }
 
-/*Eliminar esto*/
-/*Ya tengo floats*/
-.pull-right {float: right;}
-.pull-left {float: left;}
-/*display sustituye a hidden*/
-.hidden {
-  display: none;
-  visibility: hidden;
-}
-@media (max-width: 767px) {
-  .hidden-xs {display: none;}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .hidden-sm {display: none;}
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .hidden-md {display: none;}
-}
-@media (min-width: 1200px) {
-  .hidden-lg {display: none;}
-}
-
 /* ==============================================
 # MEDIAQUERIES
 ============================================== */
@@ -141,7 +113,6 @@
   .d-sm-block {display: block;}
   .d-sm-inline {display: inline;}
   .d-sm-inline-block {display: inline-block;}
-  .d-sm-flex {display: flex;}
   .d-sm-grid {display: grid;}  
 
   .mb-sm-0{margin-bottom: 0;}
@@ -160,7 +131,6 @@
   .d-md-block {display: block;}
   .d-md-inline {display: inline;}
   .d-md-inline-block {display: inline-block;}
-  .d-md-flex {display: flex;}
   .d-md-grid {display: grid;}  
 
   .mb-md-0{margin-bottom: 0;}
@@ -177,7 +147,6 @@
   .d-lg-block {display: block;}
   .d-lg-inline {display: inline;}
   .d-lg-inline-block {display: inline-block;}
-  .d-lg-flex {display: flex;}
   .d-lg-grid {display: grid;}  
 
   .mb-lg-0{margin-bottom: 0;}
@@ -195,7 +164,6 @@
   .d-xl-block {display: block;}
   .d-xl-inline {display: inline;}
   .d-xl-inline-block {display: inline-block;}
-  .d-xl-flex {display: flex;}
   .d-xl-grid {display: grid;}  
 
   .mb-xl-0{margin-bottom: 0;}
