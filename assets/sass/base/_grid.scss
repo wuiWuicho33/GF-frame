@@ -97,6 +97,26 @@ Celulares horizontales
   .sm\:col-span-10 { grid-column: span 10 / span 10; }
   .sm\:col-span-11 { grid-column: span 11 / span 11; }
   .sm\:col-span-12 { grid-column: span 12 / span 12; }  
+
+  /*Gap*/
+  .sm\:gap-0 {gap: 0;}
+  .sm\:gap-1 {gap: 0.25rem; }
+  .sm\:gap-2 {gap: 0.5rem;}
+  .sm\:gap-3 {gap: 0.75rem;}
+  .sm\:gap-4 {gap: 1rem;}
+  .sm\:gap-5 {gap: 1.25rem;}
+  .sm\:gap-6 {gap: 1.5rem;}
+  .sm\:gap-8 {gap: 2rem; }
+  .sm\:gap-10 {gap: 2.5rem; }
+  .sm\:gap-12 {gap: 3rem; }
+  .sm\:gap-16 {gap: 4rem; }
+  .sm\:gap-20 {gap: 5rem; }
+  .sm\:gap-24 {gap: 6rem; }
+  .sm\:gap-32 {gap: 8rem; }
+  .sm\:gap-40 {gap: 10rem; }
+  .sm\:gap-48 {gap: 12rem; }
+  .sm\:gap-56 {gap: 14rem; }
+  .sm\:gap-64 {gap: 16rem; }  
 }
 
 /* # Tablet ------------------------------------------ */
@@ -135,6 +155,27 @@ Tabletas verticales o celulares horizontales*/
   .float-md-right {float: right;}
   .float-md-none {float: none;}
   .hidden-sm {display:inline-block;}
+
+  /*Gap*/
+  .md\:gap-0 {gap: 0;}
+  .md\:gap-1 {gap: 0.25rem; }
+  .md\:gap-2 {gap: 0.5rem;}
+  .md\:gap-3 {gap: 0.75rem;}
+  .md\:gap-4 {gap: 1rem;}
+  .md\:gap-5 {gap: 1.25rem;}
+  .md\:gap-6 {gap: 1.5rem;}
+  .md\:gap-8 {gap: 2rem; }
+  .md\:gap-10 {gap: 2.5rem; }
+  .md\:gap-12 {gap: 3rem; }
+  .md\:gap-16 {gap: 4rem; }
+  .md\:gap-20 {gap: 5rem; }
+  .md\:gap-24 {gap: 6rem; }
+  .md\:gap-32 {gap: 8rem; }
+  .md\:gap-40 {gap: 10rem; }
+  .md\:gap-48 {gap: 12rem; }
+  .md\:gap-56 {gap: 14rem; }
+  .md\:gap-64 {gap: 16rem; }
+
 }
 
 /*A partir de 1024px se aplicarán estos estilos => 1024px
@@ -166,6 +207,26 @@ Tabletas horizontales*/
   .lg\:col-span-10 { grid-column: span 10 / span 10; }
   .lg\:col-span-11 { grid-column: span 11 / span 11; }
   .lg\:col-span-12 { grid-column: span 12 / span 12; } 
+
+  /*Gap*/
+  .lg\:gap-0 {gap: 0;}
+  .lg\:gap-1 {gap: 0.25rem; }
+  .lg\:gap-2 {gap: 0.5rem;}
+  .lg\:gap-3 {gap: 0.75rem;}
+  .lg\:gap-4 {gap: 1rem;}
+  .lg\:gap-5 {gap: 1.25rem;}
+  .lg\:gap-6 {gap: 1.5rem;}
+  .lg\:gap-8 {gap: 2rem; }
+  .lg\:gap-10 {gap: 2.5rem; }
+  .lg\:gap-12 {gap: 3rem; }
+  .lg\:gap-16 {gap: 4rem; }
+  .lg\:gap-20 {gap: 5rem; }
+  .lg\:gap-24 {gap: 6rem; }
+  .lg\:gap-32 {gap: 8rem; }
+  .lg\:gap-40 {gap: 10rem; }
+  .lg\:gap-48 {gap: 12rem; }
+  .lg\:gap-56 {gap: 14rem; }
+  .lg\:gap-64 {gap: 16rem; }  
 }
 
 /* # Desktop
@@ -199,6 +260,27 @@ Tabletas horizontales */
   .xl\:col-span-10 { grid-column: span 10 / span 10; }
   .xl\:col-span-11 { grid-column: span 11 / span 11; }
   .xl\:col-span-12 { grid-column: span 12 / span 12; } 
+
+  /*Gap*/
+  .xl\:gap-0 {gap: 0;}
+  .xl\:gap-1 {gap: 0.25rem; }
+  .xl\:gap-2 {gap: 0.5rem;}
+  .xl\:gap-3 {gap: 0.75rem;}
+  .xl\:gap-4 {gap: 1rem;}
+  .xl\:gap-5 {gap: 1.25rem;}
+  .xl\:gap-6 {gap: 1.5rem;}
+  .xl\:gap-8 {gap: 2rem; }
+  .xl\:gap-10 {gap: 2.5rem; }
+  .xl\:gap-12 {gap: 3rem; }
+  .xl\:gap-16 {gap: 4rem; }
+  .xl\:gap-20 {gap: 5rem; }
+  .xl\:gap-24 {gap: 6rem; }
+  .xl\:gap-32 {gap: 8rem; }
+  .xl\:gap-40 {gap: 10rem; }
+  .xl\:gap-48 {gap: 12rem; }
+  .xl\:gap-56 {gap: 14rem; }
+  .xl\:gap-64 {gap: 16rem; }  
+
 }
 
 /*A partir de 1536px se aplicarán estos estilos => 1536px
@@ -230,4 +312,24 @@ Tabletas horizontales */
   .xxl\:col-span-10 { grid-column: span 10 / span 10; }
   .xxl\:col-span-11 { grid-column: span 11 / span 11; }
   .xxl\:col-span-12 { grid-column: span 12 / span 12; } 
+
+  /*Gap*/
+  .xxl\:gap-0 {gap: 0;}
+  .xxl\:gap-1 {gap: 0.25rem; }
+  .xxl\:gap-2 {gap: 0.5rem;}
+  .xxl\:gap-3 {gap: 0.75rem;}
+  .xxl\:gap-4 {gap: 1rem;}
+  .xxl\:gap-5 {gap: 1.25rem;}
+  .xxl\:gap-6 {gap: 1.5rem;}
+  .xxl\:gap-8 {gap: 2rem; }
+  .xxl\:gap-10 {gap: 2.5rem; }
+  .xxl\:gap-12 {gap: 3rem; }
+  .xxl\:gap-16 {gap: 4rem; }
+  .xxl\:gap-20 {gap: 5rem; }
+  .xxl\:gap-24 {gap: 6rem; }
+  .xxl\:gap-32 {gap: 8rem; }
+  .xxl\:gap-40 {gap: 10rem; }
+  .xxl\:gap-48 {gap: 12rem; }
+  .xxl\:gap-56 {gap: 14rem; }
+  .xxl\:gap-64 {gap: 16rem; }    
 }
