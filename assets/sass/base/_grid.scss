@@ -1,20 +1,7 @@
 
 /* ==============================================
-# CONTAINER - CSS GRID - GAP - SPAN
+CSS GRID - GAP - SPAN
 ============================================== */
-/* # Container
------------------------------------------------ */
-.container {
-  width: 100%;
-  margin:0 auto;
-  padding: 0 20px;
-}
-.container-fluid {
-  width: 100%;
-  margin:0 auto;
-  padding: 0 20px;
-}
-
 /* # Grid css
 ----------------------------------------------- */
 .grid {
@@ -84,7 +71,6 @@ A partir de 640px se aplicarán estos estilos => 640px
 Celulares horizontales
 --------------------------------------------------- */
 @media (min-width: 640px) {
-  .container {max-width: 640px;}
   /*grid-cols-x*/
   .sm\:grid-cols-1 {grid-template-columns: repeat(1, 1fr);}
   .sm\:grid-cols-2 {grid-template-columns: repeat(2, 1fr);}
@@ -117,7 +103,6 @@ Celulares horizontales
 /*A partir de 768px se aplicarán estos estilos => 768px
 Tabletas verticales o celulares horizontales*/
 @media (min-width: 768px) {
-  .container {max-width: 768px;}
   /*grid-cols-x*/
   .md\:grid-cols-1 {grid-template-columns: repeat(1, 1fr);}
   .md\:grid-cols-2 {grid-template-columns: repeat(2, 1fr);}
@@ -155,7 +140,6 @@ Tabletas verticales o celulares horizontales*/
 /*A partir de 1024px se aplicarán estos estilos => 1024px
 Tabletas horizontales*/
 @media (min-width: 1024px) {
-  .container {max-width: 1024px;}
   /*grid-cols-x*/
   .lg\:grid-cols-1 {grid-template-columns: repeat(1, 1fr);}
   .lg\:grid-cols-2 {grid-template-columns: repeat(2, 1fr);}
@@ -189,7 +173,6 @@ Tabletas horizontales*/
 /*A partir de 1280px se aplicarán estos estilos => 1280px
 Tabletas horizontales */
 @media (min-width: 1280px) {
-  .container {max-width: 1280px;}
   /*grid-cols-x*/
   .xl\:grid-cols-1 {grid-template-columns: repeat(1, 1fr);}
   .xl\:grid-cols-2 {grid-template-columns: repeat(2, 1fr);}
@@ -221,7 +204,6 @@ Tabletas horizontales */
 /*A partir de 1536px se aplicarán estos estilos => 1536px
 Tabletas horizontales */
 @media (min-width: 1536px) {
-  .container {max-width: 1536px;}
   /*grid-cols-x*/
   .xxl\:grid-cols-1 {grid-template-columns: repeat(1, 1fr);}
   .xxl\:grid-cols-2 {grid-template-columns: repeat(2, 1fr);}
