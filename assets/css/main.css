@@ -2964,14 +2964,14 @@ table.align-right .switch-group {
 .card .card-body {
   padding: 1rem;
 }
-.card footer.card-footer {
+.card .card-footer {
   background-color: #ffffff;
   padding: 1rem;
   border-top: 1px solid #cedaf8;
   border-radius: 0 0 0.5rem 0.5rem;
   text-align: left;
 }
-.card footer.card-footer p {
+.card .card-footer p {
   word-break: break-all;
 }
 
