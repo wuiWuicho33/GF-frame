@@ -941,6 +941,45 @@ Tabletas horizontales */
   }
 }
 /*=> 1536px Igual o mayor a 1536px se aplicarán los siguientes estilos */
+/*Ya tengo floats*/
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+/*
+.hidden{display:none;}
+.hidden-sm {display: none;}
+*/
+/*display sustituye a hidden*/
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none;
+  }
+}
 /* ==============================================
 # COMPONENTES
 ============================================== */
