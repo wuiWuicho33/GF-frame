@@ -5213,7 +5213,7 @@ Colour theme
   color: #ffffff;
 }
 
-/*Website layout*/
+/*Website*/
 /* # NAVBAR
 ---------------------------------------------- */
 .navbar {
@@ -5436,6 +5436,45 @@ Colour theme
 -------------------------------------------------------------------- */
 /*=> 1280px Igual o mayor a 1280px se aplicarán los siguientes estilos */
 /*=> 1536px Igual o mayor a 1536px se aplicarán los siguientes estilos */
+/* ===========
+# Social links
+=========== */
+ul.social-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #1A6AB4;
+  background-color: transparent;
+}
+
+.social-links a:hover {
+  color: #FFFFFF;
+  background-color: #D55A77;
+}
+
+.social-links a.faicon-facebook:hover {
+  background-color: #3B5998;
+}
+
+.social-links a.faicon-linkedin:hover {
+  background-color: #0E76A8;
+}
+
+.social-links a.faicon-instagram:hover {
+  background-color: #EA4C89;
+}
+
+/*Website layout*/
 /* ==============================================
 # LAYOUT
 ============================================== */
@@ -5469,24 +5508,6 @@ header.hero .hero_content img {
   margin: auto 0;
 }
 
-/*
-.bases_card {
-  background: linear-gradient(0deg, $sixty-color, $seventy-color);
-  padding: 40px;
-  color:#ffffff;
-
-  h5,.material-symbols-outlined{color:$primary-color;}
-}
-
-.foot{
-  background-image: url(../img/background-forms.png);
-  background-size: cover;
-  background-attachment: fixed;    
-  background-color:$primary-text-color;
-  width: 100%;
-  height: 150px;
-}
-*/
 footer .info {
   display: flex;
   flex-direction: column;
@@ -5497,6 +5518,16 @@ footer .info p {
 }
 footer .info a, footer .info p {
   font-size: 0.875rem;
+}
+
+.legales {
+  text-align: center;
+}
+.legales a, .legales p {
+  font-size: 0.875rem;
+}
+.legales p {
+  margin: 0;
 }
 
 /*A partir de 1024px se aplicarán estos estilos => 1024px

@@ -1,29 +1,29 @@
-/* ==============================================
-# NAV
-============================================== */
-
-/* # SOCIAL-LINKS
----------------------------------------------- */
-.social_links {
-  margin: 0 0 20px 0;
-  padding: 0;
-  list-style: none;
-  li {
-    display: inline-block;
-    padding: 0;
-    line-height: normal;
-    a {
-      display: inline-block;
-      width: 25px;
-      height: 25px;
-      line-height: 25px;
-      font-size: 16px;
-      text-align: center;
-      background-color: $primary-text-color;
-      color: $primary-color;
-      transition: color 0.3s ease;
-      //Hover
-      &:hover {color: $fourth-color;}
-    }
-  }
+/* ===========
+# Social links
+=========== */
+ul.social-links {
+  display: flex;
+  gap: 0.5rem;
 }
+
+.social-links a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:2rem; 
+  height:2rem; 
+  border-radius: 1rem;
+  font-size:1rem; 
+  text-align:center;
+  color:$seventy-color; 
+  background-color:transparent;
+}
+
+.social-links a:hover{
+  color:#FFFFFF; 
+  background-color:#D55A77;
+}
+
+.social-links a.faicon-facebook:hover{background-color:#3B5998;}
+.social-links a.faicon-linkedin:hover{background-color:#0E76A8;}
+.social-links a.faicon-instagram:hover{background-color:#EA4C89;}
