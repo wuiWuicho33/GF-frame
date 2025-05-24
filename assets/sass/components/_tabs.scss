@@ -8,6 +8,7 @@
   .tabs{
     display: flex; 
     border-bottom: none;    
+    flex-wrap: wrap;
   
     &.tabs-center{
       justify-content: center;

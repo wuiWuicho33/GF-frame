@@ -70,29 +70,44 @@ form, input, textarea, select, .form-control, .custom-select {
 .bg-default {
   background-color: #ffffff;
 }
-.bg-default p {
+.bg-default a, .bg-default p, .bg-default ul {
   color: #011E44;
+}
+.bg-default b {
+  color: #1A6AB4;
 }
 
 .bg-light {
   background-color: #ebf5f8;
 }
-.bg-light p {
+.bg-light a, .bg-light p, .bg-light ul {
   color: #011E44;
+}
+.bg-light b {
+  color: #1A6AB4;
 }
 
 .bg-dark {
   background-color: #7A99E1;
 }
-.bg-dark p {
+.bg-dark a, .bg-dark p, .bg-dark ul {
   color: #ffffff;
+}
+.bg-dark b {
+  color: #1A6AB4;
 }
 
 .bg-darker {
   background-color: #011E44;
 }
-.bg-darker p, .bg-darker h1, .bg-darker h2, .bg-darker h3, .bg-darker ul {
+.bg-darker h1, .bg-darker h2, .bg-darker h3 {
   color: #ffffff;
+}
+.bg-darker a, .bg-darker p, .bg-darker ul {
+  color: #ffffff;
+}
+.bg-darker b {
+  color: #1A6AB4;
 }
 
 .bg-success {
@@ -340,6 +355,11 @@ h2.teaser {
 
 .font-x3 {
   font-size: 2.8rem;
+}
+
+/*Icons*/
+i.icon {
+  line-height: 1.4rem;
 }
 
 /* -----------------------------------------------
@@ -3181,6 +3201,7 @@ table.align-right .switch-group {
 .tabs-container .tabs {
   display: flex;
   border-bottom: none;
+  flex-wrap: wrap;
 }
 .tabs-container .tabs.tabs-center {
   justify-content: center;
