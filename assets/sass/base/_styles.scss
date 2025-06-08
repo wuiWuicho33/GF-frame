@@ -94,6 +94,17 @@ a{font-size:1rem;}
 .btn {
   font-family:$secondary-font;
   font-weight: 300;
+  font-size: 1rem;
+}
+
+.btn-sm {
+  font-size: .875rem;
+  line-height: 1.5rem;
+
+  i{ 
+    font-size: .875rem;
+    line-height: .5rem;
+  }
 }
 
 small,.small {  

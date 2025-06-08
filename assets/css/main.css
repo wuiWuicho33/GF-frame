@@ -259,6 +259,16 @@ a {
 .btn {
   font-family: "Roboto", serif;
   font-weight: 300;
+  font-size: 1rem;
+}
+
+.btn-sm {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+.btn-sm i {
+  font-size: 0.875rem;
+  line-height: 0.5rem;
 }
 
 small, .small {
@@ -4060,14 +4070,8 @@ output:after {
 }
 
 .btn-sm {
-  padding: 0.25rem 0.5rem !important;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
+  padding: 0.25rem 0.5rem;
   border-radius: 0.2rem;
-}
-.btn-sm i {
-  font-size: 0.875rem;
-  line-height: 0.5rem;
 }
 
 /*--------------- Btn-light ---------------*/
