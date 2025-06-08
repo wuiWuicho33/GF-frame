@@ -1,20 +1,19 @@
 Revisar que los modales y cajas de alerta funcionen correctamente
-Crear mensajes de alerta que se desplieguen en la parte inferior
-Colocar selects con autocompletado
-Crear componente de pasos de llenado
-Crear componente de loading
+
 Agregar componente de alertas
-Agregar ejemplo de checboxes yradio buttons a la página de forms
+Crear mensajes de alerta que se desplieguen en la parte inferior
+
+Crear componente de loading
+
+Colocar selects con autocompletado
 Agregar componente de loader
 Agregar posicionamientos en la hoja de utilidades
 
-Revisar lso scrips del mainnav y el active_link ya que no funcionan juntos, sólo separados.
+Revisar los scripts del mainnav y el active_link ya que no funcionan juntos, sólo separados.
 
-Revisar el espaciado de los radio and check buttons, dejarlos como están en el arcihvo de puestos y perfiles, con esos estilos. 
+Crear componente de pasos de llenado
 
-
-
-
+------------------------------------------------------------------------------
 
 Otro campo de búsqueda 
 
