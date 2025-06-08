@@ -65,13 +65,13 @@ ul, ol{
 ----------------------------------------------- */
 body, form, label, input, textarea, select, a, .btn{
   font-family:$secondary-font;
-  font-size:1rem; /*font-size:16px;*/
+  font-size: 1rem; /*font-size:16px;*/
   line-height: 1.1875rem;
   font-weight: 300;  
 }
 p,ul,ol {
   font-family:$secondary-font;
-  font-size:1rem;  
+  font-size: 1rem;  
   line-height: 1.4rem;
   font-weight: 300;  
   padding: 0;
@@ -90,22 +90,6 @@ th,td {
 }
 
 a{font-size:1rem;}
-
-.btn {
-  font-family:$secondary-font;
-  font-weight: 300;
-  font-size: 1rem;
-}
-
-.btn-sm {
-  font-size: .875rem;
-  line-height: 1.5rem;
-
-  i{ 
-    font-size: .875rem;
-    line-height: .5rem;
-  }
-}
 
 small,.small {  
   font-weight: normal;

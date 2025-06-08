@@ -256,21 +256,6 @@ a {
   font-size: 1rem;
 }
 
-.btn {
-  font-family: "Roboto", serif;
-  font-weight: 300;
-  font-size: 1rem;
-}
-
-.btn-sm {
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-}
-.btn-sm i {
-  font-size: 0.875rem;
-  line-height: 0.5rem;
-}
-
 small, .small {
   font-weight: normal;
   line-height: 1;
@@ -4056,6 +4041,9 @@ output:after {
   font-weight: bold;
   text-align: center;
   cursor: pointer;
+  font-family: "Roboto", serif;
+  font-size: 1rem;
+  font-weight: 300;
 }
 .btn i {
   font-size: 1rem;
@@ -4070,8 +4058,14 @@ output:after {
 }
 
 .btn-sm {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.2rem;
+}
+.btn-sm i {
+  font-size: 0.875rem;
+  line-height: 0.5rem;
 }
 
 /*--------------- Btn-light ---------------*/

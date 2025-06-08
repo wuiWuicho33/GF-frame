@@ -10,6 +10,9 @@
   font-weight: bold;
   text-align: center;
   cursor: pointer;
+  font-family:$secondary-font;
+  font-size: 1rem;
+  font-weight: 300;
 
   i{
     font-size:1rem;
@@ -23,9 +26,17 @@
   display: block;
   width: 100%;
 }
+
 .btn-sm {
+  font-size: .875rem;
+  line-height: 1.5rem;
   padding: .25rem .5rem;
   border-radius: .2rem;
+
+  i{ 
+    font-size: .875rem;
+    line-height: .5rem;
+  }
 }
 
 /*--------------- Btn-light ---------------*/
