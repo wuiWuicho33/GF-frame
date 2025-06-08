@@ -7,12 +7,18 @@
   
   .tabs{
     display: flex; 
-    border-bottom: none;    
     flex-wrap: wrap;
+    border-bottom: none;    
   
     &.tabs-center{
       justify-content: center;
     }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: stretch;
+    } 
+    
   }  
 }
 
@@ -23,11 +29,11 @@
   border: none;
   background: $primary-color;
   cursor: pointer;
+  text-align: center;
   transition: background 0.3s;
   outline: none;
   font-family: $secondary-font;
   font-size: 1rem;
-  text-align: center;
   font-weight: 300;
   color: $primary-text-color;
   border-bottom: 2px solid $primary-color;

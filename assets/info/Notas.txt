@@ -1,3 +1,5 @@
 Ajustar el componente de tabs en la parte responsiva, hay que acomodar el columnas las tabs en medidas menores a 768px tal y como está en CH Puestos y perfiles.
 
 Crear la clase .small para textos pequeños
+
+Le coloqué 1rem de puntaje a los botones que no tenían. (Ver si el btn small tiene puntaje)
