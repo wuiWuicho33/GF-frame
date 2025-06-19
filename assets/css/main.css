@@ -417,7 +417,7 @@ img {
 
 /*Background images*/
 .bg-img {
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2870,6 +2870,57 @@ Tabletas horizontales */
   }
 }
 /*Components*/
+/* ==============================================
+# BANNER
+============================================== */
+.banner {
+  display: block;
+  padding: 100px 0 50px 0;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  word-wrap: break-word;
+}
+.banner #pagetitle h1 {
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* Breadcrumb */
+.breadcrumb ol {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.breadcrumb ol li {
+  color: #ffffff;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+.breadcrumb ol li::after {
+  content: "/";
+  margin: 0 0.5rem;
+  color: #5c5c5c;
+}
+.breadcrumb ol li:last-child::after {
+  content: "";
+}
+.breadcrumb ol li a {
+  color: #5c5c5c;
+  font-size: 0.75rem;
+}
+.breadcrumb ol li a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+.breadcrumb ol li .icon {
+  color: #ffffff;
+  margin-right: 0.25rem;
+}
+
 .table-responsive {
   overflow-x: auto;
 }
