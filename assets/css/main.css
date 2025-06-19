@@ -2903,21 +2903,21 @@ Tabletas horizontales */
 .breadcrumb ol li::after {
   content: "/";
   margin: 0 0.5rem;
-  color: #5c5c5c;
+  color: #7A99E1;
 }
 .breadcrumb ol li:last-child::after {
   content: "";
 }
 .breadcrumb ol li a {
-  color: #5c5c5c;
+  color: #7A99E1;
   font-size: 0.75rem;
 }
 .breadcrumb ol li a:hover {
   text-decoration: underline;
   color: #ffffff;
 }
-.breadcrumb ol li .icon {
-  color: #ffffff;
+.breadcrumb ol li a .icon {
+  color: #7A99E1;
   margin-right: 0.25rem;
 }
 

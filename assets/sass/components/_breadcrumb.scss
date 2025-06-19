@@ -33,7 +33,7 @@
 		&::after {
 			content: "/";
 			margin: 0 0.5rem;
-			color:$gray-color; 
+			color:$fifth-color; 
 		}		
 
 		&:last-child::after {
@@ -41,18 +41,19 @@
 		}		
 
 		a {
-			color:$gray-color; 
+			color:$fifth-color; 
 			font-size: 0.75rem;
 		
 			&:hover {
 				text-decoration: underline;
 				color:$primary-color;
 			}	
-		}
 
-		.icon{
-			color:$primary-color;
-			margin-right: 0.25rem;
+			.icon{
+				color:$fifth-color; 
+				margin-right: 0.25rem;
+			}			
+			
 		}
 
 	}
