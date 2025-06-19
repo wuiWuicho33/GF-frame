@@ -2869,6 +2869,29 @@ Tabletas horizontales */
     flex-basis: 100%;
   }
 }
+/*i{color:$highlight-color;}*/
+.material-symbols-outlined {
+  color: #011E44;
+  font-size: 2.5rem !important;
+}
+
+.material-symbols-outlined.font-x3 {
+  font-size: 4rem !important;
+}
+
+/*Background colors*/
+.bg-default .material-symbols-outlined {
+  color: #528BD7;
+}
+
+.bg-dark .material-symbols-outlined {
+  color: #ffffff;
+}
+
+.bg-darker .material-symbols-outlined {
+  color: #528BD7;
+}
+
 /*Components*/
 /* ==============================================
 # BANNER
@@ -5627,9 +5650,6 @@ Tabletas horizontales*/
   header.hero .hero_content img {
     margin-bottom: 0;
   }
-  /*
-  .foot{height: 200px;}  
-  */
   footer .info {
     flex-direction: row;
     justify-content: space-between;

@@ -74,16 +74,6 @@ form, input, textarea, select, .form-control, .custom-select {
   color: #db9a17;
 }
 
-/*i{color:$highlight-color;}*/
-.material-symbols-outlined {
-  color: #000000;
-  font-size: 2.5rem !important;
-}
-
-.material-symbols-outlined.font-x3 {
-  font-size: 4rem !important;
-}
-
 /*Background colors*/
 .bg-default {
   background-color: #ffffff;
@@ -93,9 +83,6 @@ form, input, textarea, select, .form-control, .custom-select {
 }
 .bg-default p {
   color: #343941;
-}
-.bg-default .material-symbols-outlined {
-  color: #00E0D0;
 }
 
 .bg-light {
@@ -114,9 +101,6 @@ form, input, textarea, select, .form-control, .custom-select {
 .bg-dark p {
   color: #ffffff;
 }
-.bg-dark .material-symbols-outlined {
-  color: #ffffff;
-}
 
 .bg-darker {
   background-color: #000000;
@@ -126,9 +110,6 @@ form, input, textarea, select, .form-control, .custom-select {
 }
 .bg-darker p, .bg-darker ul {
   color: #ffffff;
-}
-.bg-darker .material-symbols-outlined {
-  color: #00E0D0;
 }
 
 .bg-success {

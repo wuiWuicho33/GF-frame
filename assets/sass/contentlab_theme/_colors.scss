@@ -77,24 +77,11 @@ form, input, textarea, select,.form-control,.custom-select {
 .text-danger {color:$danger-color;}
 .text-warning {color:$warning-color;}
 
-//Icons
-/*i{color:$highlight-color;}*/
-.material-symbols-outlined {
-  color: $primary-text-color;
-  font-size: 2.5rem !important;
-}
-
-.material-symbols-outlined.font-x3 {
-  font-size:4rem !important;
-}
-
 /*Background colors*/
 .bg-default {
   background-color:$primary-color;
   h1,h2,h3,h5{color:$sixty-color;}
   p{color:$gray-color;}
-
-  .material-symbols-outlined {color: $sixty-color;}  
 }
 .bg-light {
   background-color:$secondary-color;
@@ -104,14 +91,11 @@ form, input, textarea, select,.form-control,.custom-select {
   background: linear-gradient(0deg, $sixty-color, $seventy-color);
   h1,h2,h3,h4,h5{color:$primary-color;}
   p{color:$primary-color;}
-  .material-symbols-outlined {color: $primary-color;}
 }
 .bg-darker {
   background-color:$primary-text-color; 
   h1,h2,h3,h4,h5{color:$sixty-color;}
   p, ul{color:$primary-color;}
-
-  .material-symbols-outlined {color: $sixty-color;}
 }
 .bg-success {
   background-color: $success-color; 

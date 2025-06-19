@@ -1,0 +1,23 @@
+//Icons
+/*i{color:$highlight-color;}*/
+.material-symbols-outlined {
+  color: $primary-text-color;
+  font-size: 2.5rem !important;
+}
+
+.material-symbols-outlined.font-x3 {
+  font-size:4rem !important;
+}
+
+/*Background colors*/
+.bg-default {
+  .material-symbols-outlined {color: $sixty-color;}  
+}
+
+.bg-dark {
+  .material-symbols-outlined {color: $primary-color;}
+}
+
+.bg-darker {
+  .material-symbols-outlined {color: $sixty-color;}
+}
