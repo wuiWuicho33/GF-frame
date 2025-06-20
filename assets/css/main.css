@@ -88,7 +88,7 @@ form, input, textarea, select, .form-control, .custom-select {
 }
 
 .bg-dark {
-  background-color: #7A99E1;
+  background-color: #cedaf8;
 }
 .bg-dark a, .bg-dark p, .bg-dark ul {
   color: #ffffff;
@@ -138,14 +138,6 @@ form, input, textarea, select, .form-control, .custom-select {
 
 .label-success {
   background-color: #35a038;
-}
-
-.material-symbols-outlined {
-  color: #011E44;
-}
-
-.bg-default .material-symbols-outlined {
-  color: #1A6AB4;
 }
 
 /*Base*/
@@ -2894,23 +2886,8 @@ Tabletas horizontales */
 
 /*Components*/
 /* ==============================================
-# BANNER
+# BREADCRUMB
 ============================================== */
-.banner {
-  display: block;
-  padding: 100px 0 50px 0;
-  width: 100%;
-  margin: 0;
-  text-align: left;
-  word-wrap: break-word;
-}
-.banner #pagetitle h1 {
-  margin-bottom: 1rem;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-
-/* Breadcrumb */
 .breadcrumb ol {
   padding: 0;
   list-style: none;
@@ -5575,7 +5552,39 @@ ul.social-links {
 
 /*Website layout*/
 /* ==============================================
-# LAYOUT
+# SECCIONES
+============================================== */
+.topbar {
+  padding: 0.75rem 0;
+}
+.topbar p {
+  color: #ffffff;
+}
+.topbar .contact {
+  gap: 0.25rem;
+}
+.topbar .contact a, .topbar .contact p {
+  font-size: 0.875rem;
+  color: #011E44;
+}
+
+/* # BANNER
+============================================== */
+.banner {
+  display: block;
+  padding: 100px 0 50px 0;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  word-wrap: break-word;
+}
+.banner #pagetitle h1 {
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* # HERO
 ============================================== */
 header.hero {
   background-image: url(../img/background-forms.png);
@@ -5607,28 +5616,29 @@ header.hero .hero_content img {
   margin: auto 0;
 }
 
-footer .info {
-  display: flex;
-  flex-direction: column;
+/* # Footer
+============================================== */
+footer .legales {
   text-align: center;
 }
-footer .info p {
-  margin: 0;
-}
-footer .info a, footer .info p {
+footer .legales a, footer .legales p {
   font-size: 0.875rem;
 }
-
-.legales {
-  text-align: center;
-}
-.legales a, .legales p {
-  font-size: 0.875rem;
-}
-.legales p {
+footer .legales p {
   margin: 0;
 }
 
+/* # Tablet ------------------------------------------ */
+/*A partir de 768px se aplicarán estos estilos => 768px
+Tabletas verticales o celulares horizontales*/
+@media (min-width: 768px) {
+  .topbar {
+    padding: 0.25rem 0;
+  }
+  .topbar .contact {
+    gap: 1rem;
+  }
+}
 /*A partir de 1024px se aplicarán estos estilos => 1024px
 Tabletas horizontales*/
 @media (min-width: 1024px) {
@@ -5649,11 +5659,6 @@ Tabletas horizontales*/
   }
   header.hero .hero_content img {
     margin-bottom: 0;
-  }
-  footer .info {
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: inherit;
   }
 }
 /* ==============================================

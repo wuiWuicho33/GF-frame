@@ -1,6 +1,23 @@
 /* ==============================================
 # SECCIONES
 ============================================== */
+.topbar{
+  padding:0.75rem 0;
+
+  p{
+    color:$primary-color;
+  }
+
+  .contact{
+    gap:0.25rem;
+
+    a,p{
+      font-size: 0.875rem;
+      color:$primary-text-color;
+    }
+  }  
+
+}
 
 /* # BANNER
 ============================================== */
@@ -49,23 +66,25 @@ header.hero{
   margin: auto 0;
 } 
 
-footer .info{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-
+/* # Footer
+============================================== */
+footer .legales{
+  a,p{font-size: 0.875rem;}  
   p{margin: 0;}
-
-  a, p{font-size: 0.875rem;}
-
+  text-align: center;
 }
 
-.legales{
-  a,p{
-    font-size: 0.875rem;
+/* # Tablet ------------------------------------------ */
+/*A partir de 768px se aplicarán estos estilos => 768px
+Tabletas verticales o celulares horizontales*/
+@media (min-width: 768px) {
+  .topbar{
+    padding:0.25rem 0;
+
+    .contact{
+      gap:1rem;
+    }    
   }  
-  p{margin: 0;}
-  text-align: center;
 }
 
 /*A partir de 1024px se aplicarán estos estilos => 1024px
@@ -88,11 +107,5 @@ Tabletas horizontales*/
       img{ margin-bottom: 0;}
     }     
   }
-  
-  footer .info{
-    flex-direction: row;
-    justify-content: space-between;
-    text-align:inherit;
-  }  
  
 }

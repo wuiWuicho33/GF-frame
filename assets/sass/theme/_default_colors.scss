@@ -72,7 +72,7 @@ form, input, textarea, select,.form-control,.custom-select {
   b{color:$seventy-color;}
 }
 .bg-dark {
-  background-color: $fifth-color;
+  background-color: $tertiary-color;
   a,p,ul{color:$primary-color;}
   b{color:$seventy-color;}
 }
@@ -96,12 +96,3 @@ form, input, textarea, select,.form-control,.custom-select {
 .label-danger {background-color: $danger-color;}
 .label-success{background-color: $success-color;}
 
-//Icons
-.material-symbols-outlined {
-  color: $primary-text-color;  
-}
-.bg-default {
-  .material-symbols-outlined {
-    color: $seventy-color;
-  }
-}
