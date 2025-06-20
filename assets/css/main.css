@@ -3251,6 +3251,7 @@ table.align-right .switch-group {
   display: flex;
   flex-wrap: wrap;
   border-bottom: none;
+  background-color: #ffffff;
 }
 .tabs-container .tabs.tabs-center {
   justify-content: center;
