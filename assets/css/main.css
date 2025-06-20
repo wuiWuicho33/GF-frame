@@ -767,10 +767,6 @@ Tabletas horizontales */
   display: inline-block;
 }
 
-.d-grid {
-  display: grid;
-}
-
 .d-table {
   display: table;
 }
@@ -813,9 +809,6 @@ Tabletas horizontales */
   .d-sm-inline-block {
     display: inline-block;
   }
-  .d-sm-grid {
-    display: grid;
-  }
   .mb-sm-0 {
     margin-bottom: 0;
   }
@@ -851,9 +844,6 @@ Tabletas horizontales */
   .d-md-inline-block {
     display: inline-block;
   }
-  .d-md-grid {
-    display: grid;
-  }
   .mb-md-0 {
     margin-bottom: 0;
   }
@@ -886,9 +876,6 @@ Tabletas horizontales */
   }
   .d-lg-inline-block {
     display: inline-block;
-  }
-  .d-lg-grid {
-    display: grid;
   }
   .mb-lg-0 {
     margin-bottom: 0;
@@ -924,9 +911,6 @@ Tabletas horizontales */
   }
   .d-xl-inline-block {
     display: inline-block;
-  }
-  .d-xl-grid {
-    display: grid;
   }
   .mb-xl-0 {
     margin-bottom: 0;
@@ -1119,7 +1103,7 @@ CSS GRID - GAP - SPAN
   gap: 16rem;
 }
 
-/*grid-cols-x*/
+/*Grid*/
 .grid-cols-1 {
   grid-template-columns: repeat(1, 1fr);
 }
@@ -1168,7 +1152,7 @@ CSS GRID - GAP - SPAN
   grid-template-columns: repeat(12, 1fr);
 }
 
-/*col-span-x*/
+/*Col*/
 .col-span-1 {
   grid-column: span 1/span 1;
 }
@@ -1225,7 +1209,10 @@ A partir de 640px se aplicarán estos estilos => 640px
 Celulares horizontales
 --------------------------------------------------- */
 @media (min-width: 640px) {
-  /*grid-cols-x*/
+  /*Grid*/
+  .sm\:grid {
+    display: grid;
+  }
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1262,7 +1249,7 @@ Celulares horizontales
   .sm\:grid-cols-12 {
     grid-template-columns: repeat(12, 1fr);
   }
-  /*col-span-x*/
+  /*Col*/
   .sm\:col-span-1 {
     grid-column: span 1/span 1;
   }
@@ -1359,7 +1346,10 @@ Celulares horizontales
 /*A partir de 768px se aplicarán estos estilos => 768px
 Tabletas verticales o celulares horizontales*/
 @media (min-width: 768px) {
-  /*grid-cols-x*/
+  /*Grid*/
+  .md\:grid {
+    display: grid;
+  }
   .md\:grid-cols-1 {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1396,7 +1386,7 @@ Tabletas verticales o celulares horizontales*/
   .md\:grid-cols-12 {
     grid-template-columns: repeat(12, 1fr);
   }
-  /*col-span-x*/
+  /*Col*/
   .md\:col-span-1 {
     grid-column: span 1/span 1;
   }
@@ -1507,7 +1497,10 @@ Tabletas verticales o celulares horizontales*/
 /*A partir de 1024px se aplicarán estos estilos => 1024px
 Tabletas horizontales*/
 @media (min-width: 1024px) {
-  /*grid-cols-x*/
+  /*Grid*/
+  .lg\:grid {
+    display: grid;
+  }
   .lg\:grid-cols-1 {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1544,7 +1537,7 @@ Tabletas horizontales*/
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, 1fr);
   }
-  /*col-span-x*/
+  /*Col*/
   .lg\:col-span-1 {
     grid-column: span 1/span 1;
   }
@@ -1642,7 +1635,10 @@ Tabletas horizontales*/
 /*A partir de 1280px se aplicarán estos estilos => 1280px
 Tabletas horizontales */
 @media (min-width: 1280px) {
-  /*grid-cols-x*/
+  /*Grid*/
+  .xl\:grid {
+    display: grid;
+  }
   .xl\:grid-cols-1 {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1679,7 +1675,7 @@ Tabletas horizontales */
   .xl\:grid-cols-12 {
     grid-template-columns: repeat(12, 1fr);
   }
-  /*col-span-x*/
+  /*Col*/
   .xl\:col-span-1 {
     grid-column: span 1/span 1;
   }
@@ -1775,7 +1771,10 @@ Tabletas horizontales */
 /*A partir de 1536px se aplicarán estos estilos => 1536px
 Tabletas horizontales */
 @media (min-width: 1536px) {
-  /*grid-cols-x*/
+  /*Grid*/
+  .xxl\:grid {
+    display: grid;
+  }
   .xxl\:grid-cols-1 {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1812,7 +1811,7 @@ Tabletas horizontales */
   .xxl\:grid-cols-12 {
     grid-template-columns: repeat(12, 1fr);
   }
-  /*col-span-x*/
+  /*Col*/
   .xxl\:col-span-1 {
     grid-column: span 1/span 1;
   }
