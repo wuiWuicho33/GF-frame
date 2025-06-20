@@ -1,6 +1,6 @@
-// Seleccionamos todos los enlaces de la barra de navegación
-const navbarLinks = document.querySelectorAll('.navbar-link');
-
+/*=========
+Active link
+=========*/
 // Seleccionamos todas las secciones que corresponden a cada enlace
 const sections = document.querySelectorAll('section'); // Seleccionamos todas las secciones
 
@@ -11,10 +11,12 @@ const observer = new IntersectionObserver((entries) => {
 
     // Si la sección está visible, agregamos la clase 'active' al enlace correspondiente
     const navbarLink = document.querySelector(`.navbar-link[href="#${id}"]`);
-    if (entry.isIntersecting) {
-      navbarLink.classList.add('active');
-    } else {
-      navbarLink.classList.remove('active');
+    if (navbarLink) {
+      if (entry.isIntersecting) {
+        navbarLink.classList.add('active');
+      } else {
+        navbarLink.classList.remove('active');
+      }
     }
   });
 }, { threshold: 0.5 });  // Puedes ajustar el umbral de visibilidad (0.5 significa que el 50% de la sección debe ser visible)
