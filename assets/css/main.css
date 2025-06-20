@@ -5617,6 +5617,13 @@ header.hero .hero_content img {
   margin-bottom: 1rem;
 }
 
+/* # Vertical align
+============================================== */
+.text-vertical-align {
+  display: block;
+  margin: auto 0;
+}
+
 /* # Footer
 ============================================== */
 footer .legales {
