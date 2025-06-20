@@ -140,6 +140,10 @@ form, input, textarea, select, .form-control, .custom-select {
   background-color: #35a038;
 }
 
+i.icon {
+  color: #1A6AB4;
+}
+
 /*Base*/
 /*::::::::::::::::::::::
 :::::::::STYLES:::::::::
