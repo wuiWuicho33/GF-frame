@@ -4,21 +4,21 @@
 
 //Fuente incrustada
 @font-face{       
-  font-family:'Eurostile_Heavy';         
-  src:url('../fonts/Eurostile/Eurostile_Heavy.eot');       
-  src:url('../fonts/Eurostile/Eurostile_Heavy.eot?#iefix') format('embedded-opentype'),             
-  url('../fonts/Eurostile/Eurostile_Heavy.woff') format('woff'),           
-  url('../fonts/Eurostile/Eurostile_Heavy.ttf') format('truetype'),             
-  url('../fonts/Eurostile/Eurostile_Heavy.svg') format('svg');      
+  font-family:'Eurostile_Heavy';                
+  src:url('../../fonts/Eurostile/Eurostile_Heavy.eot');       
+  src:url('../../fonts/Eurostile/Eurostile_Heavy.eot?#iefix') format('embedded-opentype'),             
+  url('../../fonts/Eurostile/Eurostile_Heavy.woff') format('woff'),           
+  url('../../fonts/Eurostile/Eurostile_Heavy.ttf') format('truetype'),             
+  url('../../fonts/Eurostile/Eurostile_Heavy.svg') format('svg');      
 }
 
 @font-face{       
   font-family:'FuturaStd-Book';         
-  src:url('../fonts/Futura/FuturaStd-Book.eot');       
-  src:url('../fonts/Futura/FuturaStd-Book.eot?#iefix') format('embedded-opentype'),             
-  url('../fonts/Futura/FuturaStd-Book.woff') format('woff'),           
-  url('../fonts/Futura/FuturaStd-Book.ttf') format('truetype'),             
-  url('../fonts/Futura/FuturaStd-Book.svg') format('svg');      
+  src:url('../../fonts/Futura/FuturaStd-Book.eot');       
+  src:url('../../fonts/Futura/FuturaStd-Book.eot?#iefix') format('embedded-opentype'),             
+  url('../../fonts/Futura/FuturaStd-Book.woff') format('woff'),           
+  url('../../fonts/Futura/FuturaStd-Book.ttf') format('truetype'),             
+  url('../../fonts/Futura/FuturaStd-Book.svg') format('svg');      
 }
 
 /*Variables scss  */
