@@ -2860,28 +2860,29 @@ Tabletas horizontales */
   align-items: center;
 }
 .breadcrumb ol li {
-  color: #ffffff;
+  color: #011E44;
   font-size: 0.75rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 .breadcrumb ol li::after {
   content: "/";
   margin: 0 0.5rem;
-  color: #7A99E1;
+  color: #1A6AB4;
 }
 .breadcrumb ol li:last-child::after {
   content: "";
 }
 .breadcrumb ol li a {
-  color: #7A99E1;
+  color: #1A6AB4;
   font-size: 0.75rem;
 }
 .breadcrumb ol li a:hover {
   text-decoration: underline;
-  color: #ffffff;
+  color: #011E44;
 }
 .breadcrumb ol li a .icon {
-  color: #7A99E1;
+  color: #1A6AB4;
   margin-right: 0.25rem;
 }
 
@@ -5544,11 +5545,27 @@ ul.social-links {
   margin: 0;
   text-align: left;
   word-wrap: break-word;
+  /*Breadcrumb*/
 }
 .banner #pagetitle h1 {
   margin-bottom: 1rem;
   color: #ffffff;
   text-transform: uppercase;
+}
+.banner .breadcrumb ol li {
+  color: #ffffff;
+}
+.banner .breadcrumb ol li::after {
+  color: #7A99E1;
+}
+.banner .breadcrumb ol li a {
+  color: #7A99E1;
+}
+.banner .breadcrumb ol li a:hover {
+  color: #ffffff;
+}
+.banner .breadcrumb ol li a .icon {
+  color: #7A99E1;
 }
 
 /* # HERO

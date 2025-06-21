@@ -37,6 +37,31 @@
 		color: $primary-color;
 		text-transform: uppercase;
 	}	
+
+  /*Breadcrumb*/
+  .breadcrumb ol {
+    li {
+      color:$primary-color;
+
+      &::after {
+        color:$fifth-color; 
+      }		
+
+      a {
+        color:$fifth-color; 
+      
+        &:hover {
+          color:$primary-color;
+        }	
+
+        .icon{
+          color:$fifth-color; 
+        }						
+      }
+
+    }
+  }
+
 }
 
 /* # HERO

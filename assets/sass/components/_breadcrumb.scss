@@ -10,14 +10,15 @@
 	align-items: center;
 
 	li {
-		color:$primary-color;
+		color:$primary-text-color;
 		font-size: 0.75rem;
 		text-transform:uppercase;
+		font-weight: bold;
 
 		&::after {
 			content: "/";
 			margin: 0 0.5rem;
-			color:$fifth-color; 
+			color:$seventy-color; 
 		}		
 
 		&:last-child::after {
@@ -25,16 +26,16 @@
 		}		
 
 		a {
-			color:$fifth-color; 
+			color:$seventy-color; 
 			font-size: 0.75rem;
 		
 			&:hover {
 				text-decoration: underline;
-				color:$primary-color;
+				color:$primary-text-color;
 			}	
 
 			.icon{
-				color:$fifth-color; 
+				color:$seventy-color; 
 				margin-right: 0.25rem;
 			}			
 			
