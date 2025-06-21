@@ -56,9 +56,12 @@ header.hero{
     flex-direction: column-reverse;
     h1{
       font-size: 2.3rem;
-      color:$sixty-color;
+      color:$primary-color;
     }
-    p{color:$primary-color;}    
+    p{
+      color:$primary-color;
+      margin-bottom: 0;
+    }    
 
     img{ margin-bottom: 1rem;}
   }
