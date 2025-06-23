@@ -29,7 +29,7 @@ p, ul, ol {
 
 /*Teaser*/
 h1, h2, h3, h4, h5, h6 {
-  color: #011E44;
+  color: #042857;
 }
 
 a {
@@ -41,11 +41,11 @@ a:hover, a:active, a a:focus {
 
 /*Form*/
 label {
-  color: #011E44;
+  color: #042857;
 }
 
 form, input, textarea, select, .form-control, .custom-select {
-  color: #011E44;
+  color: #042857;
 }
 
 /*Text-color*/
@@ -71,7 +71,7 @@ form, input, textarea, select, .form-control, .custom-select {
   background-color: #ffffff;
 }
 .bg-default a, .bg-default p, .bg-default ul {
-  color: #011E44;
+  color: #042857;
 }
 .bg-default b {
   color: #1A6AB4;
@@ -81,7 +81,7 @@ form, input, textarea, select, .form-control, .custom-select {
   background-color: #ebf5f8;
 }
 .bg-light a, .bg-light p, .bg-light ul {
-  color: #011E44;
+  color: #042857;
 }
 .bg-light b {
   color: #1A6AB4;
@@ -98,7 +98,7 @@ form, input, textarea, select, .form-control, .custom-select {
 }
 
 .bg-darker {
-  background-color: #011E44;
+  background-color: #042857;
 }
 .bg-darker h1, .bg-darker h2, .bg-darker h3 {
   color: #ffffff;
@@ -2827,7 +2827,7 @@ Tabletas horizontales */
 }
 /*i{color:$highlight-color;}*/
 .material-symbols-outlined {
-  color: #011E44;
+  color: #042857;
   font-size: 2.5rem !important;
 }
 
@@ -2860,7 +2860,7 @@ Tabletas horizontales */
   align-items: center;
 }
 .breadcrumb ol li {
-  color: #011E44;
+  color: #042857;
   font-size: 0.75rem;
   text-transform: uppercase;
   font-weight: bold;
@@ -2879,7 +2879,7 @@ Tabletas horizontales */
 }
 .breadcrumb ol li a:hover {
   text-decoration: underline;
-  color: #011E44;
+  color: #042857;
 }
 .breadcrumb ol li a .icon {
   color: #1A6AB4;
@@ -2986,7 +2986,7 @@ table.align-right .switch-group {
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 0.75rem;
   background-color: #ffffff;
-  color: #011E44;
+  color: #042857;
   border: 1px solid #cedaf8;
   border-radius: 0.25rem;
   font-size: 0.875rem;
@@ -3006,7 +3006,7 @@ table.align-right .switch-group {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 11px;
-  color: #011E44;
+  color: #042857;
 }
 
 .multi-select_field.is-empty {
@@ -3238,7 +3238,7 @@ table.align-right .switch-group {
   font-family: "Roboto", serif;
   font-size: 1rem;
   font-weight: 300;
-  color: #011E44;
+  color: #042857;
   border-bottom: 2px solid #ffffff;
 }
 .tab-button.active, .tab-button:hover, .tab-button:focus {
@@ -3276,7 +3276,7 @@ table.align-right .switch-group {
   font-size: 1rem;
   text-align: center;
   font-weight: 300;
-  color: #011E44;
+  color: #042857;
   border-bottom: 2px solid #ffffff;
 }
 .vertical-tabs-container .vertical-tabs .vertical-tab.active, .vertical-tabs-container .vertical-tabs .vertical-tab:hover {
@@ -3376,7 +3376,7 @@ table.align-right .switch-group {
   transition: color 0.3s;
 }
 .modal .modal-content .modal-header .btn-close:hover {
-  color: #011E44;
+  color: #042857;
 }
 .modal .modal-content .modal-body {
   max-height: 400px;
@@ -3623,8 +3623,8 @@ Tabletas horizontales*/
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted #011E44;
-  color: #011E44;
+  border-bottom: 1px dotted #042857;
+  color: #042857;
 }
 .tooltip:hover .tooltiptext {
   visibility: visible;
@@ -3634,7 +3634,7 @@ Tabletas horizontales*/
   width: 150px;
   bottom: 100%;
   padding: 5px 10px;
-  background-color: #011E44;
+  background-color: #042857;
   color: #ffffff;
   font-size: 0.75rem;
   word-wrap: break-word;
@@ -3654,7 +3654,7 @@ Tabletas horizontales*/
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #011E44 transparent transparent transparent;
+  border-color: #042857 transparent transparent transparent;
 }
 
 @media (min-width: 768px) {
@@ -3675,7 +3675,7 @@ Tabletas horizontales*/
 }
 .acordeon .acordeon-item .acordeon-header {
   background-color: #ffffff;
-  color: #011E44;
+  color: #042857;
   padding: 15px;
   text-align: left;
   font-size: 1rem;
@@ -3759,7 +3759,7 @@ Tabletas horizontales*/
 label {
   display: inline-block;
   margin-bottom: 0.25rem;
-  color: #011E44;
+  color: #042857;
 }
 
 label span {
@@ -3775,7 +3775,7 @@ label span {
   padding: 0.375rem 0.75rem;
   background-color: #ebf5f8;
   background-clip: padding-box;
-  color: #011E44;
+  color: #042857;
   border: 1px solid #cedaf8;
   border-radius: 0.25rem;
   font-size: 0.875rem;
@@ -3938,7 +3938,7 @@ output:after {
   background-color: #ffffff;
   background-clip: padding-box;
   border: none;
-  color: #011E44;
+  color: #042857;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out;
 }
@@ -4051,7 +4051,7 @@ output:after {
 ============================================== */
 .btn {
   display: inline-block;
-  padding: 0.375rem 0.75rem;
+  padding: 0.5rem 0.75rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
   white-space: nowrap;
@@ -4440,7 +4440,7 @@ html {
   z-index: 1000;
   padding: 8px;
   width: 160px;
-  background-color: #011E44;
+  background-color: #042857;
   color: #fff;
   content: attr(data-tooltip);
   font-size: 14px;
@@ -4464,7 +4464,7 @@ html {
 .tooltip-top:before {
   margin-left: -6px;
   margin-bottom: -12px;
-  border-top-color: #011E44;
+  border-top-color: #042857;
 }
 
 /* Horizontally align top/bottom tooltips */
@@ -4516,7 +4516,7 @@ html {
   margin-right: -12px;
   margin-bottom: 0;
   border-top-color: transparent;
-  border-left-color: #011E44;
+  border-left-color: #042857;
 }
 
 .tooltip-left:hover:before,
@@ -4537,7 +4537,7 @@ html {
   margin-bottom: 0;
   margin-left: -12px;
   border-top-color: transparent;
-  border-right-color: #011E44;
+  border-right-color: #042857;
 }
 
 .tooltip-right:hover:before,
@@ -4559,7 +4559,7 @@ html {
   margin-top: -12px;
   margin-bottom: 0;
   border-top-color: transparent;
-  border-bottom-color: #011E44;
+  border-bottom-color: #042857;
 }
 
 .tooltip-bottom:hover:before,
@@ -4764,7 +4764,7 @@ Colour theme
 
 /*sidebar-footer*/
 .sidebar-footer {
-  background-color: #011E44;
+  background-color: #042857;
   color: #ffffff;
 }
 
@@ -5157,7 +5157,7 @@ Colour theme
 }
 /*Colours*/
 .quicklinks-menu > li > a {
-  color: #011E44;
+  color: #042857;
 }
 
 .quicklinks-menu > li > a > i {
@@ -5171,7 +5171,7 @@ Colour theme
 
 .quicklinks-menu .dropdown-menu li a {
   background-color: #ffffff;
-  color: #011E44;
+  color: #042857;
 }
 
 .quicklinks-menu .dropdown-menu li a:hover {
@@ -5292,7 +5292,7 @@ Colour theme
   display: block;
   background: none;
   border: none;
-  color: #011E44;
+  color: #042857;
   font-size: 24px;
   cursor: pointer;
 }
@@ -5324,7 +5324,7 @@ Colour theme
 /* Navbar-link */
 /*No usado en este ejemplo de menu*/
 .navbar-link {
-  color: #011E44;
+  color: #042857;
   text-decoration: none;
   padding: 20px 15px;
   display: block;
@@ -5533,7 +5533,7 @@ ul.social-links {
 }
 .topbar .contact a, .topbar .contact p {
   font-size: 0.875rem;
-  color: #011E44;
+  color: #042857;
 }
 
 /* # BANNER
@@ -5574,7 +5574,7 @@ header.hero {
   background-image: url(https://placehold.co/1200x800);
   background-size: cover;
   background-attachment: fixed;
-  background-color: #011E44;
+  background-color: #042857;
   width: 100%;
   height: auto;
   display: flex;
@@ -5749,7 +5749,7 @@ Tabletas horizontales*/
   box-sizing: border-box;
   font-size: 1rem;
   line-height: 1.5;
-  color: #011E44;
+  color: #042857;
 }
 
 .text-input:hover {
