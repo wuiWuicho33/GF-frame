@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>GF - Tables</title>
+    <title>GF - Informacion-organizacional</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' 0001='viewport'>
     <link rel="icon" href="../assets/img/favicon.png" type="image/png">
     <!-- Styles -->
@@ -181,41 +181,31 @@
           <div aria-label="breadcrumb" class="breadcrumb mb-5">
             <ol>
               <li><a href="../index.html"><i class="icon fa-solid fa-house"></i> Home</a></li>
-              <li aria-current="page">Colaboradores</li>
+              <li><a href="colaboradores.html">Colaboradores</a></li>
+              <li aria-current="page">Detalle de talento</li>
             </ol>
           </div>              
           
           <div class="card">
             <div class="card-body">
-              <div class="flex flex-col md:flex-row justify-between">
-                <div class="form-group-inline">
-                  <label for="select-inline">Entradas por página </label>
-                  <select class="form-control" id="select-inline">
-                    <option selected>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>                                                        
-                  </select>
-                </div> 
-                <!-- Search-container -->      
-                <div class="flex items-center flex-row">
-                  <div class="search-container">
-                    <input type="text" class="search form-control" placeholder="Buscar">
-                    <button type="submit" class="search-button">
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                  </div>                     
-                </div>                   
+              <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center gap-2">
+                  <i class="fa-solid fa-circle-user icon font-x3"></i>
+                  <h3 class="m-0">Nombre de colaborador</h3>
+                </div>
+                <div>
+                  <ul>
+                    <li><b>Teléfono:</b> 55 12345678</li>
+                    <li><b>No. colaborador:</b> 3046</li>
+                    <li><b>Correo:</b> colaborador@radioformula.com.mx</li>
+                  </ul>
+                </div>
               </div>
             </div>     
           </div>
 
           <!-- ====== Card  ====== --> 
           <div class="card">
-            <header class="card-header">
-              <h4>Horizontal tab</h4>
-            </header>
             <div class="card-body">    
               <!-- ------ Tab ------ -->                
               <div class="tabs-container">
@@ -231,7 +221,7 @@
                 <div class="tab-content">
                   <!-- Tab-pane-01 -->
                   <div class="tab-pane active" id="tab-01" role="tabpanel">                                                         
-                    <div class="grid grid-cols-2 md:grid-cols-4">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-1">
                       <p><b>Unidad de negocio</b><br> Nombre de unidad</p>
                       <p><b>Centro de costos</b><br> Nombre de centro</p>
                       <p><b>Área</b><br> Nombre de área</p>
@@ -250,7 +240,7 @@
                   </div>
                   <!-- Tab-pane-02 -->
                   <div class="tab-pane" id="tab-02" role="tabpanel">            
-                    <div class="grid grid-cols-2 md:grid-cols-4">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-1">
                       <p><b>Fecha de nacimiento</b><br> 01/01/2025</p>
                       <p><b>RFC</b><br> LOML850624ABC</p>
                       <p><b>Género</b><br> Masculino/Femenino</p>
@@ -274,7 +264,7 @@
                   </div>            
                   <!-- Tab-pane-04 -->
                   <div class="tab-pane" id="tab-04" role="tabpanel">
-                    <div class="grid grid-cols-2 md:grid-cols-6">
+                    <div class="grid grid-cols-2 md:grid-cols-6 gap-1">
                       <p><b>Sueldo base</b><br> $000.00</p>
                       <p><b>Fondo de ahorro</b><br> Si/No</p>
                       <p><b>Tarjeta vales</b><br> Si/No</p>

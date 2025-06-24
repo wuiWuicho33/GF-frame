@@ -3251,7 +3251,7 @@ table.align-right .switch-group {
 ------------------------------------ */
 .tab-content {
   background-color: #ffffff;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .tab-content .tab-pane {
   display: none;
