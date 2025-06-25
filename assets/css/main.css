@@ -4616,6 +4616,69 @@ html {
   background-color: #cedaf8;
 }
 
+/* ==============================================
+# ICON BOX
+============================================== */
+/* Enlace que envuelve la tarjeta */
+.box-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  /* Opcional: cambiar el cursor al pasar por el enlace */
+  /* Tarjeta principal */
+}
+.box-link:hover {
+  cursor: pointer;
+}
+.box-link .box-icon {
+  position: relative;
+  width: 100%;
+  padding: 50px 20px 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #cedaf8;
+  text-align: center;
+  font-family: sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+  /* Círculo con ícono */
+  /* Hover sobre la tarjeta: cambia color del icono */
+}
+.box-link .box-icon p {
+  font-family: "Roboto", serif;
+  font-size: 1rem;
+  color: #5c5c5c;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.box-link .box-icon:hover {
+  border: 1px solid #0F4C95;
+}
+.box-link .box-icon .icon-circle {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  border: 1px solid #cedaf8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background-color: #ffffff;
+  transition: background-color 0.3s;
+  color: #0F4C95;
+}
+.box-link .box-icon:hover .icon-circle {
+  background-color: #0F4C95;
+  color: #ffffff;
+}
+.box-link .box-icon:hover p {
+  color: #0F4C95;
+}
+
 /*Dashboard layout*/
 /* ==============================================
 # LAYOUT
