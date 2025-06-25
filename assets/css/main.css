@@ -3411,7 +3411,8 @@ table.align-right .switch-group {
 .modal .modal-content .modal-footer {
   border-top: 1px solid #cedaf8;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 1rem;
 }
 
 /*Sólo para este proyecto*/
