@@ -38,14 +38,13 @@
 @import 'dashboard/_quicklinks_menu';
 @import 'dashboard/_user_panel';
 
-/*Website*/
-@import 'navs/_standar_navbar';
+/*Navs*/
+//@import 'navs/_standar_navbar';
 @import 'navs/_social_links';
 
 /*Website layout*/
 @import 'layouts/_sections';
 @import 'layouts/_login'; 
-//@import 'navs/_social_links';
 @import 'components/_date_group'; 
 
 
