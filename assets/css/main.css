@@ -4595,6 +4595,26 @@ html {
   transform: translateY(12px);
 }
 
+/* ==============================================
+# FILES
+============================================== */
+.file-box {
+  display: flex;
+  gap: 0.5rem;
+  padding: 15px 25px;
+  background-color: #ebf5f8;
+  border: 1px solid #cedaf8;
+  border-radius: 0.5rem;
+  font-family: "Roboto", serif;
+  font-size: 1rem;
+  color: #5c5c5c;
+  font-weight: bold;
+  cursor: pointer;
+}
+.file-box:hover {
+  background-color: #cedaf8;
+}
+
 /*Dashboard layout*/
 /* ==============================================
 # LAYOUT
