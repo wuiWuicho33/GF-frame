@@ -4762,6 +4762,9 @@ html {
 .sidebar {
   padding-bottom: 10px;
 }
+.sidebar img.logo {
+  padding: 15px 20px;
+}
 
 .sidebar-form input:focus {
   border-color: transparent !important;
@@ -5480,10 +5483,6 @@ Tabletas horizontales*/
 /* ==============================================
 # SECCIONES
 ============================================== */
-main {
-  flex: 1;
-}
-
 /* # TOPBAR
 ============================================== */
 .topbar {
