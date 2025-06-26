@@ -4856,11 +4856,6 @@ html {
     transform: translate(230px, 0);
   }
 }
-.dashboard-footer {
-  padding: 15px;
-  border-top: 1px solid #eee;
-}
-
 /* ==========================
 Colour theme
 ========================== */
@@ -4900,11 +4895,14 @@ Colour theme
 /* ===========
  Footer
  ========== */
+/*
 .dashboard-footer {
-  background: #ffffff;
-  color: #1A6AB4;
-}
-
+   background: $primary-color;
+   color: $seventy-color;
+   padding: 15px;
+   border-top: 1px solid #eee;    
+ }
+*/
 /* ==============================================
 # Main_header
 ============================================== */
