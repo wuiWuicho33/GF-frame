@@ -74,10 +74,10 @@ form, input, textarea, select, .form-control, .custom-select {
 .bg-default {
   background-color: #ffffff;
 }
-.bg-default a, .bg-default p, .bg-default ul {
+.bg-default p, .bg-default ul {
   color: #042857;
 }
-.bg-default b {
+.bg-default a, .bg-default b {
   color: #1A6AB4;
 }
 
@@ -5482,13 +5482,6 @@ Tabletas horizontales*/
 /* ==============================================
 # SECCIONES
 ============================================== */
-.footer {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
 /* # TOPBAR
 ============================================== */
 .topbar {
@@ -5574,13 +5567,7 @@ header.hero .hero_content img {
 
 /* # Footer
 ============================================== */
-footer .legales {
-  text-align: center;
-}
-footer .legales a, footer .legales p {
-  font-size: 0.875rem;
-}
-footer .legales p {
+footer p {
   margin: 0;
 }
 

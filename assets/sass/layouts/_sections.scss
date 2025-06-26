@@ -7,9 +7,7 @@
 .topbar{
   padding:0.75rem 0;
 
-  p{
-    color:$primary-color;
-  }
+  p{color:$primary-color;}
 
   .contact{
     gap:0.25rem;
@@ -101,10 +99,8 @@ header.hero{
 
 /* # Footer
 ============================================== */
-footer .legales{
-  a,p{font-size: 0.875rem;}  
+footer{
   p{margin: 0;}
-  text-align: center;
 }
 
 /* # Tablet ------------------------------------------ */
