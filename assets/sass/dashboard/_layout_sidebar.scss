@@ -144,29 +144,29 @@
 /* ==============
 * Footer
 ============== */
-.main-footer {
+.dashboard-footer {
   margin-left: 230px;
   z-index: 820;
 }
 @media (max-width: 767px) {
-  .main-footer {
+  .dashboard-footer {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) {
-  .sidebar-collapse .main-footer {
+  .sidebar-collapse .dashboard-footer {
     margin-left: 0;
   }
 }
 @media (max-width: 767px) {
-  .sidebar-open .main-footer {
+  .sidebar-open .dashboard-footer {
     -webkit-transform: translate(230px, 0);
     -ms-transform: translate(230px, 0);
     -o-transform: translate(230px, 0);
     transform: translate(230px, 0);
   }
 }
-.main-footer {
+.dashboard-footer {
   padding: 15px;
   border-top: 1px solid #eee;
 }
@@ -208,7 +208,7 @@ Colour theme
 /* ===========
  Footer
  ========== */
-.main-footer {
+.dashboard-footer {
   background: $primary-color;
   color: $seventy-color;
 }
