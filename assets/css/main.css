@@ -39,6 +39,10 @@ a:hover, a:active, a a:focus {
   color: #0F4C95;
 }
 
+b {
+  color: #0F4C95;
+}
+
 /*Form*/
 label {
   color: #042857;
@@ -223,7 +227,7 @@ body, form, label, input, textarea, select, a, .btn {
 p, ul, ol {
   font-family: "Roboto", serif;
   font-size: 1rem;
-  line-height: 1.4rem;
+  line-height: 2rem;
   font-weight: 300;
   padding: 0;
 }
