@@ -72,10 +72,11 @@ body, form, label, input, textarea, select, a, .btn{
 p,ul,ol {
   font-family:$secondary-font;
   font-size: 1rem;  
-  line-height: 2rem;
   font-weight: 300;  
   padding: 0;
 }
+p{line-height: 1.4rem;}
+ul,ol {line-height: 2rem;}
 p{margin: 0 0 20px;}
 p:last-child {margin-bottom: 0;}
 p.lead{

@@ -227,9 +227,16 @@ body, form, label, input, textarea, select, a, .btn {
 p, ul, ol {
   font-family: "Roboto", serif;
   font-size: 1rem;
-  line-height: 2rem;
   font-weight: 300;
   padding: 0;
+}
+
+p {
+  line-height: 1.4rem;
+}
+
+ul, ol {
+  line-height: 2rem;
 }
 
 p {
