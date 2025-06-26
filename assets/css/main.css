@@ -5404,6 +5404,68 @@ ul.social-links {
   background-color: #EA4C89;
 }
 
+ul.secondary_menu {
+  display: flex;
+  padding: 0 0 0.5rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 2rem;
+  /*Background color*/
+  /*Bar color*/
+}
+ul.secondary_menu::-webkit-scrollbar {
+  width: 10px;
+  background-color: #ffffff;
+}
+ul.secondary_menu::-webkit-scrollbar-thumb {
+  background: #cedaf8;
+}
+ul.secondary_menu li {
+  cursor: pointer;
+  transition: border-color ease-in 0.5s;
+  flex: 0 0 auto;
+  border-bottom: 2px solid transparent;
+}
+ul.secondary_menu li a {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 10px;
+  color: #7A99E1;
+  text-decoration: none;
+}
+ul.secondary_menu li a small {
+  font-size: 70%;
+}
+ul.secondary_menu li:hover {
+  border-color: #0F4C95;
+}
+ul.secondary_menu li:hover a {
+  color: #0F4C95;
+  font-weight: 500;
+}
+ul.secondary_menu li.complete {
+  border-color: #35a038;
+}
+ul.secondary_menu li.complete a {
+  color: #35a038;
+  font-weight: 500;
+}
+ul.secondary_menu li.active {
+  border-color: #0F4C95;
+}
+ul.secondary_menu li.active a {
+  color: #0F4C95;
+  font-weight: 500;
+}
+
+/*A partir de 1024px se aplicarán estos estilos => 1024px
+Tabletas horizontales*/
+@media (min-width: 1024px) {
+  ul.secondary_menu {
+    padding: 0 0 0.5rem;
+  }
+}
 /*Website layout*/
 /* ==============================================
 # SECCIONES

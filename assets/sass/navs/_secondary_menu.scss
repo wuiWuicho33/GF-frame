@@ -1,0 +1,71 @@
+ul.secondary_menu {
+  display: flex;
+  padding: 0 0 0.5rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 2rem;
+
+  &::-webkit-scrollbar{width: 10px; background-color:$primary-color;}/*Background color*/
+  &::-webkit-scrollbar-thumb{background:$tertiary-color;}/*Bar color*/
+
+  li {    
+    cursor: pointer;
+    transition: border-color ease-in 0.5s;
+    flex: 0 0 auto;
+    border-bottom: 2px solid transparent; //border-bottom: 2px solid transparent; regresar esta línea en el componente original    
+
+    a {
+      display: flex;  
+      align-items: center;
+      gap: 0.25rem;
+      padding: 10px; 
+      color: $fifth-color;
+      text-decoration: none;       
+
+      small{font-size: 70%;}
+    }    
+
+    &:hover {
+      border-color: $highlight-color;
+
+      a {
+        color: $highlight-color;
+        font-weight: 500;
+      }
+    }
+
+
+    //Este bloque aplica sólo para este proyecto - Borrar después
+    &.complete {
+      border-color: $success-color;
+
+      a {
+        color: $success-color;
+        font-weight: 500;
+      }
+    }   
+    //Este bloque aplica sólo para este proyecto - Borrar después
+    
+    &.active {
+      border-color: $highlight-color;
+
+      a {
+        color: $highlight-color;
+        font-weight: 500;
+      }
+    }    
+
+
+  }
+}
+
+
+/*A partir de 1024px se aplicarán estos estilos => 1024px
+Tabletas horizontales*/
+@media (min-width: 1024px) {
+  ul.secondary_menu {
+    padding: 0 0 0.5rem;
+
+    &::-webkit-scrollbar{}        
+  }
+}
