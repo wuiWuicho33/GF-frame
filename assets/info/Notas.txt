@@ -1,3 +1,4 @@
+Hay dos componentes de tooltips
 Ajustar el estilo de las tabs
 Valorar eliminar el archivo pullitzer.scss
 Homologar la jerarquía de los comentarios de todos los archivos.
