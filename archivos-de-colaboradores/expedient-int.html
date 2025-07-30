@@ -166,16 +166,15 @@
         <!-- Content-body
         ========================================== -->
         <section class="content-body">                                                  
-          <!-- Breadcrumb -->    
+          <!-- ====== Breadcrumb ====== -->  
           <div aria-label="breadcrumb" class="breadcrumb mb-5">
             <ol>
               <li><a href="index.html"><i class="icon fa-solid fa-house"></i> Home</a></li>
               <li><a href="collaborators.html">Colaboradores</a></li>
               <li aria-current="page">Detalle de talento</li>
             </ol>
-          </div>      
-          
-          <!-- ====== Tarjeta de colaborador ====== -->
+          </div>                
+          <!-- ====== Card ====== -->
           <div class="card">
             <div class="card-body">
               <div class="flex flex-col md:flex-row justify-between items-center gap-5">
@@ -193,11 +192,10 @@
               </div>
             </div>     
           </div>          
-          
-          <!-- == Card == -->
+          <!-- ====== Card ====== -->
           <div class="card">
             <div class="card-body">
-              <!-- Secondary menu -->
+              <!-- ------ Secondary menu ------ -->
               <ul class="secondary_menu">
                 <li>
                   <a href="organizational-information.html">Información organizacional</a>
@@ -215,9 +213,8 @@
                   <a href="history.html">Historia de movimientos</a>
                 </li>
               </ul>
-              <!-- Breadcrumb -->                                                  
+              <!-- ------ Breadcrumb ------ -->                                               
               <div class="flex flex-col md:flex-row justify-between items-center gap-5">
-                <!-- Breadcrumb -->    
                 <div aria-label="breadcrumb" class="breadcrumb mb-5">
                   <ol>
                     <li><a href="#"><i class="icon fa-solid fa-house"></i> Carpetas</a></li>
@@ -228,14 +225,13 @@
                   <i class="fa-solid fa-plus"></i> Agregar archivo
                 </button>          
               </div>
-              <!-- Sin resultados -->                                                  
+              <!-- ------ Sin resultados ------ -->                                               
               <div class="text-center py-10">
                 <p class="lead">No hay información que mostrar</p>                      
               </div>
-              <!-- Table -->                                                  
+              <!-- ------ Table ------ -->
               <div class="table-responsive">
                 <table class="align-right">
-                  <!-- == Table head == -->
                   <thead>
                     <tr>
                       <th>Nombre de archivo</th>
@@ -244,7 +240,6 @@
                       <th>Acciones</th>        
                     </tr>
                   </thead>
-                  <!-- == Table body == -->
                   <tbody>
                     <tr>
                       <td>Archivo 01</td>
@@ -293,14 +288,14 @@
           <!-- ====== Modal-01 ====== -->
           <div id="modal-01" class="modal">
             <div class="modal-content">
-              <!-- == Modal-header == -->
+              <!-- ------ Modal-header ------ -->
               <div class="modal-header">
                 <h2>Agregar archivo</h2>
                 <span class="btn-close" data-dismiss="modal">
                   <i class="fa-solid fa-xmark"></i>
                 </span>
               </div>
-              <!-- == Modal-body == -->
+              <!-- ------ Modal-body ------ -->
               <div class="modal-body">                
                 <div class="flex flex-col md:flex-row justify-between">
                   <div class="item">
@@ -319,7 +314,7 @@
                   </div>
                 </div>
               </div>
-              <!-- == Modal-footer == -->
+              <!-- ------ Modal footer ------ -->
               <div class="modal-footer">
                 <button type="reset" class="btn btn-dark-inverse" data-dismiss="modal">Cerrar</button>
                 <button type="submit" class="btn btn-dark" id="btnEnviar">Guardar</button>          

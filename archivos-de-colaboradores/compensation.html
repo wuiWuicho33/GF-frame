@@ -176,6 +176,7 @@
           </div>      
           <!-- ====== Card ====== -->          
           <div class="card">
+            <!-- ------ Card body ------ -->
             <div class="card-body">
               <div class="flex flex-col md:flex-row justify-between items-center gap-5">
                 <div class="flex items-center gap-2">
@@ -191,9 +192,11 @@
                 </div>
               </div>
             </div>     
-          </div>          
+          </div>    
+
           <!-- ====== Card ====== -->           
           <div class="card">
+            <!-- ------ Card body ------ -->
             <div class="card-body">
               <!-- Secondary menu -->
               <ul class="secondary_menu">
@@ -213,7 +216,7 @@
                   <a href="history.html">Historia de movimientos</a>
                 </li>
               </ul>
-              <!-- Content -->
+              <!-- Grid -->
               <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-1">
                 <p><b>Sueldo base</b><br> $000.00</p>
                 <p><b>Fondo de ahorro</b><br> Si/No</p>
@@ -230,7 +233,6 @@
               <!-- Table -->                                                  
               <div class="table-responsive">
                 <table>
-                  <!-- == table head == -->
                   <thead>
                     <tr>
                       <th>Periodo</th>
@@ -240,7 +242,6 @@
                       <th>Expira</th>                  
                     </tr>
                   </thead>
-                  <!-- == Table body == -->
                   <tbody>
                     <tr>
                       <td>12-02-2025 - 12-02-2025</td>
@@ -261,7 +262,6 @@
               <!-- Table -->                                                  
               <div class="table-responsive">
                 <table>
-                  <!-- == table head == -->
                   <thead>
                     <tr>
                       <th>ID</th>
@@ -272,7 +272,6 @@
                       <th>Porcentaje</th>                  
                     </tr>
                   </thead>
-                  <!-- == Table body == -->
                   <tbody>
                     <tr>
                       <td>01</td>
@@ -298,17 +297,18 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum erat eu purus pretium venenatis. Phasellus tincidunt orci tortor, non vestibulum ipsum laoreet at.</p>              
             </div>
           </div>        
+
           <!-- ====== Modal-01 ====== -->
           <div id="modal-01" class="modal">
             <div class="modal-content">
-              <!-- == Modal-header == -->
+              <!-- ------ Modal-header ------ -->
               <div class="modal-header">
                 <h2>Agregar archivo</h2>
                 <span class="btn-close" data-dismiss="modal">
                   <i class="fa-solid fa-xmark"></i>
                 </span>
               </div>
-              <!-- == Modal-body == -->
+              <!-- ------ Modal-body ------ -->
               <div class="modal-body">                
                 <div class="flex flex-col md:flex-row justify-between">
                   <div class="item">
@@ -327,7 +327,7 @@
                   </div>
                 </div>
               </div>
-              <!-- == Modal-footer == -->
+              <!-- ------ Modal-footer ------ -->
               <div class="modal-footer">
                 <button type="reset" class="btn btn-dark-inverse" data-dismiss="modal">Cerrar</button>
                 <button type="submit" class="btn btn-dark" id="btnEnviar">Guardar</button>          

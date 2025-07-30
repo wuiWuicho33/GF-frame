@@ -1,3 +1,4 @@
+Checar los form groups de los HTML de login.
 Homologar la jerarquía de los comentarios de todos los archivos.
 Ajustar el estilo de las tabs
 Colocar el breadcrumb en el dashboard de los componentes
