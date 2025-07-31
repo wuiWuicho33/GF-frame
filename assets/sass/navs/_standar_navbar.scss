@@ -21,8 +21,7 @@
   justify-content: space-between;
   align-items: center;
 }
-/*Elementos de la parte izquierda extrema*/
-/*Logo*/
+/*Elementos de la parte izquierda extrema - Logo*/
 .navbar-brand {
   img {
     //width:200px;
@@ -31,7 +30,9 @@
     margin-right: 1rem;
   }
 }
-/* Toggler */
+
+/* # Toggler
+----------------------------------------------- */
 .navbar-toggler {
   display: block;
   background: none;
@@ -41,7 +42,8 @@
   cursor: pointer;
 }
 
-/* Navbar menu */
+/* # Navbar menu
+----------------------------------------------- */
 .navbar-menu {
   background-color: $primary-color;
   display: none;
@@ -77,7 +79,8 @@
   }
 }
 
-/*--------------- Dropdown menu---------------*/
+/* # Dropdown
+----------------------------------------------- */
 .dropdown {
   position: relative;
   a i {margin-left: 0.5rem;}
@@ -152,10 +155,9 @@
 @media (min-width: 768px) {}
 
 /*=> 1024px Igual o mayor a 1024px se aplicarán los siguientes estilos */
-@media (min-width: 1024px) {
-  
-  /*Navbar
-  -------------------------------*/
+@media (min-width: 1024px) {  
+  /* # Navbar
+  ----------------------------------------------- */
   .navbar {padding: 0 10px;}
   .navbar-brand {img {width:250px;}}
 
@@ -177,13 +179,15 @@
     width: auto;
   }
 
-  /*Dropdown toggle
-  -------------------------------*/
+  /* # Dropdown toggle
+  ----------------------------------------------- */
   .dropdown:hover .dropdown-toggle {
     color:$highlight-color; 
     background-color: inherit; 
   }
-  /* Dropdown menu */
+  
+  /* # Dropdown menu
+  ----------------------------------------------- */  
   .dropdown:hover .dropdown-menu {display: block;}
   .dropdown-menu {
     position: absolute;

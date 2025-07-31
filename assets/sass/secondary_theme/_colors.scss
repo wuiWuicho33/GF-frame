@@ -2,7 +2,8 @@
 //@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-//Fuente incrustada
+/* # Fuente incrustada
+----------------------------------------------- */
 @font-face{       
   font-family:'Eurostile_Heavy';                
   src:url('../../fonts/Eurostile/Eurostile_Heavy.eot');       
@@ -21,12 +22,17 @@
   url('../../fonts/Futura/FuturaStd-Book.svg') format('svg');      
 }
 
-/*Variables scss  */
-/*Fonts*/
+/* =====================
+# VARIABLES
+===================== */
+
+/* # Fonts
+----------------------------------------------- */
 $primary-font:"Eurostile_Heavy", serif;
 $secondary-font:"FuturaStd-Book", serif;
 
-/*Colors*/
+/* # Colors
+----------------------------------------------- */
 $primary-color: #ffffff;
 $secondary-color: #ebf5f8;
 $tertiary-color: #cedaf8 ;
@@ -43,10 +49,11 @@ $success-color:#35a038;
 $warning-color:#db9a17;
 $danger-color:#b92214;
 
-/* -----------
-  # Colours
------------ */
-/*Body Scrollbar*/
+/* =====================
+# COLOURS
+===================== */
+/* # Body Scrollbar
+----------------------------------------------- */
 body::-webkit-scrollbar{width: 10px; background-color:$primary-color;}/*Background color*/
 body::-webkit-scrollbar-thumb{background:$sixty-color;}/*Bar color*/
 body {
@@ -65,19 +72,22 @@ a {
   }
 }
 
-/*Form*/
+/* # Form
+----------------------------------------------- */
 label{color:$gray-color;}
 form, input, textarea, select,.form-control,.custom-select {
   color:$gray-color;
 }
 
-/*Text-color*/
+/* # Text-color
+----------------------------------------------- */
 .text-inverted {color:$primary-color;}
 .text-success {color:$success-color;}
 .text-danger {color:$danger-color;}
 .text-warning {color:$warning-color;}
 
-/*Background colors*/
+/* # Background colors
+----------------------------------------------- */
 .bg-default {
   background-color:$primary-color;
   h1,h2,h3,h5{color:$sixty-color;}

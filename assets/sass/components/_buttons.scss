@@ -21,7 +21,8 @@
   }
 }
 
-/* Btn-properties */
+/* # Btn-properties
+----------------------------------------------- */
 .btn-block {
   display: block;
   width: 100%;
@@ -39,7 +40,8 @@
   }
 }
 
-/*--------------- Btn-light ---------------*/
+/* # Btn-light
+----------------------------------------------- */
 .btn-light {
   background-color: lighten($highlight-color, 60%);
   color: lighten($highlight-color, 10%); 
@@ -66,7 +68,8 @@
   }
 }
 
-/*--------------- Btn-dark ---------------*/
+/* # Btn-dark
+----------------------------------------------- */
 .btn-dark {
   background-color: lighten($highlight-color, 10%);   
   color: $primary-color;
@@ -92,7 +95,8 @@
   }
 }
 
-/*--------------- Btn-lighter ---------------*/
+/* # Btn-lighter
+----------------------------------------------- */
 .btn-lighter {
   background-color: $secondary-color;   
   color: $fifth-color;
@@ -114,7 +118,8 @@
   }
 }
 
-/*--------------- Btn-danger ---------------*/
+/* # Btn-danger
+----------------------------------------------- */
 .btn-danger {
   background-color: lighten($danger-color, 50%);
   color: $danger-color;
@@ -140,7 +145,8 @@
   }
 }
 
-/*--------------- Btn-success ---------------*/
+/* # Btn-success
+----------------------------------------------- */
 .btn-success {
   background-color: lighten($success-color, 40%);
   color: $success-color;
@@ -166,7 +172,8 @@
   }
 }
 
-/*--------------- Btn-warning ---------------*/
+/* # Btn-warning
+----------------------------------------------- */
 .btn-warning {
   background-color: lighten($warning-color, 35%);
   color: $warning-color;
@@ -192,7 +199,8 @@
   }
 }
 
-/*--------------- Btn-disable ---------------*/
+/* # Btn-disable
+----------------------------------------------- */
 .btn-disable {
   background-color: $secondary-color;
   color: $fourth-color;
@@ -200,7 +208,8 @@
   i {color: $fourth-color;}    
 }    
 
-/*--------------- Btn-Link ---------------*/
+/* # Btn-Link
+----------------------------------------------- */
 .btn-link {
   &:hover, &:active, &:focus{
     text-decoration: underline;
@@ -208,7 +217,8 @@
   }
 }
 
-/*--------------- Btn-group ---------------*/
+/* # Btn-group
+----------------------------------------------- */
 .button-group {
   display: inline-flex;
   border-radius: 0.25rem; 
@@ -225,7 +235,8 @@
   }  
 }
 
-/* Botón izquierdo */
+/* # Botón izquierdo
+----------------------------------------------- */
 .button-left {
   background-color: $primary-color;
   color: lighten($highlight-color, 10%);  
@@ -238,7 +249,8 @@
   }  
 }
 
-/* Botón derecho */
+/* # Botón derecho
+----------------------------------------------- */
 .button-right {
   background-color: lighten($highlight-color, 10%); 
   color: $primary-color;  
@@ -260,7 +272,8 @@
   border-width: 1px;
 }
 
-/*--------------- Btn-circle ---------------*/
+/* # Btn-circle
+----------------------------------------------- */
 .btn-circle {
   display: inline-block;
   width: 2rem;

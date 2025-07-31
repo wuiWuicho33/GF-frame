@@ -4,14 +4,16 @@
 /* `border-box`... ALL THE THINGS! */
 html {box-sizing: border-box;}
 
-/* Base styles for the element that has a tooltip */
+/* # Base styles for the element that has a tooltip
+----------------------------------------------- */
 [data-tooltip],
 .tooltip {
   position: relative;
   cursor: pointer;
 }
 
-/* Base styles for the entire tooltip */
+/* # Base styles for the entire tooltip
+----------------------------------------------- */
 [data-tooltip]:before,
 [data-tooltip]:after,
 .tooltip:before,
@@ -27,7 +29,8 @@ html {box-sizing: border-box;}
   pointer-events: none;
 }
 
-/* Show the entire tooltip on hover and focus */
+/* # Show the entire tooltip on hover and focus
+----------------------------------------------- */
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after,
 [data-tooltip]:focus:before,
@@ -40,7 +43,8 @@ html {box-sizing: border-box;}
   opacity: 1;
 }
 
-/* Base styles for the tooltip's directional arrow */
+/* # Base styles for the tooltip's directional arrow
+----------------------------------------------- */
 .tooltip:before,
 [data-tooltip]:before {
   z-index: 1001;
@@ -49,7 +53,8 @@ html {box-sizing: border-box;}
   content: "";
 }
 
-/* Base styles for the tooltip's content area */
+/* # Base styles for the tooltip's content area
+----------------------------------------------- */
 .tooltip:after,
 [data-tooltip]:after {
   z-index: 1000;
@@ -62,7 +67,8 @@ html {box-sizing: border-box;}
   line-height: 1.2;
 }
 
-/* Directions */
+/* # Directions
+----------------------------------------------- */
 
 /* Top (default) */
 [data-tooltip]:before,

@@ -2,7 +2,7 @@
 # MAIN HEADER
 ===================== */
 
- .fixed .main-header {
+.fixed .main-header {
   position: fixed;
 }
 .fixed .main-header {
@@ -24,8 +24,9 @@
   }
 }
 */
-/* sidebar-navbar-logo
------------------------------- */
+
+/* # Sidebar-navbar-logo
+----------------------------------------------- */
 .main-header .logo {
   display: flex;
   align-items: center;
@@ -48,8 +49,8 @@
   }
 }
 
- /* sidebar-navbar
- ------------------------------ */
+/* # Sidebar-navbar
+----------------------------------------------- */
 .main-header > .sidebar-navbar {
   margin-bottom: 0;
   margin-left: 230px;
@@ -88,7 +89,8 @@
   }
 }
 
-/*Sidebar-toggle*/
+/* # Sidebar-toggle
+----------------------------------------------- */
 .main-header .sidebar-toggle {
   float: left;
   background-color: transparent;
@@ -109,8 +111,8 @@
 /* ===========
  Main-header
  ========== */
-/* Logo
------------------------------- */
+/* # Logo
+----------------------------------------------- */
 .default-theme .main-header .logo {
   background-color: $primary-color;
   border-bottom: 0px solid transparent;
@@ -118,12 +120,14 @@
 .default-theme .main-header .logo:hover {
   background: $secondary-color;
 }
- /* sidebar-navbar
- ------------------------------ */
+
+/* # Sidebar-navbar
+----------------------------------------------- */
  .default-theme .main-header .sidebar-navbar {
   background-color: $primary-color;
 }
-/* Sidebar-toggle */
+/* # Sidebar-toggle
+----------------------------------------------- */
 .default-theme .main-header .sidebar-navbar .sidebar-toggle {
   color: lighten($highlight-color, 10%);
 }

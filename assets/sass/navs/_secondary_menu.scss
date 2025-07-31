@@ -47,8 +47,7 @@ ul.secondary_menu {
         font-weight: 500;
       }
     }   
-    //Este bloque aplica sólo para este proyecto - Borrar después
-    
+    //Este bloque aplica sólo para este proyecto - Borrar después    
     &.active {
       border-color: $highlight-color;
 
@@ -62,9 +61,9 @@ ul.secondary_menu {
   }
 }
 
-
-/*A partir de 1024px se aplicarán estos estilos => 1024px
-Tabletas horizontales*/
+/* # Tabletas horizontales
+----------------------------------------------- */
+/*A partir de 1024px se aplicarán estos estilos => 1024px*/
 @media (min-width: 1024px) {
   ul.secondary_menu {
     padding: 0 0 0.5rem;

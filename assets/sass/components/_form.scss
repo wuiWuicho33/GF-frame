@@ -184,6 +184,7 @@ output:after {
 /*Exclusiva para este proyecto*/
 /* # Select & input styles
 ----------------------------------------------- */
+/*
 .form-note {
   display: inline-block;
   width: 100%;
@@ -213,18 +214,18 @@ output:after {
     font-weight: 400;
   }  
 }
-
+*/
 
 /* =====================
 # MEDIAQUERIES
 ===================== */
 /* # Mobile
--------------------------------------------------------------------- */
+----------------------------------------------- */
 /*=> 640px Igual o mayor a 640px se aplicarán los siguientes estilos */
 @media (min-width: 640px) {}
 
 /* # Tablet
--------------------------------------------------------------------- */
+----------------------------------------------- */
 /*=> 768px Igual o mayor a 768px se aplicarán los siguientes estilos */
 @media (min-width: 768px) {
   /* Barra de rango */
@@ -237,7 +238,7 @@ output:after {
 /*=> 1024px Igual o mayor a 1024px se aplicarán los siguientes estilos */
 @media (min-width: 1024px) {}
 /* # Desktop
--------------------------------------------------------------------- */
+----------------------------------------------- */
 /*=> 1280px Igual o mayor a 1280px se aplicarán los siguientes estilos */
 @media (min-width: 1280px) {}
 /*=> 1536px Igual o mayor a 1536px se aplicarán los siguientes estilos */

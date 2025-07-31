@@ -1,8 +1,8 @@
 /* =====================
 # STYLES
 ===================== */
-/* -----------------------------------------------
-  # Reset
+
+/* # Reset
 ----------------------------------------------- */
 html, body {
   /*height: 100%;*/
@@ -61,8 +61,7 @@ ul, ol{
 /*Transition*/
 /* *, *::before, *::after{transition:all .2s ease-in-out;} */ 
 
-/* -----------------------------------------------
-  # Fonts
+/* # Fonts
 ----------------------------------------------- */
 body, form, label, input, textarea, select, a, .btn{
   font-family:$secondary-font;
@@ -148,8 +147,7 @@ i.icon{
     line-height: 1.4rem;
 }
 
-/* -----------------------------------------------
-  # Text styles
+/* # Text styles
 ----------------------------------------------- */
 .text-left {text-align:left;}
 .text-right {text-align:right;}
@@ -158,8 +156,7 @@ i.icon{
 .text-uppercase {text-transform: uppercase;}
 .text-capitalize {text-transform: capitalize;}
 
-/* -----------------------------------------------
-  # Image styles
+/* # Image styles
 ----------------------------------------------- */
 img, object, embed, video {max-width: 100%;}
 
@@ -185,8 +182,7 @@ img{
 .bg-attach{background-attachment: fixed;}
 .img-circle {border-radius: 50%;}
 
-/* -----------------------------------------------
-  # Container filter with background image
+/* # Container filter with background image
 ----------------------------------------------- */
 .overlay {
   position: relative;

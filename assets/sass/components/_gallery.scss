@@ -76,7 +76,8 @@
   }
 }
 
-/* Thumbnail seleccionado */
+/* # Thumbnail seleccionado
+----------------------------------------------- */
 .thumbnail.selected img {
   border: 3px solid $success-color; 
   opacity: 1 !important; 
@@ -85,7 +86,8 @@
 /* =====================
 # MEDIAQUERIES
 ===================== */
-/* # Tablet ------------------------------------------ */
+/* # Tablet
+----------------------------------------------- */
 /*A partir de 768px se aplicarán estos estilos => 768px
 Tabletas verticales o celulares horizontales*/
 @media (min-width: 768px) {
@@ -115,8 +117,8 @@ Tabletas verticales o celulares horizontales*/
 
 }
 
-
-/* Tablet and mobile styles */
+/* # Tablet and mobile styles
+----------------------------------------------- */
 @media (max-width: 767px) {
 
   .wrapper-thumbnails {
@@ -136,8 +138,9 @@ Tabletas verticales o celulares horizontales*/
 
 }
 
-/*A partir de 1024px se aplicarán estos estilos => 1024px
-Tabletas horizontales*/
+/*A partir de 1024px se aplicarán estos estilos => 1024px*/
+/* # Tabletas horizontales
+----------------------------------------------- */
 @media (min-width: 1536px) {
   .wrapper-thumbnails {
     height: 220px;

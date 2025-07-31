@@ -1,28 +1,33 @@
 /* =====================
 # FLEXBOX
 ===================== */
-/* Flexbox Display */
+/* # Flexbox Display
+----------------------------------------------- */
 .flex { display: flex; }
 .inline-flex { display: inline-flex; }
 
-/* Flex Direction */
+/* # Flex Direction
+----------------------------------------------- */
 .flex-row { flex-direction: row; }
 .flex-row-reverse { flex-direction: row-reverse; }
 .flex-col { flex-direction: column; }
 .flex-col-reverse { flex-direction: column-reverse; }
 
-/* Flex Wrap */
+/* # Flex Wrap
+----------------------------------------------- */
 .flex-wrap { flex-wrap: wrap; }
 .flex-wrap-reverse { flex-wrap: wrap-reverse; }
 .flex-nowrap { flex-wrap: nowrap; }
 
-/* Flex Flow */
+/* # Flex Flow
+----------------------------------------------- */
 .flex-flow { flex-flow: row wrap; }
 .flex-flow-reverse { flex-flow: row-reverse wrap; }
 .flex-flow-column { flex-flow: column wrap; }
 .flex-flow-column-reverse { flex-flow: column-reverse wrap; }
 
-/* Justify Content */
+/* # Justify Content
+----------------------------------------------- */
 .justify-start { justify-content: flex-start; }
 .justify-end { justify-content: flex-end; }
 .justify-center { justify-content: center; }
@@ -30,14 +35,16 @@
 .justify-around { justify-content: space-around; }
 .justify-evenly { justify-content: space-evenly; }
 
-/* Align Items */
+/* # Align Items
+----------------------------------------------- */
 .items-start { align-items: flex-start; }
 .items-end { align-items: flex-end; }
 .items-center { align-items: center; }
 .items-baseline { align-items: baseline; }
 .items-stretch { align-items: stretch; }
 
-/* Align Content */
+/* # Align Content
+----------------------------------------------- */
 .content-start { align-content: flex-start; }
 .content-end { align-content: flex-end; }
 .content-center { align-content: center; }
@@ -45,7 +52,8 @@
 .content-around { align-content: space-around; }
 .content-evenly { align-content: space-evenly; }
 
-/* Align Self */
+/* # Align Self
+----------------------------------------------- */
 .self-auto { align-self: auto; }
 .self-start { align-self: flex-start; }
 .self-end { align-self: flex-end; }
@@ -53,21 +61,25 @@
 .self-baseline { align-self: baseline; }
 .self-stretch { align-self: stretch; }
 
-/* Flex */
+/* # Flex
+----------------------------------------------- */
 .flex-1 { flex: 1 1 0%; }
 .flex-auto { flex: 1 1 auto; }
 .flex-initial { flex: 0 1 auto; }
 .flex-none { flex: none; }
 
-/* Flex Grow */
+/* # Flex Grow
+----------------------------------------------- */
 .flex-grow-0 { flex-grow: 0; }
 .flex-grow { flex-grow: 1; }
 
-/* Flex Shrink */
+/* # Flex Shrink
+----------------------------------------------- */
 .flex-shrink-0 { flex-shrink: 0; }
 .flex-shrink { flex-shrink: 1; }
 
-/* Flex Basis */
+/* # Flex Basis
+----------------------------------------------- */
 .flex-basis-0 { flex-basis: 0%; }
 .flex-basis-one_quarter { flex-basis: 25%; }
 .flex-basis-one_half { flex-basis: 50%; }
@@ -77,7 +89,8 @@
 /* =====================
 # MEDIAQUERIES
 ===================== */
-/* Mobile (640px) */
+/* # Mobile (640px)
+----------------------------------------------- */
 @media (min-width: 640px) {
   .sm\:flex {display: flex;}
   .sm\:inline-flex {display: inline-flex;}
@@ -126,7 +139,8 @@
   .sm\:flex-basis-full { flex-basis: 100%; }
 }
 
-/* Tablet (768px) */
+/* # Tablet (768px)
+----------------------------------------------- */
 @media (min-width: 768px) {
   .md\:flex {display: flex;}
   .md\:inline-flex {display: inline-flex;}  
@@ -175,7 +189,8 @@
   .md\:flex-basis-full { flex-basis: 100%; }
 }
 
-/* Laptop (1024px) */
+/* # Laptop (1024px)
+----------------------------------------------- */
 @media (min-width: 1024px) {
   .lg\:flex {display: flex;}
   .lg\:inline-flex {display: inline-flex;}  
@@ -224,7 +239,8 @@
   .lg\:flex-basis-full { flex-basis: 100%; }
 }
 
-/* Desktop (1280px) */
+/* # Desktop (1280px)
+----------------------------------------------- */
 @media (min-width: 1280px) {
   .xl\:flex {display: flex;}
   .xl\:inline-flex {display: inline-flex;}  
@@ -273,7 +289,8 @@
   .xl\:flex-basis-full { flex-basis: 100%; }
 }
 
-/* xxl (1536px) */
+/* # xxl (1536px)
+----------------------------------------------- */
 @media (min-width: 1536px) {
   .xxl\:flex {display: flex;}
   .xxl\:inline-flex {display: inline-flex;}  

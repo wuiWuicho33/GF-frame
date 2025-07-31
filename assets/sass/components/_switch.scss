@@ -68,7 +68,8 @@
 /*Exclusivo para que no se desborden los elementos switchers*/
 @media (max-width: 350px) {
 
-  /* Switch-wrapper */
+  /* # Switch-wrapper
+  ----------------------------------------------- */
   .switch-wrapper {
     gap: 0.5rem;
 
@@ -78,7 +79,8 @@
     }    
   }
 
-  /* Switch*/
+  /* # Switch
+  ----------------------------------------------- */
   .switch {
     width: 30px;
     height: 15px;

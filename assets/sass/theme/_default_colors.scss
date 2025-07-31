@@ -1,13 +1,18 @@
-/* Imported files and fonts */
+/* # Imported files and fonts
+----------------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*Variables scss  */
-/*Fonts*/
+/* =====================
+# VARIABLES
+===================== */
+/* # Fonts
+----------------------------------------------- */
 $primary-font:"Montserrat", serif;
 $secondary-font:"Roboto", serif;
 
-/*Colors*/
+/* # Colours
+----------------------------------------------- */
 $primary-color: #ffffff;
 $secondary-color: #ebf5f8;
 $tertiary-color: #cedaf8 ;
@@ -24,10 +29,11 @@ $success-color:#35a038;
 $warning-color:#db9a17;
 $danger-color:#b92214;
 
-/* -----------------------------------------------
-  # Colours
+/* =====================
+# COLOURS
+===================== */
+/* # Body Scrollbar
 ----------------------------------------------- */
-/*Body Scrollbar*/
 body::-webkit-scrollbar{width: 10px; background-color:$primary-color;}/*Background color*/
 body::-webkit-scrollbar-thumb{background:$fourth-color;}/*Bar color*/
 body {
@@ -48,13 +54,15 @@ a {
 
 b{color:$highlight-color;}
 
-/*Form*/
+/* # Form
+----------------------------------------------- */
 label{color:$primary-text-color;}
 form, input, textarea, select,.form-control,.custom-select {
   color:$primary-text-color;
 }
 
-/*Text-color*/
+/* # Text-color
+----------------------------------------------- */
 .text-inverted {color:$primary-color;}
 .text-success {color:$success-color;}
 .text-danger {color:$danger-color;}
@@ -62,7 +70,8 @@ form, input, textarea, select,.form-control,.custom-select {
 
 /*i{color:$highlight-color;}*/
 
-/*Background colors*/
+/* # Background colors
+----------------------------------------------- */
 .bg-default {
   background-color:$primary-color;
   p,ul{color:$primary-text-color;}  

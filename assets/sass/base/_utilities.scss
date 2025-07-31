@@ -1,10 +1,12 @@
 /* =====================
 # UTILITIES
 ===================== */
-/* Sizings */
+/* # Sizings
+----------------------------------------------- */
 .sizings{width:100%;}
 
-/*Spacing*/
+/* # Spacing
+----------------------------------------------- */
 .m-0{margin: 0;}
 
 .ml-1 {margin-left: 0.25rem;}
@@ -78,11 +80,13 @@
 }
 .nopadding{padding: 0px;}
 
-/*Float*/
+/* # Float
+----------------------------------------------- */
 .float-left{float: left;}
 .float-right{float: right;}
 
-/*Display*/
+/* # Display
+----------------------------------------------- */
 .d-none {display: none;}
 .d-block {display: block;}
 .d-inline {display: inline;}
@@ -102,7 +106,8 @@
   border: 0;
 }
 
-/*display sustituye a hidden*/
+/* # display sustituye a hidden
+----------------------------------------------- */
 .hidden {
   display: none;
   visibility: hidden;
