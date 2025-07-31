@@ -1,5 +1,6 @@
-/* # Alert
----------------------------------------------- */
+/* =====================
+# ALERT
+===================== */
 function closeAlert(button) {
 	const alert = button.parentElement; // Selecciona el contenedor de alerta
 	alert.classList.add('hide');

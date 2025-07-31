@@ -1,5 +1,6 @@
-/* # Sweet Alert
----------------------------------------------- */
+/* =====================
+# SWEET ALERT
+===================== */  
 // Botón para mostrar alerta de éxito
 document.getElementById('alertaExitoBtn').addEventListener('click', function() {
 	Swal.fire({

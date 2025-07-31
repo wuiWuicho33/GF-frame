@@ -1,6 +1,6 @@
-/*=========
-FORM
-=========*/
+/* =====================
+# TEAM FORMS
+===================== */  
 // Obtén los radio buttons
 const radioIndividual = document.getElementById('radio1');
 const radioEquipo = document.getElementById('radio2');

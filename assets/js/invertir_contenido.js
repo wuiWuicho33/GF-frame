@@ -1,6 +1,6 @@
-/*===========================
-Invertir contenido
-===========================*/
+/* =====================
+# INVERTIR CONTENIDO
+===================== */  
 // Seleccionamos el contenedor y el ícono
 const ordenContainer = document.getElementById('ordenContainer');
 const ordenIcon = document.getElementById('ordenIcon');

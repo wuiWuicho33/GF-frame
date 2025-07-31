@@ -1,5 +1,6 @@
-/* # Modal
----------------------------------------------- */
+/* =====================
+# MODAL
+===================== */  
 document.querySelectorAll('[data-modal]').forEach(button => {
   button.addEventListener('click', function() {
       const modalId = this.getAttribute('data-modal');

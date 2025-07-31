@@ -1,5 +1,6 @@
-/* # Accordion
----------------------------------------------- */
+/* =====================
+# ACORDION
+===================== */
 document.querySelectorAll('.acordeon-header').forEach(button => {
     button.addEventListener('click', function() {
         const body = this.nextElementSibling;

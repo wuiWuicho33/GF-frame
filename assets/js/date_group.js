@@ -1,6 +1,6 @@
-/*===========================
-Date group
-===========================*/
+/* =====================
+# DATE GROUP
+===================== */
 // Elementos de la fecha de inicio
 const startTextInput = document.getElementById('start-text-input');
 const startDateInput = document.getElementById('start-date-input');

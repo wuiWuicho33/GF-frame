@@ -1,5 +1,6 @@
-/* # Multiple select
----------------------------------------------- */
+/* =====================
+# MULTIPLE SELECT
+===================== */  
 // helper function to check if the click was outside the element
 function isOutsideNodeAndChildren($node, e) {
 	// if the target of the click isn't the container...

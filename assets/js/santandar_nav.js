@@ -1,6 +1,6 @@
-/*=========
-MAIN NAV
-=========*/
+/* =====================
+# STANDAR NAV
+===================== */  
 // JavaScript para la funcionalidad del navbar
 
 // Función para manejar el toggler en dispositivos móviles

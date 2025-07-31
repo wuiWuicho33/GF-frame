@@ -1,5 +1,6 @@
-/* # Switches
----------------------------------------------- */
+/* =====================
+# SWITCHES
+===================== */  
 // Función para actualizar el texto del label basado en el estado del switch
 function updateLabels() {
 	const switches = document.querySelectorAll('.switch-input');

@@ -1,3 +1,6 @@
+/* =====================
+# SMOOTH SCROLLING
+===================== */  
 document.querySelectorAll('.smooth_scrolling').forEach(anchor => {
 anchor.addEventListener('click', function (e) {
     e.preventDefault();

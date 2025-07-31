@@ -1,5 +1,6 @@
-/* # Upload image
----------------------------------------------- */
+/* =====================
+# UPLOAD IMAGE
+===================== */
 document.getElementById("subirImagenBtn").addEventListener("click", function() {
 	document.getElementById("inputImagen").click();
   });
@@ -11,8 +12,9 @@ document.getElementById("subirImagenBtn").addEventListener("click", function() {
 	}
   });
 
-/* # Range selector
----------------------------------------------- */
+/* =====================
+# RANGE SELECTOR
+===================== */  
 var el, newPoint, newPlace, offset;
  
 $('input[type=range]').on('input', function () {

@@ -1,6 +1,6 @@
-/*=========
-Active link
-=========*/
+/* =====================
+# ACTIVE LINK
+===================== */
 // Seleccionamos todas las secciones que corresponden a cada enlace
 const sections = document.querySelectorAll('section'); // Seleccionamos todas las secciones
 

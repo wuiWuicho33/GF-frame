@@ -1,3 +1,6 @@
+/* =====================
+# BACK TO TOP
+===================== */
 // Mostrar u ocultar el botón según la posición del scroll
 window.onscroll = function() {scrollFunction()};
 

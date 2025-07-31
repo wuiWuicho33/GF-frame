@@ -1,5 +1,6 @@
-/* # Horizontal tabs
----------------------------------------------- */
+/* =====================
+# HORIZONTAL TABS
+===================== */  
 document.addEventListener('DOMContentLoaded', () => {
   const tabContainers = document.querySelectorAll('.tabs-container');
 
