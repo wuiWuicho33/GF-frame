@@ -74,8 +74,9 @@
 .flex-basis-three_quarter { flex-basis: 75%; }
 .flex-basis-full { flex-basis: 100%; }
 
-/* Media Queries (Puntos de ruptura) */
-
+/* =====================
+# MEDIAQUERIES
+===================== */
 /* Mobile (640px) */
 @media (min-width: 640px) {
   .sm\:flex {display: flex;}
