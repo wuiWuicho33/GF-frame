@@ -1,16 +1,24 @@
 @charset "UTF-8";
-/*Deafult theme*/
-/* Imported files and fonts */
+/* =====================
+# MAIN
+===================== */
+/* # Imported files and fonts
+----------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-/*Variables scss  */
-/*Fonts*/
-/*Colors*/
-/*No cambian*/
-/* -----------------------------------------------
-  # Colours
+/* =====================
+# VARIABLES
+===================== */
+/* # Fonts
 ----------------------------------------------- */
-/*Body Scrollbar*/
+/* # Colours
+----------------------------------------------- */
+/*No cambian*/
+/* =====================
+# COLOURS
+===================== */
+/* # Body Scrollbar
+----------------------------------------------- */
 body::-webkit-scrollbar {
   width: 10px;
   background-color: #ffffff;
@@ -43,7 +51,8 @@ b {
   color: #0F4C95;
 }
 
-/*Form*/
+/* # Form
+----------------------------------------------- */
 label {
   color: #042857;
 }
@@ -52,7 +61,8 @@ form, input, textarea, select, .form-control, .custom-select {
   color: #042857;
 }
 
-/*Text-color*/
+/* # Text-color
+----------------------------------------------- */
 .text-inverted {
   color: #ffffff;
 }
@@ -70,7 +80,8 @@ form, input, textarea, select, .form-control, .custom-select {
 }
 
 /*i{color:$highlight-color;}*/
-/*Background colors*/
+/* # Background colors
+----------------------------------------------- */
 .bg-default {
   background-color: #ffffff;
 }
@@ -149,11 +160,10 @@ i.icon {
 }
 
 /*Base*/
-/*::::::::::::::::::::::
-:::::::::STYLES:::::::::
-::::::::::::::::::::::*/
-/* -----------------------------------------------
-  # Reset
+/* =====================
+# STYLES
+===================== */
+/* # Reset
 ----------------------------------------------- */
 html, body {
   /*height: 100%;*/
@@ -214,8 +224,7 @@ ul, ol {
 
 /*Transition*/
 /* *, *::before, *::after{transition:all .2s ease-in-out;} */
-/* -----------------------------------------------
-  # Fonts
+/* # Fonts
 ----------------------------------------------- */
 body, form, label, input, textarea, select, a, .btn {
   font-family: "Roboto", serif;
@@ -233,10 +242,6 @@ p, ul, ol {
 
 p {
   line-height: 1.4rem;
-}
-
-ul, ol {
-  line-height: 2rem;
 }
 
 p {
@@ -364,8 +369,7 @@ i.icon {
   line-height: 1.4rem;
 }
 
-/* -----------------------------------------------
-  # Text styles
+/* # Text styles
 ----------------------------------------------- */
 .text-left {
   text-align: left;
@@ -391,8 +395,7 @@ i.icon {
   text-transform: capitalize;
 }
 
-/* -----------------------------------------------
-  # Image styles
+/* # Image styles
 ----------------------------------------------- */
 img, object, embed, video {
   max-width: 100%;
@@ -437,8 +440,7 @@ img {
   border-radius: 50%;
 }
 
-/* -----------------------------------------------
-  # Container filter with background image
+/* # Container filter with background image
 ----------------------------------------------- */
 .overlay {
   position: relative;
@@ -463,9 +465,9 @@ img {
   background-color: rgba(255, 255, 255, 0.55);
 }
 
-/* ==============================================
+/* =====================
 # MEDIAQUERIES
-============================================== */
+===================== */
 /* # Mobile ------------------------------------------
 A partir de 640px se aplicarán estos estilos => 640px
 Celulares horizontales
@@ -509,15 +511,17 @@ Tabletas horizontales*/
 Tabletas horizontales */
 /*A partir de 1536px se aplicarán estos estilos => 1536px
 Tabletas horizontales */
-/* -----------------------------------------------
-  # Utilities
+/* =====================
+# UTILITIES
+===================== */
+/* # Sizings
 ----------------------------------------------- */
-/* Sizings */
 .sizings {
   width: 100%;
 }
 
-/*Spacing*/
+/* # Spacing
+----------------------------------------------- */
 .m-0 {
   margin: 0;
 }
@@ -756,7 +760,8 @@ Tabletas horizontales */
   padding: 0px;
 }
 
-/*Float*/
+/* # Float
+----------------------------------------------- */
 .float-left {
   float: left;
 }
@@ -765,7 +770,8 @@ Tabletas horizontales */
   float: right;
 }
 
-/*Display*/
+/* # Display
+----------------------------------------------- */
 .d-none {
   display: none;
 }
@@ -805,7 +811,8 @@ Tabletas horizontales */
   border: 0;
 }
 
-/*display sustituye a hidden*/
+/* # display sustituye a hidden
+----------------------------------------------- */
 .hidden {
   display: none;
   visibility: hidden;
@@ -831,9 +838,9 @@ Tabletas horizontales */
     display: none;
   }
 }
-/* ==============================================
+/* =====================
 # MEDIAQUERIES
-============================================== */
+===================== */
 /* # Mobile
 -------------------------------------------------------------------- */
 /*=> 640px Igual o mayor a 640px se aplicarán los siguientes estilos */
@@ -973,9 +980,9 @@ Tabletas horizontales */
   }
 }
 /*=> 1536px Igual o mayor a 1536px se aplicarán los siguientes estilos */
-/* ==============================================
-# COMPONENTES
-============================================== */
+/* =====================
+# OTHERS
+===================== */
 /* # Overlay-settings
 ----------------------------------------------- */
 .overlay-settings {
@@ -998,10 +1005,8 @@ Tabletas horizontales */
   opacity: 1;
 }
 
-/* -----------------------------------------------
-  # Content
+/* # VideoWrapper
 ----------------------------------------------- */
-/* VideoWrapper */
 .videoWrapper {
   position: relative;
   padding-bottom: 51.25%; /* 16:9 */
@@ -1016,9 +1021,9 @@ Tabletas horizontales */
   height: 100%;
 }
 
-/* ==============================================
-CSS GRID - GAP - SPAN
-============================================== */
+/* =====================
+# CSS GRID - GAP - SPAN
+===================== */
 /* # Grid css
 ----------------------------------------------- */
 .grid {
@@ -1032,7 +1037,8 @@ CSS GRID - GAP - SPAN
   border: 1px solid #A3B9F1;
 }
 
-/*Gap*/
+/* # Gap
+----------------------------------------------- */
 .gap-0 {
   gap: 0;
 }
@@ -1105,7 +1111,8 @@ CSS GRID - GAP - SPAN
   gap: 16rem;
 }
 
-/*Grid*/
+/* # Grid
+----------------------------------------------- */
 .grid-cols-1 {
   grid-template-columns: repeat(1, 1fr);
 }
@@ -1154,7 +1161,8 @@ CSS GRID - GAP - SPAN
   grid-template-columns: repeat(12, 1fr);
 }
 
-/*Col*/
+/* # Col
+----------------------------------------------- */
 .col-span-1 {
   grid-column: span 1/span 1;
 }
@@ -1203,15 +1211,16 @@ CSS GRID - GAP - SPAN
   grid-column: span 12/span 12;
 }
 
-/* ==============================================
+/* =====================
 # MEDIAQUERIES
-============================================== */
+===================== */
 /* # Mobile ------------------------------------------
 A partir de 640px se aplicarán estos estilos => 640px
 Celulares horizontales
 --------------------------------------------------- */
 @media (min-width: 640px) {
-  /*Grid*/
+  /* # Grid
+  ----------------------------------------------- */
   .sm\:grid {
     display: grid;
   }
@@ -1251,7 +1260,8 @@ Celulares horizontales
   .sm\:grid-cols-12 {
     grid-template-columns: repeat(12, 1fr);
   }
-  /*Col*/
+  /* # Col
+  ----------------------------------------------- */
   .sm\:col-span-1 {
     grid-column: span 1/span 1;
   }
@@ -1288,7 +1298,8 @@ Celulares horizontales
   .sm\:col-span-12 {
     grid-column: span 12/span 12;
   }
-  /*Gap*/
+  /* # Gap
+  ----------------------------------------------- */
   .sm\:gap-0 {
     gap: 0;
   }
@@ -1348,7 +1359,8 @@ Celulares horizontales
 /*A partir de 768px se aplicarán estos estilos => 768px
 Tabletas verticales o celulares horizontales*/
 @media (min-width: 768px) {
-  /*Grid*/
+  /* # Grid
+  ----------------------------------------------- */
   .md\:grid {
     display: grid;
   }
@@ -1388,7 +1400,8 @@ Tabletas verticales o celulares horizontales*/
   .md\:grid-cols-12 {
     grid-template-columns: repeat(12, 1fr);
   }
-  /*Col*/
+  /* # Col
+  ----------------------------------------------- */
   .md\:col-span-1 {
     grid-column: span 1/span 1;
   }
@@ -1440,7 +1453,8 @@ Tabletas verticales o celulares horizontales*/
   .hidden-sm {
     display: inline-block;
   }
-  /*Gap*/
+  /* # Gap
+  ----------------------------------------------- */
   .md\:gap-0 {
     gap: 0;
   }
@@ -1499,7 +1513,8 @@ Tabletas verticales o celulares horizontales*/
 /*A partir de 1024px se aplicarán estos estilos => 1024px
 Tabletas horizontales*/
 @media (min-width: 1024px) {
-  /*Grid*/
+  /* # Grid
+  ----------------------------------------------- */
   .lg\:grid {
     display: grid;
   }
@@ -1539,7 +1554,8 @@ Tabletas horizontales*/
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, 1fr);
   }
-  /*Col*/
+  /* # Col
+  ----------------------------------------------- */
   .lg\:col-span-1 {
     grid-column: span 1/span 1;
   }
@@ -1576,7 +1592,8 @@ Tabletas horizontales*/
   .lg\:col-span-12 {
     grid-column: span 12/span 12;
   }
-  /*Gap*/
+  /* # Gap
+  ----------------------------------------------- */
   .lg\:gap-0 {
     gap: 0;
   }
@@ -1677,7 +1694,8 @@ Tabletas horizontales */
   .xl\:grid-cols-12 {
     grid-template-columns: repeat(12, 1fr);
   }
-  /*Col*/
+  /* # Col
+  ----------------------------------------------- */
   .xl\:col-span-1 {
     grid-column: span 1/span 1;
   }
@@ -1714,7 +1732,8 @@ Tabletas horizontales */
   .xl\:col-span-12 {
     grid-column: span 12/span 12;
   }
-  /*Gap*/
+  /* # Gap
+  ----------------------------------------------- */
   .xl\:gap-0 {
     gap: 0;
   }
@@ -1773,7 +1792,8 @@ Tabletas horizontales */
 /*A partir de 1536px se aplicarán estos estilos => 1536px
 Tabletas horizontales */
 @media (min-width: 1536px) {
-  /*Grid*/
+  /* # Grid
+  ----------------------------------------------- */
   .xxl\:grid {
     display: grid;
   }
@@ -1813,7 +1833,8 @@ Tabletas horizontales */
   .xxl\:grid-cols-12 {
     grid-template-columns: repeat(12, 1fr);
   }
-  /*Col*/
+  /* # Col
+  ----------------------------------------------- */
   .xxl\:col-span-1 {
     grid-column: span 1/span 1;
   }
@@ -1850,7 +1871,8 @@ Tabletas horizontales */
   .xxl\:col-span-12 {
     grid-column: span 12/span 12;
   }
-  /*Gap*/
+  /* # Gap
+  ----------------------------------------------- */
   .xxl\:gap-0 {
     gap: 0;
   }
@@ -1906,8 +1928,9 @@ Tabletas horizontales */
     gap: 16rem;
   }
 }
-/* # Container
------------------------------------------------ */
+/* =====================
+# CONTAINER
+===================== */
 .container {
   width: 100%;
   margin: 0 auto;
@@ -1920,9 +1943,9 @@ Tabletas horizontales */
   padding: 0 20px;
 }
 
-/* ==============================================
+/* =====================
 # MEDIAQUERIES
-============================================== */
+===================== */
 /* # Mobile ------------------------------------------
 A partir de 640px se aplicarán estos estilos => 640px
 Celulares horizontales
@@ -1963,7 +1986,11 @@ Tabletas horizontales */
     max-width: 1536px;
   }
 }
-/* Flexbox Display */
+/* =====================
+# FLEXBOX
+===================== */
+/* # Flexbox Display
+----------------------------------------------- */
 .flex {
   display: flex;
 }
@@ -1972,7 +1999,8 @@ Tabletas horizontales */
   display: inline-flex;
 }
 
-/* Flex Direction */
+/* # Flex Direction
+----------------------------------------------- */
 .flex-row {
   flex-direction: row;
 }
@@ -1989,7 +2017,8 @@ Tabletas horizontales */
   flex-direction: column-reverse;
 }
 
-/* Flex Wrap */
+/* # Flex Wrap
+----------------------------------------------- */
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -2002,7 +2031,8 @@ Tabletas horizontales */
   flex-wrap: nowrap;
 }
 
-/* Flex Flow */
+/* # Flex Flow
+----------------------------------------------- */
 .flex-flow {
   flex-flow: row wrap;
 }
@@ -2019,7 +2049,8 @@ Tabletas horizontales */
   flex-flow: column-reverse wrap;
 }
 
-/* Justify Content */
+/* # Justify Content
+----------------------------------------------- */
 .justify-start {
   justify-content: flex-start;
 }
@@ -2044,7 +2075,8 @@ Tabletas horizontales */
   justify-content: space-evenly;
 }
 
-/* Align Items */
+/* # Align Items
+----------------------------------------------- */
 .items-start {
   align-items: flex-start;
 }
@@ -2065,7 +2097,8 @@ Tabletas horizontales */
   align-items: stretch;
 }
 
-/* Align Content */
+/* # Align Content
+----------------------------------------------- */
 .content-start {
   align-content: flex-start;
 }
@@ -2090,7 +2123,8 @@ Tabletas horizontales */
   align-content: space-evenly;
 }
 
-/* Align Self */
+/* # Align Self
+----------------------------------------------- */
 .self-auto {
   align-self: auto;
 }
@@ -2115,7 +2149,8 @@ Tabletas horizontales */
   align-self: stretch;
 }
 
-/* Flex */
+/* # Flex
+----------------------------------------------- */
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -2132,7 +2167,8 @@ Tabletas horizontales */
   flex: none;
 }
 
-/* Flex Grow */
+/* # Flex Grow
+----------------------------------------------- */
 .flex-grow-0 {
   flex-grow: 0;
 }
@@ -2141,7 +2177,8 @@ Tabletas horizontales */
   flex-grow: 1;
 }
 
-/* Flex Shrink */
+/* # Flex Shrink
+----------------------------------------------- */
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -2150,7 +2187,8 @@ Tabletas horizontales */
   flex-shrink: 1;
 }
 
-/* Flex Basis */
+/* # Flex Basis
+----------------------------------------------- */
 .flex-basis-0 {
   flex-basis: 0%;
 }
@@ -2171,8 +2209,11 @@ Tabletas horizontales */
   flex-basis: 100%;
 }
 
-/* Media Queries (Puntos de ruptura) */
-/* Mobile (640px) */
+/* =====================
+# MEDIAQUERIES
+===================== */
+/* # Mobile (640px)
+----------------------------------------------- */
 @media (min-width: 640px) {
   .sm\:flex {
     display: flex;
@@ -2310,7 +2351,8 @@ Tabletas horizontales */
     flex-basis: 100%;
   }
 }
-/* Tablet (768px) */
+/* # Tablet (768px)
+----------------------------------------------- */
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
@@ -2448,7 +2490,8 @@ Tabletas horizontales */
     flex-basis: 100%;
   }
 }
-/* Laptop (1024px) */
+/* # Laptop (1024px)
+----------------------------------------------- */
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
@@ -2586,7 +2629,8 @@ Tabletas horizontales */
     flex-basis: 100%;
   }
 }
-/* Desktop (1280px) */
+/* # Desktop (1280px)
+----------------------------------------------- */
 @media (min-width: 1280px) {
   .xl\:flex {
     display: flex;
@@ -2724,7 +2768,8 @@ Tabletas horizontales */
     flex-basis: 100%;
   }
 }
-/* xxl (1536px) */
+/* # xxl (1536px)
+----------------------------------------------- */
 @media (min-width: 1536px) {
   .xxl\:flex {
     display: flex;
@@ -2862,6 +2907,9 @@ Tabletas horizontales */
     flex-basis: 100%;
   }
 }
+/* =====================
+# MATERIAL SYMBOLS
+===================== */
 /*i{color:$highlight-color;}*/
 .material-symbols-outlined {
   color: #042857;
@@ -2872,7 +2920,8 @@ Tabletas horizontales */
   font-size: 4rem !important;
 }
 
-/*Background colors*/
+/* # Background colors
+----------------------------------------------- */
 .bg-default .material-symbols-outlined {
   color: #528BD7;
 }
@@ -2886,9 +2935,9 @@ Tabletas horizontales */
 }
 
 /*Components*/
-/* ==============================================
+/* =====================
 # BREADCRUMB
-============================================== */
+===================== */
 .breadcrumb ol {
   padding: 0;
   list-style: none;
@@ -2923,6 +2972,9 @@ Tabletas horizontales */
   margin-right: 0.25rem;
 }
 
+/* =====================
+# TABLE
+===================== */
 .table-responsive {
   overflow-x: auto;
 }
@@ -2957,7 +3009,8 @@ td, th {
   text-align: left;
 }
 
-/*Mensaje de celda agregada*/
+/* # Mensaje de celda agregada
+----------------------------------------------- */
 tr.new {
   background-color: #b9e8ba;
 }
@@ -2968,7 +3021,8 @@ tr.new td small {
   margin-bottom: 0.25rem;
 }
 
-/*Tablas con contenido alineado hacia la derecha*/
+/* # Tablas con contenido alineado hacia la derecha
+----------------------------------------------- */
 table.align-right th,
 table.align-right td {
   text-align: right;
@@ -2981,11 +3035,11 @@ table.align-right .switch-group {
   justify-content: flex-end;
 }
 
-/* ==============================================
+/* =====================
 # MEDIAQUERIES
-============================================== */
+===================== */
 /* # Mobile
--------------------------------------------------------------------- */
+----------------------------------------------- */
 /*=> 640px Igual o mayor a 640px se aplicarán los siguientes estilos */
 @media (min-width: 640px) {
   th, td {
@@ -2994,13 +3048,16 @@ table.align-right .switch-group {
   }
 }
 /* # Tablet
--------------------------------------------------------------------- */
+----------------------------------------------- */
 /*=> 768px Igual o mayor a 768px se aplicarán los siguientes estilos */
 /*=> 1024px Igual o mayor a 1024px se aplicarán los siguientes estilos */
 /* # Desktop
--------------------------------------------------------------------- */
+----------------------------------------------- */
 /*=> 1280px Igual o mayor a 1280px se aplicarán los siguientes estilos */
 /*=> 1536px Igual o mayor a 1536px se aplicarán los siguientes estilos */
+/* =====================
+# MULTI SELECT
+===================== */
 .multi-select {
   position: relative;
   width: 100%;
@@ -3092,6 +3149,9 @@ table.align-right .switch-group {
   z-index: 101;
 }
 
+/* =====================
+# ALERTS
+===================== */
 .alert {
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
@@ -3149,9 +3209,9 @@ table.align-right .switch-group {
   opacity: 1;
 }
 
-/* ==============================================
-# SWITCHER
-============================================== */
+/* =====================
+# SWITCH
+===================== */
 /* # Switch-wrapper
 ----------------------------------------------- */
 .switch-wrapper {
@@ -3211,12 +3271,13 @@ table.align-right .switch-group {
   transform: translateX(20px);
 }
 
-/* ==============================================
+/* =====================
 # MEDIAQUERIES
-============================================== */
+===================== */
 /*Exclusivo para que no se desborden los elementos switchers*/
 @media (max-width: 350px) {
-  /* Switch-wrapper */
+  /* # Switch-wrapper
+  ----------------------------------------------- */
   .switch-wrapper {
     gap: 0.5rem;
   }
@@ -3226,7 +3287,8 @@ table.align-right .switch-group {
   .switch-wrapper .switch-group span {
     font-size: 0.85rem;
   }
-  /* Switch*/
+  /* # Switch
+  ----------------------------------------------- */
   .switch {
     width: 30px;
     height: 15px;
@@ -3239,9 +3301,9 @@ table.align-right .switch-group {
     transform: translateX(15px);
   }
 }
-/* ===========
+/* =====================
 # TABS
-=========== */
+===================== */
 .tabs-container {
   width: 100%;
   margin: auto;
@@ -3263,7 +3325,7 @@ table.align-right .switch-group {
 }
 
 /* # Tabs button
------------------------------------- */
+----------------------------------------------- */
 .tab-button {
   padding: 10px 20px;
   border: none;
@@ -3285,7 +3347,7 @@ table.align-right .switch-group {
 }
 
 /* # Tab-content
------------------------------------- */
+----------------------------------------------- */
 .tab-content {
   background-color: #ffffff;
   padding-top: 40px;
@@ -3297,6 +3359,9 @@ table.align-right .switch-group {
   display: block;
 }
 
+/* =====================
+# VERTICAL-TABS
+===================== */
 .vertical-tabs-container {
   display: flex;
 }
@@ -3334,8 +3399,9 @@ table.align-right .switch-group {
   display: block;
 }
 
-/* # card
----------------------------------------------- */
+/* =====================
+# CARD
+===================== */
 .card {
   background-color: #ffffff;
   background-clip: border-box;
@@ -3367,9 +3433,9 @@ table.align-right .switch-group {
   word-break: break-all;
 }
 
-/* ==============================================
+/* =====================
 # MODAL
-============================================== */
+===================== */
 .modal {
   display: none;
   position: fixed;
@@ -3426,14 +3492,15 @@ table.align-right .switch-group {
   gap: 1rem;
 }
 
-/*Sólo para este proyecto*/
+/* # Sólo para este proyecto
+----------------------------------------------- */
 .modal .tabs-container {
   margin-bottom: 0;
 }
 
-/* ==============
+/* =====================
 # MEDIAQUERIES
-============== */
+===================== */
 /* # Mobile
 ----------------------------------------------- */
 /*A partir de 576px se aplicarán estos estilos*/
@@ -3448,9 +3515,9 @@ table.align-right .switch-group {
 /* # Desktop
 ----------------------------------------------- */
 /*A partir de 992px y 1200 se aplicarán estos estilos*/
-/* ==============================================
+/* =====================
 # GALLERY
-============================================== */
+===================== */
 .gallery-section .gallery-body {
   background-color: #ffffff;
   padding: 1rem 0.5rem;
@@ -3517,16 +3584,18 @@ table.align-right .switch-group {
   margin: 0 0 10px 0;
 }
 
-/* Thumbnail seleccionado */
+/* # Thumbnail seleccionado
+----------------------------------------------- */
 .thumbnail.selected img {
   border: 3px solid #35a038;
   opacity: 1 !important;
 }
 
-/* ==============================================
+/* =====================
 # MEDIAQUERIES
-============================================== */
-/* # Tablet ------------------------------------------ */
+===================== */
+/* # Tablet
+----------------------------------------------- */
 /*A partir de 768px se aplicarán estos estilos => 768px
 Tabletas verticales o celulares horizontales*/
 @media (min-width: 768px) {
@@ -3548,7 +3617,8 @@ Tabletas verticales o celulares horizontales*/
     width: 100%;
   }
 }
-/* Tablet and mobile styles */
+/* # Tablet and mobile styles
+----------------------------------------------- */
 @media (max-width: 767px) {
   .wrapper-thumbnails {
     display: flex;
@@ -3564,16 +3634,17 @@ Tabletas verticales o celulares horizontales*/
     scroll-snap-align: center;
   }
 }
-/*A partir de 1024px se aplicarán estos estilos => 1024px
-Tabletas horizontales*/
+/*A partir de 1024px se aplicarán estos estilos => 1024px*/
+/* # Tabletas horizontales
+----------------------------------------------- */
 @media (min-width: 1536px) {
   .wrapper-thumbnails {
     height: 220px;
   }
 }
-/* ==============================================
-# Pagination area
-============================================== */
+/* =====================
+# PAGINATION AREA
+===================== */
 .pagination-area {
   display: flex;
   flex-direction: column;
@@ -3658,22 +3729,24 @@ Tabletas horizontales*/
     flex-direction: row;
   }
 }
-/* ==============================================
+/* =====================
 # TOOLTIPS
-============================================== */
+===================== */
 /* `border-box`... ALL THE THINGS! */
 html {
   box-sizing: border-box;
 }
 
-/* Base styles for the element that has a tooltip */
+/* # Base styles for the element that has a tooltip
+----------------------------------------------- */
 [data-tooltip],
 .tooltip {
   position: relative;
   cursor: pointer;
 }
 
-/* Base styles for the entire tooltip */
+/* # Base styles for the entire tooltip
+----------------------------------------------- */
 [data-tooltip]:before,
 [data-tooltip]:after,
 .tooltip:before,
@@ -3686,7 +3759,8 @@ html {
   pointer-events: none;
 }
 
-/* Show the entire tooltip on hover and focus */
+/* # Show the entire tooltip on hover and focus
+----------------------------------------------- */
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after,
 [data-tooltip]:focus:before,
@@ -3699,7 +3773,8 @@ html {
   opacity: 1;
 }
 
-/* Base styles for the tooltip's directional arrow */
+/* # Base styles for the tooltip's directional arrow
+----------------------------------------------- */
 .tooltip:before,
 [data-tooltip]:before {
   z-index: 1001;
@@ -3708,7 +3783,8 @@ html {
   content: "";
 }
 
-/* Base styles for the tooltip's content area */
+/* # Base styles for the tooltip's content area
+----------------------------------------------- */
 .tooltip:after,
 [data-tooltip]:after {
   z-index: 1000;
@@ -3721,7 +3797,8 @@ html {
   line-height: 1.2;
 }
 
-/* Directions */
+/* # Directions
+----------------------------------------------- */
 /* Top (default) */
 [data-tooltip]:before,
 [data-tooltip]:after,
@@ -3843,9 +3920,9 @@ html {
   transform: translateY(12px);
 }
 
-/* ==============================================
+/* =====================
 # ACCORDEON
-============================================== */
+===================== */
 .acordeon {
   max-width: 100%;
 }
@@ -3889,10 +3966,11 @@ html {
   margin: 0;
 }
 
-/* ==============================================
-# Back to top
-============================================== */
-/* Estilos del botón */
+/* =====================
+# BACK TO TOP
+===================== */
+/* # Estilos del botón
+----------------------------------------------- */
 #back-to-top {
   display: none;
   position: fixed;
@@ -3914,15 +3992,10 @@ html {
   opacity: 1;
 }
 
-/* ==============================================
-# FORMS
-============================================== */
-/* # Form-group
------------------------------------------------ */
-.form-group {
-  margin-bottom: 1.5rem;
-}
-
+/* =====================
+# FORM GROUP
+===================== */
+/*.form-group {margin-bottom: 1.5rem;}*/
 .form-group-inline {
   display: flex;
   align-items: center;
@@ -4109,44 +4182,45 @@ output:after {
 /*Exclusiva para este proyecto*/
 /* # Select & input styles
 ----------------------------------------------- */
+/*
 .form-note {
   display: inline-block;
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 0.75rem;
-  background-color: #ffffff;
+  background-color: $primary-color;
   background-clip: padding-box;
   border: none;
-  color: #042857;
+  color:$primary-text-color;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out;
-}
-.form-note::placeholder {
-  color: #A3B9F1;
-}
-.form-note:hover, .form-note:focus {
-  outline: 0;
-}
-.form-note:hover::placeholder, .form-note:focus::placeholder {
-  color: #7A99E1;
-}
-.form-note.title {
-  font-size: 1.8rem;
-  font-weight: 900;
-}
-.form-note.subtitle {
-  font-size: 1.4rem;
-  font-weight: 400;
-}
+  &::placeholder {
+    color: $fourth-color;
+    //opacity: 0.8;
+  }
+  &:hover, &:focus {
+    outline: 0;
+    &::placeholder {color: $fifth-color;} 
+  }
+  &.title{
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
 
-/* ==============================================
+  &.subtitle{
+    font-size: 1.4rem;
+    font-weight: 400;
+  }  
+}
+*/
+/* =====================
 # MEDIAQUERIES
-============================================== */
+===================== */
 /* # Mobile
--------------------------------------------------------------------- */
+----------------------------------------------- */
 /*=> 640px Igual o mayor a 640px se aplicarán los siguientes estilos */
 /* # Tablet
--------------------------------------------------------------------- */
+----------------------------------------------- */
 /*=> 768px Igual o mayor a 768px se aplicarán los siguientes estilos */
 @media (min-width: 768px) {
   /* Barra de rango */
@@ -4156,12 +4230,12 @@ output:after {
 }
 /*=> 1024px Igual o mayor a 1024px se aplicarán los siguientes estilos */
 /* # Desktop
--------------------------------------------------------------------- */
+----------------------------------------------- */
 /*=> 1280px Igual o mayor a 1280px se aplicarán los siguientes estilos */
 /*=> 1536px Igual o mayor a 1536px se aplicarán los siguientes estilos */
-/* =========
-# Search
-========= */
+/* =====================
+# SEARCH
+===================== */
 .search-container {
   display: flex;
   align-items: center;
@@ -4172,7 +4246,8 @@ output:after {
   box-sizing: border-box;
 }
 
-/*Search input*/
+/* # Search input
+----------------------------------------------- */
 .search {
   flex: 1;
   outline: none;
@@ -4182,7 +4257,8 @@ output:after {
   border-radius: 0.25rem 0 0 0.25rem;
 }
 
-/*Search button*/
+/* # Search button
+----------------------------------------------- */
 .search-button {
   background-color: #1464c3;
   border: 1px solid #1464c3;
@@ -4207,10 +4283,9 @@ output:after {
     width: auto;
   }
 }
-/* ==============================================
+/* =====================
 # UPLOAD_FILES
-============================================== */
-/*.file_upload label {}*/
+===================== */
 .file_upload input[type=file] {
   width: 100%;
   padding: 10px;
@@ -4225,9 +4300,9 @@ output:after {
   border-color: #0F4C95;
 }
 
-/* ==============================================
+/* =====================
 # BUTTONS
-============================================== */
+===================== */
 .btn {
   display: inline-block;
   padding: 0.5rem 0.75rem;
@@ -4247,7 +4322,8 @@ output:after {
   margin-right: 0.25rem;
 }
 
-/* Btn-properties */
+/* # Btn-properties
+----------------------------------------------- */
 .btn-block {
   display: block;
   width: 100%;
@@ -4264,7 +4340,8 @@ output:after {
   line-height: 0.5rem;
 }
 
-/*--------------- Btn-light ---------------*/
+/* # Btn-light
+----------------------------------------------- */
 .btn-light {
   background-color: #dbeafb;
   color: #1464c3;
@@ -4298,7 +4375,8 @@ output:after {
   color: #1464c3;
 }
 
-/*--------------- Btn-dark ---------------*/
+/* # Btn-dark
+----------------------------------------------- */
 .btn-dark {
   background-color: #1464c3;
   color: #ffffff;
@@ -4331,7 +4409,8 @@ output:after {
   color: #ffffff;
 }
 
-/*--------------- Btn-lighter ---------------*/
+/* # Btn-lighter
+----------------------------------------------- */
 .btn-lighter {
   background-color: #ebf5f8;
   color: #7A99E1;
@@ -4356,7 +4435,8 @@ output:after {
   background-color: #ebf5f8;
 }
 
-/*--------------- Btn-danger ---------------*/
+/* # Btn-danger
+----------------------------------------------- */
 .btn-danger {
   background-color: #fad5d2;
   color: #b92214;
@@ -4389,7 +4469,8 @@ output:after {
   color: #ffffff;
 }
 
-/*--------------- Btn-success ---------------*/
+/* # Btn-success
+----------------------------------------------- */
 .btn-success {
   background-color: #b9e8ba;
   color: #35a038;
@@ -4422,7 +4503,8 @@ output:after {
   color: #ffffff;
 }
 
-/*--------------- Btn-warning ---------------*/
+/* # Btn-warning
+----------------------------------------------- */
 .btn-warning {
   background-color: #f6deae;
   color: #db9a17;
@@ -4455,7 +4537,8 @@ output:after {
   color: #ffffff;
 }
 
-/*--------------- Btn-disable ---------------*/
+/* # Btn-disable
+----------------------------------------------- */
 .btn-disable {
   background-color: #ebf5f8;
   color: #A3B9F1;
@@ -4465,13 +4548,15 @@ output:after {
   color: #A3B9F1;
 }
 
-/*--------------- Btn-Link ---------------*/
+/* # Btn-Link
+----------------------------------------------- */
 .btn-link:hover, .btn-link:active, .btn-link:focus {
   text-decoration: underline;
   color: #0F4C95;
 }
 
-/*--------------- Btn-group ---------------*/
+/* # Btn-group
+----------------------------------------------- */
 .button-group {
   display: inline-flex;
   border-radius: 0.25rem;
@@ -4485,7 +4570,8 @@ output:after {
   transition: background-color 0.3s ease;
 }
 
-/* Botón izquierdo */
+/* # Botón izquierdo
+----------------------------------------------- */
 .button-left {
   background-color: #ffffff;
   color: #1464c3;
@@ -4497,7 +4583,8 @@ output:after {
   color: #ffffff;
 }
 
-/* Botón derecho */
+/* # Botón derecho
+----------------------------------------------- */
 .button-right {
   background-color: #1464c3;
   color: #ffffff;
@@ -4518,7 +4605,8 @@ output:after {
   border-width: 1px;
 }
 
-/*--------------- Btn-circle ---------------*/
+/* # Btn-circle
+----------------------------------------------- */
 .btn-circle {
   display: inline-block;
   width: 2rem;
@@ -4563,9 +4651,9 @@ output:after {
   color: #ffffff;
 }
 
-/* ==============================================
-# FILES
-============================================== */
+/* =====================
+# FILE-BOX
+===================== */
 .file-box {
   display: flex;
   gap: 0.5rem;
@@ -4583,10 +4671,9 @@ output:after {
   background-color: #cedaf8;
 }
 
-/* ==============================================
-# ICON BOX
-============================================== */
-/* Enlace que envuelve la tarjeta */
+/* =====================
+# BOX LINK
+===================== */
 .box-link {
   text-decoration: none;
   color: inherit;
@@ -4647,10 +4734,9 @@ output:after {
 }
 
 /*Dashboard layout*/
-/* ==============================================
+/* =====================
 # LAYOUT
-============================================== */
-/* Layout */
+===================== */
 .wrapper {
   min-height: 100%;
   position: static;
@@ -4767,7 +4853,8 @@ output:after {
     margin-left: 0;
   }
 }
-/*content-header*/
+/* # Content-header
+----------------------------------------------- */
 .content-header {
   padding: 15px 15px 0;
   display: flex;
@@ -4779,7 +4866,8 @@ output:after {
   margin-bottom: 0;
 }
 
-/* Content */
+/* # Content-body
+----------------------------------------------- */
 .content-body {
   min-height: 250px;
   padding: 15px;
@@ -4837,7 +4925,8 @@ Colour theme
   text-decoration: none;
 }
 
-/*sidebar-footer*/
+/* # Sidebar-footer
+----------------------------------------------- */
 .sidebar-footer {
   background-color: #042857;
   color: #ffffff;
@@ -4862,12 +4951,9 @@ Colour theme
    border-top: 1px solid #eee;    
  }
 */
-/* ==============================================
-# Main_header
-============================================== */
-/* ===========
- Main-header
- ========== */
+/* =====================
+# MAIN HEADER
+===================== */
 .fixed .main-header {
   position: fixed;
 }
@@ -4892,8 +4978,8 @@ Colour theme
   }
 }
 */
-/* sidebar-navbar-logo
------------------------------- */
+/* # Sidebar-navbar-logo
+----------------------------------------------- */
 .main-header .logo {
   display: flex;
   align-items: center;
@@ -4917,8 +5003,8 @@ Colour theme
     position: relative;
   }
 }
-/* sidebar-navbar
------------------------------- */
+/* # Sidebar-navbar
+----------------------------------------------- */
 .main-header > .sidebar-navbar {
   margin-bottom: 0;
   margin-left: 230px;
@@ -4959,7 +5045,8 @@ Colour theme
     border-radius: 0;
   }
 }
-/*Sidebar-toggle*/
+/* # Sidebar-toggle
+----------------------------------------------- */
 .main-header .sidebar-toggle {
   float: left;
   background-color: transparent;
@@ -4983,8 +5070,8 @@ Colour theme
 /* ===========
  Main-header
  ========== */
-/* Logo
------------------------------- */
+/* # Logo
+----------------------------------------------- */
 .default-theme .main-header .logo {
   background-color: #ffffff;
   border-bottom: 0px solid transparent;
@@ -4994,13 +5081,14 @@ Colour theme
   background: #ebf5f8;
 }
 
-/* sidebar-navbar
------------------------------- */
+/* # Sidebar-navbar
+----------------------------------------------- */
 .default-theme .main-header .sidebar-navbar {
   background-color: #ffffff;
 }
 
-/* Sidebar-toggle */
+/* # Sidebar-toggle
+----------------------------------------------- */
 .default-theme .main-header .sidebar-navbar .sidebar-toggle {
   color: #1464c3;
 }
@@ -5009,10 +5097,9 @@ Colour theme
   background-color: #ebf5f8;
 }
 
-/* ==============================================
+/* =====================
 # SIDEBAR MENU
-============================================== */
-/*sidebar-menu*/
+===================== */
 .sidebar-menu {
   list-style: none;
   margin: 0;
@@ -5105,7 +5192,8 @@ Colour theme
   width: auto;
 }
 
-/*Colours*/
+/* # Colours
+----------------------------------------------- */
 .default-theme .sidebar-menu > li > a:hover,
 .default-theme .sidebar-menu > li.active > a {
   background: #0F4C95;
@@ -5126,10 +5214,9 @@ Colour theme
   color: #ffffff;
 }
 
-/* ==============================================
-# Quick Links Menu
-============================================== */
-/* quicklinks-menu */
+/* =====================
+# QUICKLINKS MENU
+===================== */
 .quicklinks-menu {
   list-style: none;
   padding: 0;
@@ -5234,7 +5321,8 @@ Colour theme
     right: 0;
   }
 }
-/*Colours*/
+/* # Colours
+----------------------------------------------- */
 .quicklinks-menu > li > a {
   color: #042857;
 }
@@ -5262,7 +5350,8 @@ Colour theme
   background-color: #ffffff;
 }
 
-/*Message-links*/
+/* # Message-links
+----------------------------------------------- */
 .dropdown-menu .message-links {
   display: flex;
   justify-content: space-between;
@@ -5285,10 +5374,9 @@ Colour theme
   margin: 0;
 }
 
-/* ==============================================
-# User panel
-============================================== */
-/*User panel*/
+/* =====================
+# USER PANEL
+===================== */
 .user-panel {
   padding: 10px;
   display: flex;
@@ -5322,7 +5410,8 @@ Colour theme
   margin-right: 3px;
 }
 
-/*Colours*/
+/* # Colours
+----------------------------------------------- */
 .default-theme .user-panel .info p {
   color: #ffffff;
   font-weight: bold;
@@ -5335,9 +5424,9 @@ Colour theme
 }
 
 /*Navs*/
-/* ===========
-# Social links
-=========== */
+/* =====================
+# SOCIAL LINKS
+===================== */
 ul.social-links {
   display: flex;
   gap: 0.5rem;
@@ -5373,6 +5462,9 @@ ul.social-links {
   background-color: #EA4C89;
 }
 
+/* =====================
+# SECONDARY MENU
+===================== */
 ul.secondary_menu {
   display: flex;
   padding: 0 0 0.5rem;
@@ -5428,19 +5520,20 @@ ul.secondary_menu li.active a {
   font-weight: 500;
 }
 
-/*A partir de 1024px se aplicarán estos estilos => 1024px
-Tabletas horizontales*/
+/* # Tabletas horizontales
+----------------------------------------------- */
+/*A partir de 1024px se aplicarán estos estilos => 1024px*/
 @media (min-width: 1024px) {
   ul.secondary_menu {
     padding: 0 0 0.5rem;
   }
 }
 /*Website layout*/
-/* ==============================================
+/* =====================
 # SECCIONES
-============================================== */
-/* # TOPBAR
-============================================== */
+===================== */
+/* # Topbar
+----------------------------------------------- */
 .topbar {
   padding: 0.75rem 0;
 }
@@ -5455,8 +5548,8 @@ Tabletas horizontales*/
   color: #042857;
 }
 
-/* # BANNER
-============================================== */
+/* # Banner
+----------------------------------------------- */
 .banner {
   display: block;
   padding: 100px 0 50px 0;
@@ -5487,8 +5580,8 @@ Tabletas horizontales*/
   color: #7A99E1;
 }
 
-/* # HERO
-============================================== */
+/* # Hero
+----------------------------------------------- */
 header.hero {
   background-image: url(https://placehold.co/1200x800);
   background-size: cover;
@@ -5517,13 +5610,15 @@ header.hero .hero_content img {
 
 /* # Vertical align
 ============================================== */
+/* # Vertical align
+----------------------------------------------- */
 .text-vertical-align {
   display: block;
   margin: auto 0;
 }
 
 /* # Footer
-============================================== */
+----------------------------------------------- */
 footer p {
   margin: 0;
 }
@@ -5561,11 +5656,9 @@ Tabletas horizontales*/
     margin-bottom: 0;
   }
 }
-/* ==============================================
-# LAYOUT
-============================================== */
-/* # Login
------------------------------------------------ */
+/* =====================
+# LOGIN
+===================== */
 .login-container {
   display: flex;
   justify-content: center;
@@ -5611,10 +5704,10 @@ Tabletas horizontales*/
 # MEDIAQUERIES
 ============================================== */
 /* # Mobile
--------------------------------------------------------------------- */
+----------------------------------------------- */
 /*=> 640px Igual o mayor a 640px se aplicarán los siguientes estilos */
 /* # Tablet
--------------------------------------------------------------------- */
+----------------------------------------------- */
 /*=> 768px Igual o mayor a 768px se aplicarán los siguientes estilos */
 @media (min-width: 768px) {
   /*Login form*/
@@ -5627,10 +5720,12 @@ Tabletas horizontales*/
 }
 /*=> 1024px Igual o mayor a 1024px se aplicarán los siguientes estilos */
 /* # Desktop
--------------------------------------------------------------------- */
+----------------------------------------------- */
 /*=> 1280px Igual o mayor a 1280px se aplicarán los siguientes estilos */
 /*=> 1536px Igual o mayor a 1536px se aplicarán los siguientes estilos */
-/*--------------- Date-group ---------------*/
+/* =====================
+# DATE GROUP
+===================== */
 .date-group {
   display: flex;
   border-radius: 0.25rem;
