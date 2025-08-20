@@ -1,19 +1,13 @@
 Ajustar el estilo de las tabs
-Colocar el breadcrumb en el dashboard de los componentes
 Colocar el navbar en la página de los componentes
 Valorar quitar el Font awesome y cambiarlo por el icons de Google.
 Ajustar las medidas de todos los mediaqueries
-
-
 Revisar que los modales y cajas de alerta funcionen correctamente
-
 Agregar componente de alertas
 Crear mensajes de alerta que se desplieguen en la parte inferior
-
 Crear componente de loading
-
-Colocar selects con autocompletado
 Agregar componente de loader
+Colocar selects con autocompletado
 Agregar posicionamientos en la hoja de utilidades
 
 Revisar los scripts del mainnav y el active_link ya que no funcionan juntos, sólo separados.
