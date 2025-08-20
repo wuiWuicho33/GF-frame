@@ -4,12 +4,13 @@
 .tabs-container {
   width: 100%;
   margin: auto;
+  border: 1px solid $tertiary-color;
   
   .tabs{
     display: flex; 
     flex-wrap: wrap;
-    border-bottom: none;    
-    background-color: $primary-color;
+    background-color: $secondary-color;
+    border-bottom: 1px solid $tertiary-color;
   
     &.tabs-center{
       justify-content: center;
@@ -28,7 +29,8 @@
 .tab-button {
   padding: 10px 20px;
   border: none;
-  background: $primary-color;
+  background: $secondary-color;
+  color: $primary-text-color;
   cursor: pointer;
   text-align: center;
   transition: background 0.3s;
@@ -36,15 +38,12 @@
   font-family: $secondary-font;
   font-size: 1rem;
   font-weight: 300;
-  color: $primary-text-color;
-  border-bottom: 2px solid $primary-color;
 
   &.active,
   &:hover, 
   &:focus {
-    border-color: $highlight-color;
-    font-weight: bold;
-    color:$highlight-color;  
+    background-color: $seventy-color;
+    color:$primary-color;  
   }  
 }
 
@@ -52,13 +51,12 @@
 ----------------------------------------------- */
 .tab-content {
   background-color:$primary-color;
-  padding-top: 40px;
+  padding: 20px;
+  
   .tab-pane {
     display: none;
-
     &.active {display: block;}  
-  }
-  
+  }  
 }
 
 

@@ -3,28 +3,29 @@
 ===================== */
 .vertical-tabs-container {
   display: flex;
+  border: 1px solid $tertiary-color;
 
   .vertical-tabs {
     width: 200px;
     padding-top: 20px;
+    background-color: $secondary-color;
+    border-right: 1px solid $tertiary-color;
   
     .vertical-tab {
       padding: 10px 15px;
       cursor: pointer;
-      background-color: $primary-color;
+      background-color: $secondary-color;
+      color: $primary-text-color;      
       transition: background-color 0.3s ease;      
       font-family: $secondary-font;
       font-size: 1rem;
       text-align: center;
       font-weight: 300;
-      color: $primary-text-color;      
-      border-bottom: 2px solid $primary-color;
 
       &.active,
       &:hover {        
-        border-color: $highlight-color;
-        font-weight: bold;
-        color:$highlight-color;          
+        background-color: $seventy-color;
+        color:$primary-color;         
       }      
     }
 
@@ -34,8 +35,8 @@
 
 .vertical-tab-content {
   flex-grow: 1;
-  padding: 20px;
   background-color: $primary-color;
+  padding: 20px;
 
   .vertical-tab-pane {
     display: none;

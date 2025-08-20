@@ -23,8 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-/* # Vertical-Tabs
----------------------------------------------- */
+/* =====================
+# VERTICAL TABS
+===================== */  
 document.addEventListener("DOMContentLoaded", () => {
 	const verticalTabs = document.querySelectorAll(".vertical-tab");
 	const verticalTabPanes = document.querySelectorAll(".vertical-tab-pane");

@@ -3307,12 +3307,13 @@ table.align-right .switch-group {
 .tabs-container {
   width: 100%;
   margin: auto;
+  border: 1px solid #cedaf8;
 }
 .tabs-container .tabs {
   display: flex;
   flex-wrap: wrap;
-  border-bottom: none;
-  background-color: #ffffff;
+  background-color: #ebf5f8;
+  border-bottom: 1px solid #cedaf8;
 }
 .tabs-container .tabs.tabs-center {
   justify-content: center;
@@ -3329,7 +3330,8 @@ table.align-right .switch-group {
 .tab-button {
   padding: 10px 20px;
   border: none;
-  background: #ffffff;
+  background: #ebf5f8;
+  color: #042857;
   cursor: pointer;
   text-align: center;
   transition: background 0.3s;
@@ -3337,20 +3339,17 @@ table.align-right .switch-group {
   font-family: "Roboto", serif;
   font-size: 1rem;
   font-weight: 300;
-  color: #042857;
-  border-bottom: 2px solid #ffffff;
 }
 .tab-button.active, .tab-button:hover, .tab-button:focus {
-  border-color: #0F4C95;
-  font-weight: bold;
-  color: #0F4C95;
+  background-color: #1A6AB4;
+  color: #ffffff;
 }
 
 /* # Tab-content
 ----------------------------------------------- */
 .tab-content {
   background-color: #ffffff;
-  padding-top: 40px;
+  padding: 20px;
 }
 .tab-content .tab-pane {
   display: none;
@@ -3364,33 +3363,34 @@ table.align-right .switch-group {
 ===================== */
 .vertical-tabs-container {
   display: flex;
+  border: 1px solid #cedaf8;
 }
 .vertical-tabs-container .vertical-tabs {
   width: 200px;
   padding-top: 20px;
+  background-color: #ebf5f8;
+  border-right: 1px solid #cedaf8;
 }
 .vertical-tabs-container .vertical-tabs .vertical-tab {
   padding: 10px 15px;
   cursor: pointer;
-  background-color: #ffffff;
+  background-color: #ebf5f8;
+  color: #042857;
   transition: background-color 0.3s ease;
   font-family: "Roboto", serif;
   font-size: 1rem;
   text-align: center;
   font-weight: 300;
-  color: #042857;
-  border-bottom: 2px solid #ffffff;
 }
 .vertical-tabs-container .vertical-tabs .vertical-tab.active, .vertical-tabs-container .vertical-tabs .vertical-tab:hover {
-  border-color: #0F4C95;
-  font-weight: bold;
-  color: #0F4C95;
+  background-color: #1A6AB4;
+  color: #ffffff;
 }
 
 .vertical-tab-content {
   flex-grow: 1;
-  padding: 20px;
   background-color: #ffffff;
+  padding: 20px;
 }
 .vertical-tab-content .vertical-tab-pane {
   display: none;
