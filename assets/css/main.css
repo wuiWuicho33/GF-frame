@@ -2913,11 +2913,11 @@ Tabletas horizontales */
 /*i{color:$highlight-color;}*/
 .material-symbols-outlined {
   color: #042857;
-  font-size: 2.5rem !important;
+  font-size: 2.5rem;
 }
 
 .material-symbols-outlined.font-x3 {
-  font-size: 4rem !important;
+  font-size: 4rem;
 }
 
 /* # Background colors
