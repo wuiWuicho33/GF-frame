@@ -131,15 +131,23 @@ h2.teaser {
   line-height: 1.2;
   font-weight: 300;  
 }
-.display-1{font-size: 6rem;}
-.display-2{font-size: 5.5rem;}
-.display-3{font-size: 4.5rem;}
-.display-4{font-size: 3.5rem;}
+.display-1{font-size: 3rem;}
+.display-2{font-size: 2.5rem;}
+.display-3{font-size: 2rem;}
+.display-4{font-size: 1.5rem;}
 
-.font-xs{font-size:.8rem;}
-.font-x1{font-size:1.2rem;}
-.font-x2{font-size:1.8rem;}
-.font-x3{font-size:2.8rem;}
+.font-xs{font-size:.75rem;}
+.fa-sm {font-size: .875em;}
+.fa-1x {font-size: 1em;}
+.fa-2x {font-size: 2em;}
+.fa-3x {font-size: 3em;}
+.fa-4x {font-size: 4em;}
+.fa-5x {font-size: 5em;}
+.fa-6x {font-size: 6em;}
+.fa-7x {font-size: 7em;}
+.fa-8x {font-size: 8em;}
+.fa-9x {font-size: 9em;}
+.fa-10x {font-size: 10em;}
 
 /*Icons*/
 i.icon{
@@ -235,6 +243,11 @@ Tabletas horizontales*/
   h4, .h4 {font-size: 1.5rem;}
   h5, .h5 {font-size: 1.25rem;}
   h6, .h6 {font-size: 1rem;}  
+
+  .display-1{font-size: 6rem;}
+  .display-2{font-size: 5.5rem;}
+  .display-3{font-size: 4.5rem;}
+  .display-4{font-size: 3.5rem;}  
 }
 
 /* # Desktop

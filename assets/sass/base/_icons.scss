@@ -1,0 +1,23 @@
+/* =====================
+# ICONS
+===================== */
+i,.material-symbols-outlined{
+  font-size: 1rem;
+}
+
+/* # Background color
+----------------------------------------------- */
+.bg-default,
+.bg-light,
+.bg-dark {
+  i {color: $highlight-color;}  
+  .material-symbols-outlined{color: $highlight-color;}
+}
+
+.bg-darker,
+.bg-success,
+.bg-danger
+ {
+  i {color: $primary-color;}
+  .material-symbols-outlined{color: $primary-color;}
+}

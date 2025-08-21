@@ -333,35 +333,67 @@ h2.teaser {
 }
 
 .display-1 {
-  font-size: 6rem;
+  font-size: 3rem;
 }
 
 .display-2 {
-  font-size: 5.5rem;
+  font-size: 2.5rem;
 }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 2rem;
 }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 1.5rem;
 }
 
 .font-xs {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
-.font-x1 {
-  font-size: 1.2rem;
+.fa-sm {
+  font-size: 0.875em;
 }
 
-.font-x2 {
-  font-size: 1.8rem;
+.fa-1x {
+  font-size: 1em;
 }
 
-.font-x3 {
-  font-size: 2.8rem;
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
 }
 
 /*Icons*/
@@ -503,6 +535,18 @@ Tabletas horizontales*/
   }
   h6, .h6 {
     font-size: 1rem;
+  }
+  .display-1 {
+    font-size: 6rem;
+  }
+  .display-2 {
+    font-size: 5.5rem;
+  }
+  .display-3 {
+    font-size: 4.5rem;
+  }
+  .display-4 {
+    font-size: 3.5rem;
   }
 }
 /* # Desktop
@@ -2908,30 +2952,34 @@ Tabletas horizontales */
   }
 }
 /* =====================
-# MATERIAL SYMBOLS
+# ICONS
 ===================== */
-/*i{color:$highlight-color;}*/
-.material-symbols-outlined {
-  color: #042857;
-  font-size: 2.5rem;
+i, .material-symbols-outlined {
+  font-size: 1rem;
 }
 
-.material-symbols-outlined.font-x3 {
-  font-size: 4rem;
-}
-
-/* # Background colors
+/* # Background color
 ----------------------------------------------- */
-.bg-default .material-symbols-outlined {
-  color: #528BD7;
+.bg-default i,
+.bg-light i,
+.bg-dark i {
+  color: #0F4C95;
+}
+.bg-default .material-symbols-outlined,
+.bg-light .material-symbols-outlined,
+.bg-dark .material-symbols-outlined {
+  color: #0F4C95;
 }
 
-.bg-dark .material-symbols-outlined {
+.bg-darker i,
+.bg-success i,
+.bg-danger i {
   color: #ffffff;
 }
-
-.bg-darker .material-symbols-outlined {
-  color: #528BD7;
+.bg-darker .material-symbols-outlined,
+.bg-success .material-symbols-outlined,
+.bg-danger .material-symbols-outlined {
+  color: #ffffff;
 }
 
 /*Components*/
