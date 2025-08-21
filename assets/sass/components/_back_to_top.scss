@@ -1,8 +1,7 @@
 /* =====================
 # BACK TO TOP
 ===================== */
-/* # Estilos del botón
------------------------------------------------ */
+//Backtotop sin jquery y sin ID top
 #back-to-top {
   display: none; 
   position: fixed;
@@ -11,17 +10,18 @@
   width: 45px;
   height: 45px;
   text-align: center;
-  line-height: 68px;
-  font-size: 24px;
   z-index: 1000;
   transition: background-color 0.3s ease;
   opacity:.2;
-  color:#292B2C; 
+  color:$primary-text-color; 
   background-color:$sixty_color;
+
+  i{
+  line-height: 45px;
+  font-size: 24px;
+  }
 }
 
 #back-to-top:hover {
   opacity:1;
 }
-
-//Estos estilos están alterados, para conseguir los originales copiarlos directamente de la carpeta de Componentes js sencillos
