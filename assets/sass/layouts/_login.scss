@@ -6,7 +6,7 @@
   justify-content:center;
   align-items:center;
   height: 100vh; 
-  background-color:$secondary-color;
+  background-color:var(--secondary-color);
 }
 
 .login-box {
@@ -28,7 +28,7 @@
   .login-body {
     padding: 25px;
     width:100%;
-    background-color: $primary-color;
+    background-color: var(--primary-color);
     footer {
       margin-top: 1.5rem;
       text-align: center;

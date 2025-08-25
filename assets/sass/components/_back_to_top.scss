@@ -13,8 +13,8 @@
   z-index: 1000;
   transition: background-color 0.3s ease;
   opacity:.2;
-  color:$primary-text-color; 
-  background-color:$sixty_color;
+  color:var(--primary-text-color); 
+  background-color:var(--sixty-color);
 
   i{
   line-height: 45px;

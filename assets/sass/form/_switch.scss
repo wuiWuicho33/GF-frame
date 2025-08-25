@@ -39,7 +39,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:$fifth-color;
+    background-color:var(--fifth-color);
     transition: .4s;
     border-radius: 20px;
     &:before {
@@ -50,7 +50,7 @@
       border-radius: 50%;
       left: 2px;
       bottom: 2px;
-      background-color: $primary-color;
+      background-color: var(--primary-color);
       transition: .4s;
     }
   }

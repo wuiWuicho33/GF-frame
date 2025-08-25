@@ -18,6 +18,6 @@ i,.material-symbols-outlined{
 .bg-success,
 .bg-danger
  {
-  i {color: $primary-color;}
-  .material-symbols-outlined{color: $primary-color;}
+  i {color: var(--primary-color);}
+  .material-symbols-outlined{color: var(--primary-color);}
 }

@@ -10,7 +10,7 @@
 	align-items: center;
 
 	li {
-		color:$primary-text-color;
+		color:var(--primary-text-color);
 		font-size: 0.75rem;
 		text-transform:uppercase;
 		font-weight: bold;
@@ -18,7 +18,7 @@
 		&::after {
 			content: "/";
 			margin: 0 0.5rem;
-			color:$seventy-color; 
+			color:var(--seventy-color); 
 		}		
 
 		&:last-child::after {
@@ -26,16 +26,16 @@
 		}		
 
 		a {
-			color:$seventy-color; 
+			color:var(--seventy-color); 
 			font-size: 0.75rem;
 		
 			&:hover {
 				text-decoration: underline;
-				color:$primary-text-color;
+				color:var(--primary-text-color);
 			}	
 
 			.icon{
-				color:$seventy-color; 
+				color:var(--seventy-color); 
 				margin-right: 0.25rem;
 			}			
 			

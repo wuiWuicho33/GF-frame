@@ -16,7 +16,7 @@ ul.secondary_menu {
     a {
       display: block;  
       padding: 5px 10px; 
-      color: $primary-text-color;
+      color: var(--primary-text-color);
       text-decoration: none; 
     }    
 

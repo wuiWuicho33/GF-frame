@@ -1,0 +1,147 @@
+/* # Imported files and fonts
+----------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* =====================
+# VARIABLES
+===================== */
+/* # Fonts
+----------------------------------------------- */
+$primary-font: "Montserrat", serif;
+$secondary-font: "Roboto", serif;
+
+/* =====================
+# TEMAS
+===================== */
+/* Tema claro */
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #ebf5f8;
+  --tertiary-color: #cedaf8;
+  --fourth-color: #A3B9F1;
+  --fifth-color: #7A99E1;
+  --sixty-color: #528BD7;
+  --seventy-color: #1A6AB4;
+  --primary-text-color: #042857;
+}
+
+/* Tema oscuro */
+body.dark-mode {
+  --primary-color: #525C69;
+  --secondary-color: #414C5B;
+  --tertiary-color: #2E3846;
+  --fourth-color: #24303E;
+  --fifth-color: #1D2835;
+  --sixty-color: #17212D;
+  --seventy-color: #000000;
+  --primary-text-color: #ffffff;
+}
+
+/*Colores que no cambian*/
+$white-color:#ffffff;
+$gray-color:#5c5c5c;
+$highlight-color:#0F4C95;
+$success-color:#35a038;
+$warning-color:#db9a17;
+$danger-color:#b92214;
+
+/* =====================
+# DECLARACIÓN DE COLORES
+===================== */
+/* # Body Scrollbar
+----------------------------------------------- */
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--primary-color);
+}/*Background color*/
+
+body::-webkit-scrollbar-thumb {
+  background: var(--fourth-color);
+}/*Bar color*/
+
+body {
+  background-color: var(--secondary-color);
+  color: $gray-color;
+}
+
+/* # Colores generales
+----------------------------------------------- */
+p, ul, ol {
+  color: $gray-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-text-color);
+}
+
+a {
+  color: lighten($highlight-color, 10%);
+  //Estados de botón
+  &:hover, &:active, &:focus {
+    color: $highlight-color;
+  }
+}
+
+b {
+  color: $highlight-color;
+}
+
+/* # Text-color
+----------------------------------------------- */
+.text-inverted { color: var(--primary-color); }
+.text-success { color: $success-color; }
+.text-danger { color: $danger-color; }
+.text-warning { color: $warning-color; }
+
+/*i{color:$highlight-color;}*/
+
+/* # Background colors
+----------------------------------------------- */
+.bg-default {
+  background-color: var(--primary-color);
+  p, ul { color: var(--primary-text-color); }
+  a, b { color: var(--seventy-color); }
+}
+
+.bg-light {
+  background-color: var(--secondary-color);
+  a, p, ul { color: var(--primary-text-color); }
+  b { color: var(--seventy-color); }
+}
+
+.bg-dark {
+  background-color: var(--tertiary-color);
+  a, p, ul { color: var(--primary-color); }
+  b { color: var(--seventy-color); }
+}
+
+.bg-darker {
+  background-color: var(--primary-text-color);
+  h1, h2, h3 { color: var(--primary-color); }
+  a, p, ul { color: var(--primary-color); }
+  b { color: var(--seventy-color); }
+}
+
+.bg-success {
+  background-color: $success-color;
+  p { color: $white-color; }
+}
+
+.bg-danger {
+  background-color: $danger-color;
+  p { color: $white-color; }
+}
+
+/* # Labes
+----------------------------------------------- */
+.label { color: $white-color; }
+.label-primary { background-color: var(--fourth-color); }
+.label-danger { background-color: $danger-color; }
+.label-success { background-color: $success-color; }
+
+/* # Icons
+----------------------------------------------- */
+i.icon {
+  color: var(--seventy-color);
+}

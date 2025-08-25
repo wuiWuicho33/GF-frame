@@ -32,11 +32,11 @@
 /* # Colours
 ----------------------------------------------- */
 .default-theme .user-panel .info p {
-  color: $primary-color;
+  color: var(--primary-color);
   font-weight: bold;
   margin: 0px;
 } 
 .default-theme .user-panel > .info,
 .default-theme .user-panel > .info > a {
-  color: $primary-color;
+  color: var(--primary-color);
 }

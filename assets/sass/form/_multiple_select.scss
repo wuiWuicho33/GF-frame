@@ -13,16 +13,16 @@
 }
 .multi-select_field, 
 .multi-select_option {
-  background: $primary-color;
+  background: var(--primary-color);
   //padding-left: 2px;
 }
 .multi-select_field {
   position: relative;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 0.75rem;
-  background-color: $primary-color;
-  color:$primary-text-color;
-  border: 1px solid $tertiary-color;
+  background-color: var(--primary-color);
+  color:var(--primary-text-color);
+  border: 1px solid var(--tertiary-color);
   border-radius: 0.25rem;
   font-size:0.875rem;  
   line-height: 1.5;
@@ -42,20 +42,20 @@
     font-family: "Font Awesome 5 Free"; 
     font-weight: 900; 
     font-size: 11px; 
-    color:$primary-text-color;
+    color:var(--primary-text-color);
   }  
 }
 .multi-select_field.is-empty {
-  color: $fourth-color;
+  color: var(--fourth-color);
 }
 .multi-select_options {
   display: none;
   width: 100%;
   max-height: 170px;
-  border-left: 1px solid $tertiary-color;
-  border-bottom: 1px solid $tertiary-color;
-  border-right: 1px solid $tertiary-color;
-  background: $primary-color;
+  border-left: 1px solid var(--tertiary-color);
+  border-bottom: 1px solid var(--tertiary-color);
+  border-right: 1px solid var(--tertiary-color);
+  background: var(--primary-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
   overflow-x: hidden;
   z-index: 9999;
@@ -71,10 +71,10 @@
   line-height: 30px;
 
   &:hover {
-    background: $secondary-color;
+    background: var(--secondary-color);
   }
   &:not(:last-child) {
-    border-bottom: 1px solid $tertiary-color;
+    border-bottom: 1px solid var(--tertiary-color);
   }  
 }
 .multi-select_label {

@@ -21,6 +21,6 @@ Otra forma de agregar botón group
       border-bottom-right-radius: 4px; 
     }
     /* Eliminar el borde izquierdo entre los botones */
-    &:not(:last-child) {border-right: 1px solid $secondary-color;}
+    &:not(:last-child) {border-right: 1px solid var(--secondary-color);}
   }    
 }

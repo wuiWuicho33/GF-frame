@@ -94,7 +94,7 @@ a{font-size:1rem;}
 small,.small {  
   font-weight: normal;
   line-height: 1;
-  color: $fifth-color;
+  color: var(--fifth-color);
   font-size: 80%;  
 }
 
@@ -194,7 +194,7 @@ img{
 .overlay {
   position: relative;
   z-index: 1;
-  color: $primary-color;
+  color: var(--primary-color);
   background-color: inherit;
   &::after {
     display: block;

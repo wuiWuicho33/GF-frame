@@ -114,17 +114,17 @@
 /* # Logo
 ----------------------------------------------- */
 .default-theme .main-header .logo {
-  background-color: $primary-color;
+  background-color: var(--primary-color);
   border-bottom: 0px solid transparent;
 }
 .default-theme .main-header .logo:hover {
-  background: $secondary-color;
+  background: var(--secondary-color);
 }
 
 /* # Sidebar-navbar
 ----------------------------------------------- */
  .default-theme .main-header .sidebar-navbar {
-  background-color: $primary-color;
+  background-color: var(--primary-color);
 }
 /* # Sidebar-toggle
 ----------------------------------------------- */
@@ -132,5 +132,5 @@
   color: lighten($highlight-color, 10%);
 }
 .default-theme .main-header .sidebar-navbar .sidebar-toggle:hover {
-  background-color: $secondary-color;
+  background-color: var(--secondary-color);
 }

@@ -8,8 +8,8 @@ ul.secondary_menu {
   white-space: nowrap;
   margin-bottom: 2rem;
 
-  &::-webkit-scrollbar{width: 10px; background-color:$primary-color;}/*Background color*/
-  &::-webkit-scrollbar-thumb{background:$tertiary-color;}/*Bar color*/
+  &::-webkit-scrollbar{width: 10px; background-color:var(--primary-color);}/*Background color*/
+  &::-webkit-scrollbar-thumb{background:var(--tertiary-color);}/*Bar color*/
 
   li {    
     cursor: pointer;
@@ -22,7 +22,7 @@ ul.secondary_menu {
       align-items: center;
       gap: 0.25rem;
       padding: 10px; 
-      color: $fifth-color;
+      color: var(--fifth-color);
       text-decoration: none;       
 
       small{font-size: 70%;}

@@ -7,14 +7,14 @@
 .topbar{
   padding:0.75rem 0;
 
-  p{color:$primary-color;}
+  p{color:var(--primary-color);}
 
   .contact{
     gap:0.25rem;
 
     a,p{
       font-size: 0.875rem;
-      color:$primary-text-color;
+      color:var(--primary-text-color);
     }
   }  
 
@@ -32,28 +32,28 @@
 
 	#pagetitle h1{
 		margin-bottom:1rem; 
-		color: $primary-color;
+		color: var(--primary-color);
 		text-transform: uppercase;
 	}	
 
   /*Breadcrumb*/
   .breadcrumb ol {
     li {
-      color:$primary-color;
+      color:var(--primary-color);
 
       &::after {
-        color:$fifth-color; 
+        color:var(--fifth-color); 
       }		
 
       a {
-        color:$fifth-color; 
+        color:var(--fifth-color); 
       
         &:hover {
-          color:$primary-color;
+          color:var(--primary-color);
         }	
 
         .icon{
-          color:$fifth-color; 
+          color:var(--fifth-color); 
         }						
       }
 
@@ -68,7 +68,7 @@ header.hero{
   background-image: url(https://placehold.co/1200x800);
   background-size: cover;
   background-attachment: fixed;    
-  background-color:$primary-text-color;
+  background-color:var(--primary-text-color);
   width: 100%;
   height: auto;
   display: flex;
@@ -79,10 +79,10 @@ header.hero{
     flex-direction: column-reverse;
     h1{
       font-size: 2.3rem;
-      color:$primary-color;
+      color:var(--primary-color);
     }
     p{
-      color:$primary-color;
+      color:var(--primary-color);
       margin-bottom: 0;
     }    
 

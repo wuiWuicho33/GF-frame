@@ -16,10 +16,10 @@
   align-items: center;
 
   .modal-content {
-    background-color: $primary-color;
+    background-color: var(--primary-color);
     //margin: 5% auto;
     padding: 0;
-    border: 1px solid $tertiary-color;
+    border: 1px solid var(--tertiary-color);
     width: 90%;
     max-width: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -34,7 +34,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1px solid $tertiary-color; 
+      border-bottom: 1px solid var(--tertiary-color); 
     
       h2{
         margin:0;
@@ -43,12 +43,12 @@
       .btn-close {
         font-size: 24px;
         font-weight: bold;
-        color: $tertiary-color;
+        color: var(--tertiary-color);
         cursor: pointer;
         transition: color 0.3s;
       
         &:hover {
-          color: $primary-text-color;
+          color: var(--primary-text-color);
         }  
       }  
     } 
@@ -59,7 +59,7 @@
     }
     
     .modal-footer {
-      border-top: 1px solid $tertiary-color;
+      border-top: 1px solid var(--tertiary-color);
       display: flex;
       justify-content: flex-end; 
       gap: 1rem;

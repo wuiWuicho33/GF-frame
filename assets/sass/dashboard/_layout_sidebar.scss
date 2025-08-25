@@ -176,7 +176,7 @@
 Colour theme
 ========================== */
  .default-theme .wrapper {
-  background: $sixty-color;
+  background: var(--sixty-color);
 }
 
 /* ===========
@@ -186,7 +186,7 @@ Colour theme
   background-color: lighten($highlight-color, 10%);
 }
 .default-theme .sidebar a {
-  color: $fourth-color;
+  color: var(--fourth-color);
 }
 .default-theme .sidebar a:hover {
   text-decoration: none;
@@ -195,8 +195,8 @@ Colour theme
 /* # Sidebar-footer
 ----------------------------------------------- */
 .sidebar-footer{
-  background-color: $primary-text-color;
-  color:$primary-color;
+  background-color: var(--primary-text-color);
+  color:var(--primary-color);
 }
 
 /* ===========
@@ -204,7 +204,7 @@ Colour theme
  ========== */
  .content-wrapper {
   /*background-color: #ecf0f5;*/
-  background-color: $secondary-color;
+  background-color: var(--secondary-color);
 }
 
 /* ===========
@@ -212,8 +212,8 @@ Colour theme
  ========== */
  /*
  .dashboard-footer {
-    background: $primary-color;
-    color: $seventy-color;
+    background: var(--primary-color);
+    color: var(--seventy-color);
     padding: 15px;
     border-top: 1px solid #eee;    
   }

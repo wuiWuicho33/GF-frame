@@ -2,7 +2,7 @@
 # STANDAR NAVBAR
 ===================== */
 .navbar {
-  background-color:$primary-color;
+  background-color:var(--primary-color);
   padding: 10px;
   position: relative;
 }
@@ -37,7 +37,7 @@
   display: block;
   background: none;
   border: none;
-  color:$primary-text-color;
+  color:var(--primary-text-color);
   font-size: 24px;
   cursor: pointer;
 }
@@ -45,7 +45,7 @@
 /* # Navbar menu
 ----------------------------------------------- */
 .navbar-menu {
-  background-color: $primary-color;
+  background-color: var(--primary-color);
   display: none;
   flex-direction: column;
   position: absolute;
@@ -67,14 +67,14 @@
 /* Navbar-link */
 /*No usado en este ejemplo de menu*/
 .navbar-link {
-  color:$primary-text-color;
+  color:var(--primary-text-color);
   text-decoration: none;
   padding: 20px 15px;
   display: block;
-  .navbar-link:hover {background-color: $tertiary-color;}
+  .navbar-link:hover {background-color: var(--tertiary-color);}
 
   &.active {
-    color: $sixty-color; 
+    color: var(--sixty-color); 
     font-weight: bold;
   }
 }
@@ -87,19 +87,19 @@
 }
 /* Only for mobile */
 .dropdown.active{
-  .dropdown-toggle {background-color: $fourth-color;}
+  .dropdown-toggle {background-color: var(--fourth-color);}
   .dropdown-menu {display: block;}  
 }
 
 /*Enlace principal del dropdown*/
 .dropdown-toggle {
-  color: $secondary-color;
+  color: var(--secondary-color);
   text-decoration: none;
   padding: 20px 15px;
   display: block;
   font-size:0.875rem;
 }
-.dropdown:hover .dropdown-toggle {background-color: $fourth-color;}
+.dropdown:hover .dropdown-toggle {background-color: var(--fourth-color);}
 /*Si se utiliza imagen de usuario*/
 .dropdown-toggle img.user{
   width:20px;
@@ -113,7 +113,7 @@
   display: none;
   position: static; 
   width: 100%;
-  background-color: $fourth-color;
+  background-color: var(--fourth-color);
   list-style: none;
   padding: 0;
   margin: 0;
@@ -124,7 +124,7 @@
     text-decoration: none;
     color: #eee;
     font-size:0.875rem;
-    &:hover {background-color: $tertiary-color;}
+    &:hover {background-color: var(--tertiary-color);}
   }
 }
 
@@ -194,10 +194,10 @@
     top: 100%;
     left: 0;
     min-width: 200px;
-    background-color: $fifth-color;
+    background-color: var(--fifth-color);
     a {
-      color: $primary-color;
-      &:hover {background-color: $fourth-color;}
+      color: var(--primary-color);
+      &:hover {background-color: var(--fourth-color);}
     }
   }
 }

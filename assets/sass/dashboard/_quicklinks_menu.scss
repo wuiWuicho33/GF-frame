@@ -99,25 +99,25 @@
 /* # Colours
 ----------------------------------------------- */  
 .quicklinks-menu > li > a {
-  color: $primary-text-color;
+  color: var(--primary-text-color);
 }
 .quicklinks-menu > li > a > i{
   color: $highlight-color;
 }
 .quicklinks-menu > li > a:hover,
 .quicklinks-menu > li > a:focus {
-  background-color: $secondary-color;
+  background-color: var(--secondary-color);
 }
 .quicklinks-menu .dropdown-menu li a {
-  background-color: $primary-color;
-  color:$primary-text-color;
+  background-color: var(--primary-color);
+  color:var(--primary-text-color);
 }
 .quicklinks-menu .dropdown-menu li a:hover{
-  background-color:$secondary-color;
+  background-color:var(--secondary-color);
 }
 .quicklinks-menu .dropdown-menu li.dm-header a:hover,
 .quicklinks-menu .dropdown-menu li.dm-footer a:hover {
-  background-color: $primary-color;
+  background-color: var(--primary-color);
 }
 
 /* # Message-links
