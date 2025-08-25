@@ -1,10 +1,6 @@
-Separar el sass de form
-Separar
 Crear la versión obscura
-
-
 Colocar el navbar en la página de los componentes
-Valorar quitar el Font awesome y cambiarlo por el icons de Google.
+Revisar los scripts del mainnav y el active_link ya que no funcionan juntos, sólo separados.
 Ajustar las medidas de todos los mediaqueries
 Revisar que los modales y cajas de alerta funcionen correctamente
 Agregar componente de alertas
@@ -13,11 +9,8 @@ Crear componente de loading
 Agregar componente de loader
 Colocar selects con autocompletado
 Agregar posicionamientos en la hoja de utilidades
-
-Revisar los scripts del mainnav y el active_link ya que no funcionan juntos, sólo separados.
-
 Crear componente de pasos de llenado
-
+Agregar sliders
 ------------------------------------------------------------------------------
 
 Otro campo de búsqueda 
