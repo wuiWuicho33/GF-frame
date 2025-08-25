@@ -1,4 +1,8 @@
-Ajustar el estilo de las tabs
+Separar el sass de form
+Separar
+Crear la versión obscura
+
+
 Colocar el navbar en la página de los componentes
 Valorar quitar el Font awesome y cambiarlo por el icons de Google.
 Ajustar las medidas de todos los mediaqueries
