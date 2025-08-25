@@ -1,0 +1,127 @@
+/* # Imported files and fonts
+----------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* =====================
+# VARIABLES
+===================== */
+/* # Fonts
+----------------------------------------------- */
+$primary-font:"Montserrat", serif;
+$secondary-font:"Roboto", serif;
+
+/* # Colours
+----------------------------------------------- */
+$primary-color: #ffffff;
+$secondary-color: #ebf5f8;
+$tertiary-color: #cedaf8 ;
+$fourth-color: #A3B9F1;
+$fifth-color: #7A99E1;
+$sixty-color:#528BD7;
+$seventy-color:#1A6AB4; 
+$primary-text-color:#042857;
+
+/*No cambian*/
+$white-color:#ffffff;
+$gray-color:#5c5c5c;
+$highlight-color:#0F4C95;
+$success-color:#35a038;
+$warning-color:#db9a17;
+$danger-color:#b92214;
+
+/* =====================
+# DECLARACIÓN DE COLORES
+===================== */
+/* # Body Scrollbar
+----------------------------------------------- */
+body::-webkit-scrollbar{
+  width: 10px; 
+  background-color:$primary-color;
+}/*Background color*/
+
+body::-webkit-scrollbar-thumb{
+  background:$fourth-color;
+}/*Bar color*/
+
+body {
+  background: $secondary-color;
+  color:$gray-color;
+}
+
+p,ul,ol{
+  color:$gray-color;
+}
+
+/*Teaser*/
+h1,h2,h3,h4,h5,h6{
+  color: $primary-text-color;
+}
+
+a {
+  color:lighten($highlight-color, 10%);  
+  //Estados de botón
+  &:hover, &:active, a:focus {
+    color:$highlight-color;  
+  }
+}
+
+b{
+  color:$highlight-color;
+}
+
+/* # Text-color
+----------------------------------------------- */
+.text-inverted {color:$primary-color;}
+.text-success {color:$success-color;}
+.text-danger {color:$danger-color;}
+.text-warning {color:$warning-color;}
+
+/*i{color:$highlight-color;}*/
+
+/* # Background colors
+----------------------------------------------- */
+.bg-default {
+  background-color:$primary-color;
+  p,ul{color:$primary-text-color;}  
+  a,b{color:$seventy-color;}
+}
+
+.bg-light {
+  background-color:$secondary-color;
+  a,p,ul{color:$primary-text-color;}
+  b{color:$seventy-color;}
+}
+
+.bg-dark {
+  background-color: $tertiary-color;
+  a,p,ul{color:$primary-color;}
+  b{color:$seventy-color;}
+}
+
+.bg-darker {
+  background-color:$primary-text-color; 
+  h1, h2, h3{color:$primary-color;}
+  a,p,ul{color:$primary-color;}
+  b{color:$seventy-color;}
+}
+
+.bg-success {
+  background-color: $success-color; 
+  p{color:$primary-color;}
+}
+
+.bg-danger {
+  background-color: $danger-color; 
+  p{color:$primary-color;}
+}
+
+.label{color: $primary-color;}
+.label-primary {background-color: $fourth-color;}
+.label-danger {background-color: $danger-color;}
+.label-success{background-color: $success-color;}
+
+i.icon{
+  color: $seventy-color;  
+}
+
