@@ -12,29 +12,29 @@
 @import 'base/flexbox';
 
 /*Components*/
-@import 'components/_breadcrumb';
-@import 'components/_table';
-@import 'components/_multiple_select';
-@import 'components/_alerts';
-@import 'components/_switch';
-@import 'components/_tabs';
-@import 'components/_vertical_tabs';
-@import 'components/_card';
-@import 'components/_modal';
-@import 'components/_gallery';
-@import 'components/_pagination_area';
-@import 'components/_tooltips';
 @import 'components/_accordion';
+@import 'components/_alerts';
 @import 'components/_back_to_top';
-@import 'components/_search';
-@import 'components/_upload_files';
-@import 'components/_buttons';
-@import 'components/_files';
 @import 'components/_box_link';
+@import 'components/_breadcrumb';
+@import 'components/_buttons';
+@import 'components/_card';
+@import 'components/_files';
+@import 'components/_gallery';
 @import 'components/icons';
+@import 'components/_modal';
+@import 'components/_pagination_area';
+@import 'components/_table';
+@import 'components/_tabs';
+@import 'components/_tooltips';
+@import 'components/_vertical_tabs';
 
 /*Forms*/
-@import 'components/_form';
+@import 'form/_form';
+@import 'form/_multiple_select';
+@import 'form/_search';
+@import 'form/_switch';
+@import 'form/_upload_files';
 
 /*Dashboard layout*/
 @import 'dashboard/_layout_sidebar';
