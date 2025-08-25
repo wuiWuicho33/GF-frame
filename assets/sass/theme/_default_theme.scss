@@ -41,6 +41,7 @@ body {
   color:$gray-color;
 }
 p,ul,ol{color:$gray-color;}
+
 /*Teaser*/
 h1,h2,h3,h4,h5,h6{color: $primary-text-color;}
 
@@ -53,13 +54,6 @@ a {
 }
 
 b{color:$highlight-color;}
-
-/* # Form
------------------------------------------------ */
-label{color:$primary-text-color;}
-form, input, textarea, select,.form-control,.custom-select {
-  color:$primary-text-color;
-}
 
 /* # Text-color
 ----------------------------------------------- */

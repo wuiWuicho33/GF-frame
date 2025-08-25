@@ -51,16 +51,6 @@ b {
   color: #0F4C95;
 }
 
-/* # Form
------------------------------------------------ */
-label {
-  color: #042857;
-}
-
-form, input, textarea, select, .form-control, .custom-select {
-  color: #042857;
-}
-
 /* # Text-color
 ----------------------------------------------- */
 .text-inverted {
@@ -2951,37 +2941,6 @@ Tabletas horizontales */
     flex-basis: 100%;
   }
 }
-/* =====================
-# ICONS
-===================== */
-i, .material-symbols-outlined {
-  font-size: 1rem;
-}
-
-/* # Background color
------------------------------------------------ */
-.bg-default i,
-.bg-light i,
-.bg-dark i {
-  color: #0F4C95;
-}
-.bg-default .material-symbols-outlined,
-.bg-light .material-symbols-outlined,
-.bg-dark .material-symbols-outlined {
-  color: #0F4C95;
-}
-
-.bg-darker i,
-.bg-success i,
-.bg-danger i {
-  color: #ffffff;
-}
-.bg-darker .material-symbols-outlined,
-.bg-success .material-symbols-outlined,
-.bg-danger .material-symbols-outlined {
-  color: #ffffff;
-}
-
 /*Components*/
 /* =====================
 # BREADCRUMB
@@ -4041,247 +4000,6 @@ html {
 }
 
 /* =====================
-# FORM GROUP
-===================== */
-/*.form-group {margin-bottom: 1.5rem;}*/
-.form-group-inline {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-.form-group-inline label {
-  margin: 0;
-}
-.form-group-inline select.form-control {
-  flex: 1;
-}
-
-label {
-  display: inline-block;
-  margin-bottom: 0.25rem;
-  color: #042857;
-}
-
-label span {
-  color: #b92214;
-}
-
-/* # Select & input styles
------------------------------------------------ */
-.form-control {
-  display: inline-block;
-  width: 100%;
-  height: calc(1.5em + 0.75rem + 2px);
-  padding: 0.375rem 0.75rem;
-  background-color: #ebf5f8;
-  background-clip: padding-box;
-  color: #042857;
-  border: 1px solid #cedaf8;
-  border-radius: 0.25rem;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  transition: border-color 0.15s ease-in-out;
-}
-.form-control:hover, .form-control:focus {
-  border-color: #1464c3;
-  outline: 0;
-}
-.form-control::placeholder {
-  color: #7A99E1;
-}
-.form-control:disabled {
-  background-color: #A3B9F1;
-}
-
-textarea.form-control {
-  height: auto;
-}
-
-/* # Check and radio buttons
------------------------------------------------ */
-.checkbox-label,
-.radio-label {
-  display: flex;
-  align-items: center;
-  margin: 0.5rem 0;
-  cursor: pointer;
-}
-
-input[type=checkbox],
-input[type=radio] {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  accent-color: #1464c3;
-  border: 2px solid #cedaf8;
-  border-radius: 4px;
-}
-
-input[type=radio] {
-  border-radius: 50%;
-}
-
-fieldset {
-  border: 1px solid #cedaf8;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-}
-
-legend {
-  padding: 0 10px;
-  color: #495057;
-}
-
-/* # Range selector
------------------------------------------------ */
-div.range-selector {
-  position: relative;
-  margin: 30px 0 0;
-}
-
-div.range-selector label {
-  width: 100%;
-  margin-bottom: 0rem;
-}
-
-/* Barra de rango */
-input[type=range] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 90%;
-  height: 10px;
-  background: #cedaf8;
-  border-radius: 5px;
-  outline: none;
-  transition: background 0.3s ease;
-}
-
-/* Cambio de color al pasar el mouse */
-input[type=range]:hover {
-  background: #A3B9F1;
-}
-
-/* Pulgar (thumb) del slider */
-input[type=range]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  background: #1464c3;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-
-input[type=range]::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  background: #1464c3;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-
-/* Efecto de "agrandamiento" al hacer hover sobre el pulgar */
-input[type=range]:hover::-webkit-slider-thumb {
-  background: #1464c3;
-  transform: scale(1.1);
-}
-
-input[type=range]:hover::-moz-range-thumb {
-  background: #1464c3;
-  transform: scale(1.1);
-}
-
-/* Tooltip (output) */
-output {
-  position: absolute;
-  background-color: #1464c3;
-  width: 50px;
-  height: 30px;
-  text-align: center;
-  color: #ffffff;
-  border-radius: 5px;
-  display: inline-block;
-  font-size: 1rem;
-  line-height: 2;
-  bottom: 100%;
-  left: 0;
-  margin-left: -2%;
-}
-
-output:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-top: 10px solid #1464c3;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  margin-top: -1px;
-}
-
-/*Exclusiva para este proyecto*/
-/* # Select & input styles
------------------------------------------------ */
-/*
-.form-note {
-  display: inline-block;
-  width: 100%;
-  height: calc(1.5em + 0.75rem + 2px);
-  padding: 0.375rem 0.75rem;
-  background-color: $primary-color;
-  background-clip: padding-box;
-  border: none;
-  color:$primary-text-color;
-  border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out;
-  &::placeholder {
-    color: $fourth-color;
-    //opacity: 0.8;
-  }
-  &:hover, &:focus {
-    outline: 0;
-    &::placeholder {color: $fifth-color;} 
-  }
-  &.title{
-    font-size: 1.8rem;
-    font-weight: 900;
-  }
-
-  &.subtitle{
-    font-size: 1.4rem;
-    font-weight: 400;
-  }  
-}
-*/
-/* =====================
-# MEDIAQUERIES
-===================== */
-/* # Mobile
------------------------------------------------ */
-/*=> 640px Igual o mayor a 640px se aplicarán los siguientes estilos */
-/* # Tablet
------------------------------------------------ */
-/*=> 768px Igual o mayor a 768px se aplicarán los siguientes estilos */
-@media (min-width: 768px) {
-  /* Barra de rango */
-  input[type=range] {
-    width: 480px;
-  }
-}
-/*=> 1024px Igual o mayor a 1024px se aplicarán los siguientes estilos */
-/* # Desktop
------------------------------------------------ */
-/*=> 1280px Igual o mayor a 1280px se aplicarán los siguientes estilos */
-/*=> 1536px Igual o mayor a 1536px se aplicarán los siguientes estilos */
-/* =====================
 # SEARCH
 ===================== */
 .search-container {
@@ -4781,6 +4499,257 @@ output:after {
   color: #0F4C95;
 }
 
+/* =====================
+# ICONS
+===================== */
+i, .material-symbols-outlined {
+  font-size: 1rem;
+}
+
+/* # Background color
+----------------------------------------------- */
+.bg-default i,
+.bg-light i,
+.bg-dark i {
+  color: #0F4C95;
+}
+.bg-default .material-symbols-outlined,
+.bg-light .material-symbols-outlined,
+.bg-dark .material-symbols-outlined {
+  color: #0F4C95;
+}
+
+.bg-darker i,
+.bg-success i,
+.bg-danger i {
+  color: #ffffff;
+}
+.bg-darker .material-symbols-outlined,
+.bg-success .material-symbols-outlined,
+.bg-danger .material-symbols-outlined {
+  color: #ffffff;
+}
+
+/*Forms*/
+/* =====================
+# FORM GROUP
+===================== */
+.form-group-inline {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.form-group-inline label {
+  margin: 0;
+}
+.form-group-inline select.form-control {
+  flex: 1;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+
+/* # Colour
+----------------------------------------------- */
+label {
+  color: #042857;
+}
+
+label span {
+  color: #b92214;
+}
+
+form,
+input,
+textarea,
+select,
+.form-control,
+.custom-select {
+  color: #042857;
+}
+
+/* # Select & input styles
+----------------------------------------------- */
+.form-control {
+  display: inline-block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  background-color: #ebf5f8;
+  background-clip: padding-box;
+  border: 1px solid #cedaf8;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  transition: border-color 0.15s ease-in-out;
+}
+.form-control:hover, .form-control:focus {
+  border-color: #1464c3;
+  outline: 0;
+}
+.form-control::placeholder {
+  color: #7A99E1;
+}
+.form-control:disabled {
+  background-color: #A3B9F1;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+/* # Check and radio buttons
+----------------------------------------------- */
+.checkbox-label,
+.radio-label {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  accent-color: #1464c3;
+  border: 2px solid #cedaf8;
+  border-radius: 4px;
+}
+
+input[type=radio] {
+  border-radius: 50%;
+}
+
+fieldset {
+  border: 1px solid #cedaf8;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+legend {
+  padding: 0 10px;
+  color: #495057;
+}
+
+/* # Range selector
+----------------------------------------------- */
+div.range-selector {
+  position: relative;
+  margin: 30px 0 0;
+}
+
+div.range-selector label {
+  width: 100%;
+  margin-bottom: 0rem;
+}
+
+/* Barra de rango */
+input[type=range] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 90%;
+  height: 10px;
+  background: #cedaf8;
+  border-radius: 5px;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+/* Cambio de color al pasar el mouse */
+input[type=range]:hover {
+  background: #A3B9F1;
+}
+
+/* Pulgar (thumb) del slider */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #1464c3;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #1464c3;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Efecto de "agrandamiento" al hacer hover sobre el pulgar */
+input[type=range]:hover::-webkit-slider-thumb {
+  background: #1464c3;
+  transform: scale(1.1);
+}
+
+input[type=range]:hover::-moz-range-thumb {
+  background: #1464c3;
+  transform: scale(1.1);
+}
+
+/* Tooltip (output) */
+output {
+  position: absolute;
+  background-color: #1464c3;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 2;
+  bottom: 100%;
+  left: 0;
+  margin-left: -2%;
+}
+
+output:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #1464c3;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  margin-top: -1px;
+}
+
+/* =====================
+# MEDIAQUERIES
+===================== */
+/* # Mobile
+----------------------------------------------- */
+/*=> 640px Igual o mayor a 640px se aplicarán los siguientes estilos */
+/* # Tablet
+----------------------------------------------- */
+/*=> 768px Igual o mayor a 768px se aplicarán los siguientes estilos */
+@media (min-width: 768px) {
+  /* Barra de rango */
+  input[type=range] {
+    width: 480px;
+  }
+}
+/*=> 1024px Igual o mayor a 1024px se aplicarán los siguientes estilos */
+/* # Desktop
+----------------------------------------------- */
+/*=> 1280px Igual o mayor a 1280px se aplicarán los siguientes estilos */
+/*=> 1536px Igual o mayor a 1536px se aplicarán los siguientes estilos */
 /*Dashboard layout*/
 /* =====================
 # LAYOUT

@@ -10,7 +10,6 @@
 @import 'base/grid';
 @import 'base/container';
 @import 'base/flexbox';
-@import 'base/icons';
 
 /*Components*/
 @import 'components/_breadcrumb';
@@ -27,12 +26,15 @@
 @import 'components/_tooltips';
 @import 'components/_accordion';
 @import 'components/_back_to_top';
-@import 'components/_form';
 @import 'components/_search';
 @import 'components/_upload_files';
 @import 'components/_buttons';
 @import 'components/_files';
 @import 'components/_box_link';
+@import 'components/icons';
+
+/*Forms*/
+@import 'components/_form';
 
 /*Dashboard layout*/
 @import 'dashboard/_layout_sidebar';
