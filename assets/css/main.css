@@ -4953,22 +4953,22 @@ output:after {
 /* ==========================
 Colour theme
 ========================== */
-.default-theme .wrapper {
+.wrapper {
   background: var(--sixty-color);
 }
 
 /* ===========
  Sidebar
  ========== */
-.default-theme .main-sidebar {
+.main-sidebar {
   background-color: #1464c3;
 }
 
-.default-theme .sidebar a {
+.sidebar a {
   color: var(--fourth-color);
 }
 
-.default-theme .sidebar a:hover {
+.sidebar a:hover {
   text-decoration: none;
 }
 
@@ -5119,28 +5119,28 @@ Colour theme
  ========== */
 /* # Logo
 ----------------------------------------------- */
-.default-theme .main-header .logo {
+.main-header .logo {
   background-color: var(--primary-color);
   border-bottom: 0px solid transparent;
 }
 
-.default-theme .main-header .logo:hover {
+.main-header .logo:hover {
   background: var(--secondary-color);
 }
 
 /* # Sidebar-navbar
 ----------------------------------------------- */
-.default-theme .main-header .sidebar-navbar {
+.main-header .sidebar-navbar {
   background-color: var(--primary-color);
 }
 
 /* # Sidebar-toggle
 ----------------------------------------------- */
-.default-theme .main-header .sidebar-navbar .sidebar-toggle {
+.main-header .sidebar-navbar .sidebar-toggle {
   color: #1464c3;
 }
 
-.default-theme .main-header .sidebar-navbar .sidebar-toggle:hover {
+.main-header .sidebar-navbar .sidebar-toggle:hover {
   background-color: var(--secondary-color);
 }
 
@@ -5241,23 +5241,23 @@ Colour theme
 
 /* # Colours
 ----------------------------------------------- */
-.default-theme .sidebar-menu > li > a:hover,
-.default-theme .sidebar-menu > li.active > a {
+.sidebar-menu > li > a:hover,
+.sidebar-menu > li.active > a {
   background: #0F4C95;
   color: var(--primary-color);
   border-left-color: #0F4C95;
 }
 
-.default-theme .sidebar-menu > li > .treeview-menu {
+.sidebar-menu > li > .treeview-menu {
   background: var(--sixty-color);
 }
 
-.default-theme .treeview-menu > li > a {
+.treeview-menu > li > a {
   color: var(--tertiary-color);
 }
 
-.default-theme .treeview-menu > li.active > a,
-.default-theme .treeview-menu > li > a:hover {
+.treeview-menu > li.active > a,
+.treeview-menu > li > a:hover {
   color: var(--primary-color);
 }
 
@@ -5459,14 +5459,14 @@ Colour theme
 
 /* # Colours
 ----------------------------------------------- */
-.default-theme .user-panel .info p {
+.user-panel .info p {
   color: var(--primary-color);
   font-weight: bold;
   margin: 0px;
 }
 
-.default-theme .user-panel > .info,
-.default-theme .user-panel > .info > a {
+.user-panel > .info,
+.user-panel > .info > a {
   color: var(--primary-color);
 }
 

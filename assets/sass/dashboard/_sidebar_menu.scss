@@ -79,20 +79,20 @@
 
 /* # Colours
 ----------------------------------------------- */
-.default-theme .sidebar-menu > li > a:hover,
-.default-theme .sidebar-menu > li.active > a {
+.sidebar-menu > li > a:hover,
+.sidebar-menu > li.active > a {
   background: $highlight-color;
   color: var(--primary-color);
   border-left-color: $highlight-color;
 }
-.default-theme .sidebar-menu > li > .treeview-menu {
+.sidebar-menu > li > .treeview-menu {
   background: var(--sixty-color);
 }
 
-.default-theme .treeview-menu > li > a {
+.treeview-menu > li > a {
   color: var(--tertiary-color);
 }
-.default-theme .treeview-menu > li.active > a,
-.default-theme .treeview-menu > li > a:hover {
+.treeview-menu > li.active > a,
+.treeview-menu > li > a:hover {
   color: var(--primary-color);
 }
