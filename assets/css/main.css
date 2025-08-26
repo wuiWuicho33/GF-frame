@@ -65,6 +65,9 @@ p, ul, ol {
 h1, h2, h3, h4, h5, h6 {
   color: var(--primary-text-color);
 }
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  color: var(--primary-text-color);
+}
 
 a {
   color: #1464c3;
@@ -3576,6 +3579,9 @@ Tabletas horizontales */
 }
 .card .card-body {
   padding: 1rem;
+}
+.card .card-body p {
+  color: var(--primary-text-color);
 }
 .card .card-footer {
   background-color: var(--primary-color);
