@@ -1,4 +1,5 @@
 Crear la versión obscura
+Sepaarar en otra carpeta los js del formulario
 Colocar el navbar en la página de los componentes
 Revisar los scripts del mainnav y el active_link ya que no funcionan juntos, sólo separados.
 Ajustar las medidas de todos los mediaqueries
