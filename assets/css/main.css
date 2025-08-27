@@ -107,8 +107,8 @@ b {
 .bg-default p, .bg-default ul {
   color: var(--primary-text-color);
 }
-.bg-default a, .bg-default b {
-  color: var(--seventy-color);
+.bg-default b {
+  color: #0F4C95;
 }
 
 .bg-light {
@@ -3019,6 +3019,7 @@ Tabletas horizontales */
 }
 .acordeon .acordeon-item .acordeon-body p {
   margin: 0;
+  color: var(--primary-text-color);
 }
 
 /* =====================
@@ -4930,9 +4931,9 @@ output:after {
   padding-right: 15px;
 }
 
-/* ==============
-* Footer
-============== */
+/* ===============
+* Dashboard-footer
+=============== */
 .dashboard-footer {
   margin-left: 230px;
   z-index: 820;
