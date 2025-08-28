@@ -69,10 +69,10 @@ p, ul, ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--primary-text-color);
+  color: var(--highlight-color);
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-  color: var(--primary-text-color);
+  color: var(--highlight-color);
 }
 
 a {

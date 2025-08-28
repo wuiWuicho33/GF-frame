@@ -77,8 +77,8 @@ p, ul, ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--primary-text-color);
-  small{color: var(--primary-text-color);}
+  color: var(--highlight-color);
+  small{color: var(--highlight-color);}
 }
 
 a {
