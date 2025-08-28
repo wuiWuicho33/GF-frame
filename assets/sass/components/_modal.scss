@@ -19,7 +19,6 @@
     background-color: var(--primary-color);
     //margin: 5% auto;
     padding: 0;
-    border: 1px solid var(--tertiary-color);
     width: 90%;
     max-width: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -34,7 +33,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1px solid var(--tertiary-color); 
+      border-bottom: 1px solid var(--secondary-color); 
     
       h2{
         margin:0;
@@ -59,7 +58,7 @@
     }
     
     .modal-footer {
-      border-top: 1px solid var(--tertiary-color);
+      border-top: 1px solid var(--secondary-color);
       display: flex;
       justify-content: flex-end; 
       gap: 1rem;

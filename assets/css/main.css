@@ -3797,7 +3797,6 @@ i, .material-symbols-outlined {
 .modal .modal-content {
   background-color: var(--primary-color);
   padding: 0;
-  border: 1px solid var(--tertiary-color);
   width: 90%;
   max-width: 600px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -3811,7 +3810,7 @@ i, .material-symbols-outlined {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--tertiary-color);
+  border-bottom: 1px solid var(--secondary-color);
 }
 .modal .modal-content .modal-header h2 {
   margin: 0;
@@ -3831,7 +3830,7 @@ i, .material-symbols-outlined {
   overflow-y: auto;
 }
 .modal .modal-content .modal-footer {
-  border-top: 1px solid var(--tertiary-color);
+  border-top: 1px solid var(--secondary-color);
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
