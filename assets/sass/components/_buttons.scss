@@ -73,11 +73,10 @@
 .btn-dark {
   background-color: lighten($highlight-color, 10%);   
   color: $white-color;
-  i {color: var(--primary-color);}    
+  i {color: var(--white-color);}    
 
   &:hover{
     background:$highlight-color;
-    i {color: var(--primary-color);}      
   }
 }
 /* btn-default-inverse */

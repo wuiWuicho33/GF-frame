@@ -23,7 +23,7 @@
   --fifth-color: #7A99E1;
   --sixty-color: #528BD7;
   --seventy-color: #1A6AB4;
-  --primary-text-color: #042857;
+  --primary-text-color: #353a41;
 }
 
 /* Dark theme */
@@ -35,7 +35,7 @@ body.dark-mode {
   --fifth-color: #1D2835;
   --sixty-color: #17212D;
   --seventy-color: #000000;
-  --primary-text-color: #ffffff;
+  --primary-text-color: #cecece;
 }
 
 /*Fixed colors*/
@@ -3296,13 +3296,10 @@ Tabletas horizontales */
   color: #ffffff;
 }
 .btn-dark i {
-  color: var(--primary-color);
+  color: var(--white-color);
 }
 .btn-dark:hover {
   background: #0F4C95;
-}
-.btn-dark:hover i {
-  color: var(--primary-color);
 }
 
 /* btn-default-inverse */
@@ -3585,8 +3582,6 @@ Tabletas horizontales */
 }
 .card .card-body {
   padding: 1rem;
-  display: grid;
-  gap: 1rem;
 }
 .card .card-footer {
   background-color: var(--primary-color);
