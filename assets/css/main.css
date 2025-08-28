@@ -4354,6 +4354,7 @@ form,
 input,
 textarea,
 select,
+legend,
 .form-control,
 .custom-select {
   color: var(--primary-text-color);
@@ -4379,7 +4380,7 @@ select,
   outline: 0;
 }
 .form-control::placeholder {
-  color: var(--fifth-color);
+  color: var(--primary-text-color);
 }
 .form-control:disabled {
   background-color: var(--fourth-color);
@@ -4422,7 +4423,6 @@ fieldset {
 
 legend {
   padding: 0 10px;
-  color: #495057;
 }
 
 /* # Range selector
@@ -4662,7 +4662,7 @@ output:after {
 .search-button {
   background-color: #1464c3;
   border: 1px solid #1464c3;
-  color: var(--primary-color);
+  color: #ffffff;
   padding: 10px;
   border-radius: 0 0.25rem 0.25rem 0;
   cursor: pointer;

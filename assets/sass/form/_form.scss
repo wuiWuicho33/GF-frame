@@ -23,6 +23,7 @@ form,
 input, 
 textarea, 
 select,
+legend,
 .form-control,
 .custom-select {
   color:var(--primary-text-color);
@@ -47,8 +48,7 @@ select,
     outline: 0;
   }
   &::placeholder {
-    color: var(--fifth-color);
-    //opacity: 0.8;
+    color: var(--primary-text-color);
   }
   &:disabled{
     background-color:var(--fourth-color);
@@ -89,7 +89,6 @@ fieldset {
 }
 legend {
   padding: 0 10px;
-  color: #495057;
 }
 
 /* # Range selector
