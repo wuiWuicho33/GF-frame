@@ -11,7 +11,6 @@
   .card-header {
     padding: 1rem 1rem;
     background-color:var(--primary-color);
-    color:var(--sixty-color);
     border-bottom: 1px solid var(--tertiary-color);
     border-radius:0.5rem 0.5rem 0 0;
 
@@ -22,7 +21,8 @@
 
   .card-body {
     padding:1rem;
-    p{color:var(--primary-text-color);}    
+    display: grid;
+    gap: 1rem;
   }     
 
   .card-footer {

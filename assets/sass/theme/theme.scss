@@ -12,9 +12,9 @@ $primary-font: "Montserrat", serif;
 $secondary-font: "Roboto", serif;
 
 /* =====================
-# TEMAS
+# THEMES
 ===================== */
-/* Tema claro */
+/* Light theme*/
 :root {
   --primary-color: #ffffff;
   --secondary-color: #ebf5f8;
@@ -24,9 +24,10 @@ $secondary-font: "Roboto", serif;
   --sixty-color: #528BD7;
   --seventy-color: #1A6AB4;
   --primary-text-color: #042857;
+  //--primary-text-color: #192431;
 }
 
-/* Tema oscuro */
+/* Dark theme */
 body.dark-mode {
   --primary-color: #525C69;
   --secondary-color: #414C5B;
@@ -38,7 +39,7 @@ body.dark-mode {
   --primary-text-color: #ffffff;
 }
 
-/*Colores que no cambian*/
+/*Fixed colors*/
 $white-color:#ffffff;
 $gray-color:#5c5c5c;
 $highlight-color:#0F4C95;
@@ -46,29 +47,31 @@ $success-color:#35a038;
 $warning-color:#db9a17;
 $danger-color:#b92214;
 
-/* =====================
-# DECLARACIÓN DE COLORES
-===================== */
+/* =================
+# COLOR DECLARATION
+================= */
 /* # Body Scrollbar
 ----------------------------------------------- */
+/*Background color*/
 body::-webkit-scrollbar {
   width: 10px;
   background-color: var(--primary-color);
-}/*Background color*/
+}
 
+/*Bar color*/
 body::-webkit-scrollbar-thumb {
   background: var(--fourth-color);
-}/*Bar color*/
+}
 
 body {
   background-color: var(--secondary-color);
-  color: $gray-color;
+  color: var(--primary-text-color)
 }
 
-/* # Colores generales
+/* # General colors
 ----------------------------------------------- */
 p, ul, ol {
-  color: $gray-color;
+  color: var(--primary-text-color)
 }
 
 h1, h2, h3, h4, h5, h6 {

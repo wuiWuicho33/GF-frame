@@ -12,9 +12,9 @@
 /* # Fonts
 ----------------------------------------------- */
 /* =====================
-# TEMAS
+# THEMES
 ===================== */
-/* Tema claro */
+/* Light theme*/
 :root {
   --primary-color: #ffffff;
   --secondary-color: #ebf5f8;
@@ -26,7 +26,7 @@
   --primary-text-color: #042857;
 }
 
-/* Tema oscuro */
+/* Dark theme */
 body.dark-mode {
   --primary-color: #525C69;
   --secondary-color: #414C5B;
@@ -38,28 +38,32 @@ body.dark-mode {
   --primary-text-color: #ffffff;
 }
 
-/*Colores que no cambian*/
-/* =====================
-# DECLARACIÓN DE COLORES
-===================== */
+/*Fixed colors*/
+/* =================
+# COLOR DECLARATION
+================= */
 /* # Body Scrollbar
 ----------------------------------------------- */
+/*Background color*/
 body::-webkit-scrollbar {
   width: 10px;
   background-color: var(--primary-color);
-} /*Background color*/
-body::-webkit-scrollbar-thumb {
-  background: var(--fourth-color);
-} /*Bar color*/
-body {
-  background-color: var(--secondary-color);
-  color: #5c5c5c;
 }
 
-/* # Colores generales
+/*Bar color*/
+body::-webkit-scrollbar-thumb {
+  background: var(--fourth-color);
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--primary-text-color);
+}
+
+/* # General colors
 ----------------------------------------------- */
 p, ul, ol {
-  color: #5c5c5c;
+  color: var(--primary-text-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -3574,7 +3578,6 @@ Tabletas horizontales */
 .card .card-header {
   padding: 1rem 1rem;
   background-color: var(--primary-color);
-  color: var(--sixty-color);
   border-bottom: 1px solid var(--tertiary-color);
   border-radius: 0.5rem 0.5rem 0 0;
 }
@@ -3583,9 +3586,8 @@ Tabletas horizontales */
 }
 .card .card-body {
   padding: 1rem;
-}
-.card .card-body p {
-  color: var(--primary-text-color);
+  display: grid;
+  gap: 1rem;
 }
 .card .card-footer {
   background-color: var(--primary-color);
