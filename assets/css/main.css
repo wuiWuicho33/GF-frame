@@ -3280,7 +3280,7 @@ Tabletas horizontales */
 
 /* btn-light-inverse */
 .btn-lighter-inverse {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: color-mix(in srgb, var(--sixty-color) 90%, #ffffff);
   border-color: color-mix(in srgb, var(--sixty-color) 90%, #ffffff);
 }
@@ -3310,7 +3310,7 @@ Tabletas horizontales */
 
 /* btn-default-inverse */
 .btn-light-inverse {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: color-mix(in srgb, var(--seventy-color) 90%, #ffffff);
   border-color: color-mix(in srgb, var(--seventy-color) 90%, #ffffff);
 }
@@ -3477,26 +3477,27 @@ Tabletas horizontales */
   line-height: 1.5;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-weight: 700;
 }
 
 /* # Botón izquierdo
 ----------------------------------------------- */
 .button-left {
-  background-color: var(--primary-color);
+  background-color: var(--tertiary-color);
   color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   border: 1px solid color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   border-radius: 0.25rem 0 0 0.25rem;
 }
 .button-left:hover {
   background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 /* # Botón derecho
 ----------------------------------------------- */
 .button-right {
   background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
-  color: var(--primary-color);
+  color: var(--tertiary-color);
   border: 1px solid color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   border-radius: 0 0.25rem 0.25rem 0;
 }
@@ -3885,8 +3886,7 @@ i, .material-symbols-outlined {
 .pagination ul strong {
   display: block;
   padding: 8px 15px;
-  background-color: var(--primary-color);
-  border: 1px solid var(--tertiary-color);
+  background-color: var(--tertiary-color);
   color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   background-clip: padding-box;
   font-weight: bold;
@@ -3894,13 +3894,12 @@ i, .material-symbols-outlined {
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 .pagination ul a:hover {
-  background-color: color-mix(in srgb, var(--highlight-color) 50%, #ffffff);
-  border: 1px solid color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
+  background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
+  color: var(--tertiary-color);
 }
 .pagination ul .current * {
   background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
-  color: var(--primary-color);
-  border: 1px solid color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
+  color: var(--tertiary-color);
 }
 
 /* # Tablet ------------------------------------------ */
