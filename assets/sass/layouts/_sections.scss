@@ -32,29 +32,29 @@
 
 	#pagetitle h1{
 		margin-bottom:1rem; 
-		color: var(--primary-color);
+		color: $white-color;
 		text-transform: uppercase;
 	}	
 
   /*Breadcrumb*/
   .breadcrumb ol {
     li {
-      color:var(--primary-color);
+      color:$white-color;
 
       &::after {
-        color:var(--fifth-color); 
+        color:$white-color; 
       }		
 
       a {
-        color:var(--fifth-color); 
-      
+        color: lighten($highlight-color, 10%);
+
         &:hover {
-          color:var(--primary-color);
+          color:$white-color;
+          .icon{color: $white-color;}		
         }	
 
-        .icon{
-          color:var(--fifth-color); 
-        }						
+        .icon{color: lighten($highlight-color, 10%);}		
+
       }
 
     }

@@ -18,7 +18,7 @@
 		&::after {
 			content: "/";
 			margin: 0 0.5rem;
-			color:var(--seventy-color); 
+			color: lighten($highlight-color, 10%);
 		}		
 
 		&:last-child::after {
@@ -26,16 +26,17 @@
 		}		
 
 		a {
-			color:var(--seventy-color); 
+			color: lighten($highlight-color, 10%);
 			font-size: 0.75rem;
 		
 			&:hover {
 				text-decoration: underline;
-				color:var(--primary-text-color);
+				color:$highlight-color;
+				.icon{color:$highlight-color;}
 			}	
 
 			.icon{
-				color:var(--seventy-color); 
+				color: lighten($highlight-color, 10%);
 				margin-right: 0.25rem;
 			}			
 			

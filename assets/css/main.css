@@ -3189,21 +3189,24 @@ Tabletas horizontales */
 .breadcrumb ol li::after {
   content: "/";
   margin: 0 0.5rem;
-  color: var(--seventy-color);
+  color: #1464c3;
 }
 .breadcrumb ol li:last-child::after {
   content: "";
 }
 .breadcrumb ol li a {
-  color: var(--seventy-color);
+  color: #1464c3;
   font-size: 0.75rem;
 }
 .breadcrumb ol li a:hover {
   text-decoration: underline;
-  color: var(--primary-text-color);
+  color: #0F4C95;
+}
+.breadcrumb ol li a:hover .icon {
+  color: #0F4C95;
 }
 .breadcrumb ol li a .icon {
-  color: var(--seventy-color);
+  color: #1464c3;
   margin-right: 0.25rem;
 }
 
@@ -5615,23 +5618,26 @@ ul.secondary_menu li.active a {
 }
 .banner #pagetitle h1 {
   margin-bottom: 1rem;
-  color: var(--primary-color);
+  color: #ffffff;
   text-transform: uppercase;
 }
 .banner .breadcrumb ol li {
-  color: var(--primary-color);
+  color: #ffffff;
 }
 .banner .breadcrumb ol li::after {
-  color: var(--fifth-color);
+  color: #ffffff;
 }
 .banner .breadcrumb ol li a {
-  color: var(--fifth-color);
+  color: #1464c3;
 }
 .banner .breadcrumb ol li a:hover {
-  color: var(--primary-color);
+  color: #ffffff;
+}
+.banner .breadcrumb ol li a:hover .icon {
+  color: #ffffff;
 }
 .banner .breadcrumb ol li a .icon {
-  color: var(--fifth-color);
+  color: #1464c3;
 }
 
 /* # Hero
