@@ -3293,7 +3293,7 @@ Tabletas horizontales */
 ----------------------------------------------- */
 .btn-dark {
   background-color: #1464c3;
-  color: var(--primary-color);
+  color: #ffffff;
 }
 .btn-dark i {
   color: var(--primary-color);
@@ -4069,8 +4069,8 @@ table.align-right .switch-group {
   font-weight: 300;
 }
 .tab-button.active, .tab-button:hover, .tab-button:focus {
-  background-color: var(--seventy-color);
-  color: var(--primary-color);
+  background-color: var(--fourth-color);
+  color: var(--primary-text-color);
 }
 
 /* # Tab-content
@@ -4302,8 +4302,8 @@ html {
   font-weight: 300;
 }
 .vertical-tabs-container .vertical-tabs .vertical-tab.active, .vertical-tabs-container .vertical-tabs .vertical-tab:hover {
-  background-color: var(--seventy-color);
-  color: var(--primary-color);
+  background-color: var(--fourth-color);
+  color: var(--primary-text-color);
 }
 
 .vertical-tab-content {
