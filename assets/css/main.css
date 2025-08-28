@@ -35,7 +35,7 @@ body.dark-mode {
   --fourth-color: #24303E;
   --fifth-color: #1D2835;
   --sixty-color: #17212D;
-  --seventy-color: #000000;
+  --seventy-color: #121920;
   --primary-text-color: #cecece;
   --highlight-color: #3891ff;
 }
@@ -3224,12 +3224,11 @@ Tabletas horizontales */
   border: 1px solid transparent;
   border-radius: 0.25rem;
   white-space: nowrap;
-  font-weight: bold;
   text-align: center;
   cursor: pointer;
-  font-family: "Roboto", serif;
+  font-family: "Montserrat", serif;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 700;
 }
 .btn i {
   font-size: 1rem;
@@ -3258,54 +3257,49 @@ Tabletas horizontales */
 /* # Btn-light
 ----------------------------------------------- */
 .btn-light {
-  background-color: color-mix(in srgb, var(--highlight-color) 40%, #ffffff);
-  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
-  border-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
+  background-color: color-mix(in srgb, var(--seventy-color) 90%, #ffffff);
+  color: var(--primary-color);
 }
 .btn-light i {
-  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
+  color: var(--primary-color);
 }
 .btn-light:hover {
-  background: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
-  color: var(--primary-color);
-}
-.btn-light:hover i {
-  color: var(--primary-color);
+  background-color: var(--seventy-color);
 }
 
 /* btn-default-inverse */
 .btn-light-inverse {
   background-color: var(--primary-color);
-  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
-  border-color: var(--tertiary-color);
+  color: color-mix(in srgb, var(--seventy-color) 90%, #ffffff);
+  border-color: color-mix(in srgb, var(--seventy-color) 90%, #ffffff);
 }
 .btn-light-inverse i {
-  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
+  color: color-mix(in srgb, var(--seventy-color) 90%, #ffffff);
 }
 .btn-light-inverse:hover {
-  background-color: color-mix(in srgb, var(--highlight-color) 40%, #ffffff);
-  border-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
+  background-color: var(--seventy-color);
+  color: var(--primary-color);
 }
 .btn-light-inverse:hover i {
-  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
+  color: var(--primary-color);
 }
 
 /* # Btn-dark
 ----------------------------------------------- */
 .btn-dark {
   background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
-  color: #ffffff;
+  color: var(--tertiary-color);
 }
 .btn-dark i {
-  color: var(--white-color);
+  color: var(--tertiary-color);
 }
 .btn-dark:hover {
-  background: var(--highlight-color);
+  background-color: var(--highlight-color);
 }
 
 /* btn-default-inverse */
 .btn-dark-inverse {
-  background-color: var(--primary-color);
+  background-color: var(--tertiary-color);
   color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   border-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
@@ -3314,10 +3308,10 @@ Tabletas horizontales */
 }
 .btn-dark-inverse:hover {
   background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 .btn-dark-inverse:hover i {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 /* # Btn-lighter
@@ -3531,10 +3525,10 @@ Tabletas horizontales */
   cursor: pointer;
 }
 .btn-circle i {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 .btn-circle:hover {
-  background-color: var(--primary-color);
+  background-color: var(--tertiary-color);
 }
 .btn-circle:hover i {
   color: var(--highlight-color);
@@ -3544,7 +3538,7 @@ Tabletas horizontales */
   display: inline-block;
   width: 2rem;
   height: 2rem;
-  background-color: var(--primary-color);
+  background-color: var(--tertiary-color);
   border: 1px solid var(--highlight-color);
   border-radius: 50%;
   font-size: 1rem;
@@ -3559,7 +3553,7 @@ Tabletas horizontales */
   background-color: var(--highlight-color);
 }
 .btn-circle-inverse:hover i {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 /* =====================
