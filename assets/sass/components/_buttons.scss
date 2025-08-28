@@ -129,26 +129,26 @@
 ----------------------------------------------- */
 .btn-success {
   background-color: lighten($success-color, 10%);
-  color: var(--primary-color);
-  i {color: var(--primary-color);}    
+  color: var(--secondary-color);
+  i {color: var(--secondary-color);}    
   
   &:hover{
     background:$success-color;
-    color: var(--primary-color);
-    i {color: var(--primary-color);}      
+    color: var(--secondary-color);
+    i {color: var(--secondary-color);}      
   }
 }
 /* btn-success-inverse */
 .btn-success-inverse {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: lighten($success-color, 10%);
   border-color: lighten($success-color, 10%);
   i {color: lighten($success-color, 10%);}
   
   &:hover {
     background-color: lighten($success-color, 10%);
-    color:var(--primary-color);
-    i {color: var(--primary-color);}
+    color:var(--secondary-color);
+    i {color: var(--secondary-color);}
   }
 }
 
@@ -156,27 +156,27 @@
 ----------------------------------------------- */
 .btn-danger {
   background-color: lighten($danger-color, 25%);
-  color: var(--primary-color);
-  i {color: var(--primary-color);}    
+  color: var(--secondary-color);
+  i {color: var(--secondary-color);}    
   
   &:hover{
     background:$danger-color;
-    color: var(--primary-color);
-    i {color: var(--primary-color);}      
+    color: var(--secondary-color);
+    i {color: var(--secondary-color);}      
   }
 }
 
 /* btn-danger-inverse */
 .btn-danger-inverse {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: lighten($danger-color, 25%);
   border-color: lighten($danger-color, 25%);
   i {color: lighten($danger-color, 25%);}
   
   &:hover {
     background-color: lighten($danger-color, 25%);
-    color:var(--primary-color);
-    i {color: var(--primary-color);}
+    color:var(--secondary-color);
+    i {color: var(--secondary-color);}
   }
 }
 
@@ -184,27 +184,27 @@
 ----------------------------------------------- */
 .btn-warning {
   background-color: lighten($warning-color, 10%);
-  color: var(--primary-color);
-  i {color: var(--primary-color);}    
+  color: var(--secondary-color);
+  i {color: var(--secondary-color);}    
   
   &:hover{
     background:$warning-color;
-    color: var(--primary-color);
-    i {color: var(--primary-color);}      
+    color: var(--secondary-color);
+    i {color: var(--secondary-color);}      
   }
 }
 
 /* btn-warning-inverse */
 .btn-warning-inverse {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: lighten($warning-color, 10%);
   border-color: lighten($warning-color, 10%);
   i {color: lighten($warning-color, 10%);}
   
   &:hover {
     background-color: lighten($warning-color, 10%);
-    color:var(--primary-color);
-    i {color: var(--primary-color);}
+    color:var(--secondary-color);
+    i {color: var(--secondary-color);}
   }
 }
 

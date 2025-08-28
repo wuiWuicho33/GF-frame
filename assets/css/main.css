@@ -3359,22 +3359,22 @@ Tabletas horizontales */
 ----------------------------------------------- */
 .btn-success {
   background-color: #46c24a;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .btn-success i {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .btn-success:hover {
   background: #35a038;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .btn-success:hover i {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 /* btn-success-inverse */
 .btn-success-inverse {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: #46c24a;
   border-color: #46c24a;
 }
@@ -3383,32 +3383,32 @@ Tabletas horizontales */
 }
 .btn-success-inverse:hover {
   background-color: #46c24a;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .btn-success-inverse:hover i {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 /* # Btn-danger
 ----------------------------------------------- */
 .btn-danger {
   background-color: #ee6b5f;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .btn-danger i {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .btn-danger:hover {
   background: #b92214;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .btn-danger:hover i {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 /* btn-danger-inverse */
 .btn-danger-inverse {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: #ee6b5f;
   border-color: #ee6b5f;
 }
@@ -3417,32 +3417,32 @@ Tabletas horizontales */
 }
 .btn-danger-inverse:hover {
   background-color: #ee6b5f;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .btn-danger-inverse:hover i {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 /* # Btn-warning
 ----------------------------------------------- */
 .btn-warning {
   background-color: #eab03b;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .btn-warning i {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .btn-warning:hover {
   background: #db9a17;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .btn-warning:hover i {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 /* btn-warning-inverse */
 .btn-warning-inverse {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: #eab03b;
   border-color: #eab03b;
 }
@@ -3451,10 +3451,10 @@ Tabletas horizontales */
 }
 .btn-warning-inverse:hover {
   background-color: #eab03b;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .btn-warning-inverse:hover i {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 /* # Btn-Link
