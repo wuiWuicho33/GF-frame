@@ -46,14 +46,14 @@
       }		
 
       a {
-        color: lighten($highlight-color, 10%);
+        color: color-mix(in srgb, var(--highlight-color) 90%, $white-color);
 
         &:hover {
           color:$white-color;
           .icon{color: $white-color;}		
         }	
 
-        .icon{color: lighten($highlight-color, 10%);}		
+        .icon{color: color-mix(in srgb, var(--highlight-color) 90%, $white-color);}		
 
       }
 

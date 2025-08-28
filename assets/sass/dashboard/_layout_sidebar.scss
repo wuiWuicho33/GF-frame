@@ -183,7 +183,7 @@ Colour theme
  Sidebar
  ========== */
 .main-sidebar {
-  background-color: lighten($highlight-color, 10%);
+  background-color: color-mix(in srgb, var(--highlight-color) 90%, $white-color);
 }
 .sidebar a {
   color: var(--fourth-color);

@@ -81,9 +81,9 @@
 ----------------------------------------------- */
 .sidebar-menu > li > a:hover,
 .sidebar-menu > li.active > a {
-  background: $highlight-color;
+  background: var(--highlight-color);
   color: var(--primary-color);
-  border-left-color: $highlight-color;
+  border-left-color: var(--highlight-color);
 }
 .sidebar-menu > li > .treeview-menu {
   background: var(--sixty-color);

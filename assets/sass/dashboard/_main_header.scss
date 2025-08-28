@@ -129,7 +129,7 @@
 /* # Sidebar-toggle
 ----------------------------------------------- */
 .main-header .sidebar-navbar .sidebar-toggle {
-  color: lighten($highlight-color, 10%);
+  color: color-mix(in srgb, var(--highlight-color) 90%, $white-color);
 }
 .main-header .sidebar-navbar .sidebar-toggle:hover {
   background-color: var(--secondary-color);

@@ -44,7 +44,7 @@ legend,
   line-height: 1.5;
   transition: border-color 0.15s ease-in-out;
   &:hover, &:focus {
-    border-color:lighten($highlight-color, 10%); 
+    border-color:color-mix(in srgb, var(--highlight-color) 90%, $white-color); 
     outline: 0;
   }
   &::placeholder {
@@ -74,7 +74,7 @@ input[type="radio"] {
   width: 20px; 
   height: 20px; 
   margin-right: 10px;
-  accent-color: lighten($highlight-color, 10%); 
+  accent-color: color-mix(in srgb, var(--highlight-color) 90%, $white-color); 
   border: 2px solid var(--tertiary-color); 
   border-radius: 4px; 
 }
@@ -127,7 +127,7 @@ input[type="range"]::-webkit-slider-thumb {
   appearance: none;
   width: 20px;
   height: 20px;
-  background: lighten($highlight-color, 10%); 
+  background: color-mix(in srgb, var(--highlight-color) 90%, $white-color); 
   border-radius: 50%; 
   cursor: pointer; 
   transition: background 0.3s ease, transform 0.2s ease; 
@@ -136,7 +136,7 @@ input[type="range"]::-webkit-slider-thumb {
 input[type="range"]::-moz-range-thumb {
   width: 20px;
   height: 20px;
-  background: lighten($highlight-color, 10%); 
+  background: color-mix(in srgb, var(--highlight-color) 90%, $white-color); 
   border-radius: 50%;
   border: 2px solid #fff;
   cursor: pointer;
@@ -145,19 +145,19 @@ input[type="range"]::-moz-range-thumb {
 
 /* Efecto de "agrandamiento" al hacer hover sobre el pulgar */
 input[type="range"]:hover::-webkit-slider-thumb {
-  background: lighten($highlight-color, 10%);
+  background: color-mix(in srgb, var(--highlight-color) 90%, $white-color);
   transform: scale(1.1); 
 }
 
 input[type="range"]:hover::-moz-range-thumb {
-  background: lighten($highlight-color, 10%); 
+  background: color-mix(in srgb, var(--highlight-color) 90%, $white-color); 
   transform: scale(1.1);
 }
 
 /* Tooltip (output) */
 output {
   position: absolute;
-  background-color: lighten($highlight-color, 10%); 
+  background-color: color-mix(in srgb, var(--highlight-color) 90%, $white-color); 
   width: 50px;
   height: 30px;
   text-align: center;
@@ -176,7 +176,7 @@ output:after {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 10px solid lighten($highlight-color, 10%); 
+  border-top: 10px solid color-mix(in srgb, var(--highlight-color) 90%, $white-color); 
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   top: 100%;

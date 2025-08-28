@@ -38,7 +38,7 @@
 			padding:8px 15px; 
 			background-color: var(--primary-color);
 			border:1px solid var(--tertiary-color);  
-			color:lighten($highlight-color, 10%); 
+			color:color-mix(in srgb, var(--highlight-color) 90%, $white-color); 
 			background-clip:padding-box; 
 			font-weight:bold;
 			border-radius: 0.3rem;
@@ -46,14 +46,14 @@
 		}   
 			
 		a:hover{
-			background-color:lighten($highlight-color, 50%); 
-			border:1px solid lighten($highlight-color, 10%);
+			background-color: color-mix(in srgb, var(--highlight-color) 50%, $white-color); 
+			border:1px solid color-mix(in srgb, var(--highlight-color) 90%, $white-color);
 		}  
 			
 		.current *{
-			background-color:lighten($highlight-color, 10%); 
+			background-color:color-mix(in srgb, var(--highlight-color) 90%, $white-color); 
 			color:var(--primary-color); 
-			border:1px solid lighten($highlight-color, 10%);
+			border:1px solid color-mix(in srgb, var(--highlight-color) 90%, $white-color);
 		}            
 	}     
 

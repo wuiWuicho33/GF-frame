@@ -12,5 +12,5 @@
 }
 
 .file_upload input[type="file"]:hover {
-	border-color: $highlight-color;
+	border-color: var(--highlight-color);
 }

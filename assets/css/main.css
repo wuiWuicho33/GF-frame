@@ -24,6 +24,7 @@
   --sixty-color: #528BD7;
   --seventy-color: #1A6AB4;
   --primary-text-color: #353a41;
+  --highlight-color: #0F4C95;
 }
 
 /* Dark theme */
@@ -36,6 +37,7 @@ body.dark-mode {
   --sixty-color: #17212D;
   --seventy-color: #000000;
   --primary-text-color: #cecece;
+  --highlight-color: #3891ff;
 }
 
 /*Fixed colors*/
@@ -74,14 +76,14 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 
 a {
-  color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 a:hover, a:active, a:focus {
-  color: #0F4C95;
+  color: var(--highlight-color);
 }
 
 b {
-  color: #0F4C95;
+  color: var(--highlight-color);
 }
 
 /* # Text-color
@@ -102,7 +104,6 @@ b {
   color: #db9a17;
 }
 
-/*i{color:$highlight-color;}*/
 /* # Background colors
 ----------------------------------------------- */
 .bg-default {
@@ -112,7 +113,7 @@ b {
   color: var(--primary-text-color);
 }
 .bg-default b {
-  color: #0F4C95;
+  color: var(--highlight-color);
 }
 
 .bg-light {
@@ -3147,7 +3148,7 @@ Tabletas horizontales */
   margin-bottom: 0;
 }
 .box-link .box-icon:hover {
-  border: 1px solid #0F4C95;
+  border: 1px solid var(--highlight-color);
 }
 .box-link .box-icon .icon-circle {
   position: absolute;
@@ -3164,14 +3165,14 @@ Tabletas horizontales */
   font-size: 18px;
   background-color: var(--primary-color);
   transition: background-color 0.3s;
-  color: #0F4C95;
+  color: var(--highlight-color);
 }
 .box-link .box-icon:hover .icon-circle {
-  background-color: #0F4C95;
+  background-color: var(--highlight-color);
   color: var(--primary-color);
 }
 .box-link .box-icon:hover p {
-  color: #0F4C95;
+  color: var(--highlight-color);
 }
 
 /* =====================
@@ -3193,24 +3194,24 @@ Tabletas horizontales */
 .breadcrumb ol li::after {
   content: "/";
   margin: 0 0.5rem;
-  color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 .breadcrumb ol li:last-child::after {
   content: "";
 }
 .breadcrumb ol li a {
-  color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   font-size: 0.75rem;
 }
 .breadcrumb ol li a:hover {
   text-decoration: underline;
-  color: #0F4C95;
+  color: var(--highlight-color);
 }
 .breadcrumb ol li a:hover .icon {
-  color: #0F4C95;
+  color: var(--highlight-color);
 }
 .breadcrumb ol li a .icon {
-  color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   margin-right: 0.25rem;
 }
 
@@ -3257,15 +3258,15 @@ Tabletas horizontales */
 /* # Btn-light
 ----------------------------------------------- */
 .btn-light {
-  background-color: #dbeafb;
-  color: #1464c3;
-  border-color: #1464c3;
+  background-color: color-mix(in srgb, var(--highlight-color) 40%, #ffffff);
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
+  border-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 .btn-light i {
-  color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 .btn-light:hover {
-  background: #1464c3;
+  background: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   color: var(--primary-color);
 }
 .btn-light:hover i {
@@ -3275,44 +3276,44 @@ Tabletas horizontales */
 /* btn-default-inverse */
 .btn-light-inverse {
   background-color: var(--primary-color);
-  color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   border-color: var(--tertiary-color);
 }
 .btn-light-inverse i {
-  color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 .btn-light-inverse:hover {
-  background-color: #dbeafb;
-  border-color: #1464c3;
+  background-color: color-mix(in srgb, var(--highlight-color) 40%, #ffffff);
+  border-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 .btn-light-inverse:hover i {
-  color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 
 /* # Btn-dark
 ----------------------------------------------- */
 .btn-dark {
-  background-color: #1464c3;
+  background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   color: #ffffff;
 }
 .btn-dark i {
   color: var(--white-color);
 }
 .btn-dark:hover {
-  background: #0F4C95;
+  background: var(--highlight-color);
 }
 
 /* btn-default-inverse */
 .btn-dark-inverse {
   background-color: var(--primary-color);
-  color: #1464c3;
-  border-color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
+  border-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 .btn-dark-inverse i {
-  color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 .btn-dark-inverse:hover {
-  background-color: #1464c3;
+  background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   color: var(--primary-color);
 }
 .btn-dark-inverse:hover i {
@@ -3462,7 +3463,7 @@ Tabletas horizontales */
 ----------------------------------------------- */
 .btn-link:hover, .btn-link:active, .btn-link:focus {
   text-decoration: underline;
-  color: #0F4C95;
+  color: var(--highlight-color);
 }
 
 /* # Btn-group
@@ -3484,26 +3485,26 @@ Tabletas horizontales */
 ----------------------------------------------- */
 .button-left {
   background-color: var(--primary-color);
-  color: #1464c3;
-  border: 1px solid #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
+  border: 1px solid color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   border-radius: 0.25rem 0 0 0.25rem;
 }
 .button-left:hover {
-  background-color: #1464c3;
+  background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   color: var(--primary-color);
 }
 
 /* # Botón derecho
 ----------------------------------------------- */
 .button-right {
-  background-color: #1464c3;
+  background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   color: var(--primary-color);
-  border: 1px solid #1464c3;
+  border: 1px solid color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   border-radius: 0 0.25rem 0.25rem 0;
 }
 .button-right:hover {
-  background-color: #0F4C95;
-  border: 1px solid #0F4C95;
+  background-color: var(--highlight-color);
+  border: 1px solid var(--highlight-color);
 }
 
 /*Exclusivo para este proyecto*/
@@ -3521,8 +3522,8 @@ Tabletas horizontales */
   display: inline-block;
   width: 2rem;
   height: 2rem;
-  background-color: #0F4C95;
-  border: 1px solid #0F4C95;
+  background-color: var(--highlight-color);
+  border: 1px solid var(--highlight-color);
   border-radius: 50%;
   font-size: 1rem;
   line-height: 2rem;
@@ -3536,7 +3537,7 @@ Tabletas horizontales */
   background-color: var(--primary-color);
 }
 .btn-circle:hover i {
-  color: #0F4C95;
+  color: var(--highlight-color);
 }
 
 .btn-circle-inverse {
@@ -3544,7 +3545,7 @@ Tabletas horizontales */
   width: 2rem;
   height: 2rem;
   background-color: var(--primary-color);
-  border: 1px solid #0F4C95;
+  border: 1px solid var(--highlight-color);
   border-radius: 50%;
   font-size: 1rem;
   line-height: 2rem;
@@ -3552,10 +3553,10 @@ Tabletas horizontales */
   cursor: pointer;
 }
 .btn-circle-inverse i {
-  color: #0F4C95;
+  color: var(--highlight-color);
 }
 .btn-circle-inverse:hover {
-  background-color: #0F4C95;
+  background-color: var(--highlight-color);
 }
 .btn-circle-inverse:hover i {
   color: var(--primary-color);
@@ -3753,12 +3754,12 @@ i, .material-symbols-outlined {
 .bg-default i,
 .bg-light i,
 .bg-dark i {
-  color: #0F4C95;
+  color: var(--highlight-color);
 }
 .bg-default .material-symbols-outlined,
 .bg-light .material-symbols-outlined,
 .bg-dark .material-symbols-outlined {
-  color: #0F4C95;
+  color: var(--highlight-color);
 }
 
 .bg-darker i,
@@ -3888,20 +3889,20 @@ i, .material-symbols-outlined {
   padding: 8px 15px;
   background-color: var(--primary-color);
   border: 1px solid var(--tertiary-color);
-  color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   background-clip: padding-box;
   font-weight: bold;
   border-radius: 0.3rem;
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 .pagination ul a:hover {
-  background-color: #accef7;
-  border: 1px solid #1464c3;
+  background-color: color-mix(in srgb, var(--highlight-color) 50%, #ffffff);
+  border: 1px solid color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 .pagination ul .current * {
-  background-color: #1464c3;
+  background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   color: var(--primary-color);
-  border: 1px solid #1464c3;
+  border: 1px solid color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 
 /* # Tablet ------------------------------------------ */
@@ -4369,7 +4370,7 @@ legend,
   transition: border-color 0.15s ease-in-out;
 }
 .form-control:hover, .form-control:focus {
-  border-color: #1464c3;
+  border-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   outline: 0;
 }
 .form-control::placeholder {
@@ -4398,7 +4399,7 @@ input[type=radio] {
   width: 20px;
   height: 20px;
   margin-right: 10px;
-  accent-color: #1464c3;
+  accent-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   border: 2px solid var(--tertiary-color);
   border-radius: 4px;
 }
@@ -4454,7 +4455,7 @@ input[type=range]::-webkit-slider-thumb {
   appearance: none;
   width: 20px;
   height: 20px;
-  background: #1464c3;
+  background: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
@@ -4463,7 +4464,7 @@ input[type=range]::-webkit-slider-thumb {
 input[type=range]::-moz-range-thumb {
   width: 20px;
   height: 20px;
-  background: #1464c3;
+  background: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   border-radius: 50%;
   border: 2px solid #fff;
   cursor: pointer;
@@ -4472,19 +4473,19 @@ input[type=range]::-moz-range-thumb {
 
 /* Efecto de "agrandamiento" al hacer hover sobre el pulgar */
 input[type=range]:hover::-webkit-slider-thumb {
-  background: #1464c3;
+  background: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   transform: scale(1.1);
 }
 
 input[type=range]:hover::-moz-range-thumb {
-  background: #1464c3;
+  background: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   transform: scale(1.1);
 }
 
 /* Tooltip (output) */
 output {
   position: absolute;
-  background-color: #1464c3;
+  background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   width: 50px;
   height: 30px;
   text-align: center;
@@ -4503,7 +4504,7 @@ output:after {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 10px solid #1464c3;
+  border-top: 10px solid color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   top: 100%;
@@ -4566,7 +4567,7 @@ output:after {
   transition: border-color 0.15s ease-in-out;
 }
 .multi-select_field:hover {
-  border-color: #1464c3;
+  border-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 .multi-select_field:after {
   content: "\f078";
@@ -4653,8 +4654,8 @@ output:after {
 /* # Search button
 ----------------------------------------------- */
 .search-button {
-  background-color: #1464c3;
-  border: 1px solid #1464c3;
+  background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
+  border: 1px solid color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   color: #ffffff;
   padding: 10px;
   border-radius: 0 0.25rem 0.25rem 0;
@@ -4666,8 +4667,8 @@ output:after {
   width: 40px;
 }
 .search-button:hover {
-  background-color: #0F4C95;
-  border: 1px solid #0F4C95;
+  background-color: var(--highlight-color);
+  border: 1px solid var(--highlight-color);
 }
 
 @media (min-width: 768px) {
@@ -4782,7 +4783,7 @@ output:after {
 }
 
 .file_upload input[type=file]:hover {
-  border-color: #0F4C95;
+  border-color: var(--highlight-color);
 }
 
 /*Dashboard layout*/
@@ -4966,7 +4967,7 @@ Colour theme
  Sidebar
  ========== */
 .main-sidebar {
-  background-color: #1464c3;
+  background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 
 .sidebar a {
@@ -5142,7 +5143,7 @@ Colour theme
 /* # Sidebar-toggle
 ----------------------------------------------- */
 .main-header .sidebar-navbar .sidebar-toggle {
-  color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 
 .main-header .sidebar-navbar .sidebar-toggle:hover {
@@ -5248,9 +5249,9 @@ Colour theme
 ----------------------------------------------- */
 .sidebar-menu > li > a:hover,
 .sidebar-menu > li.active > a {
-  background: #0F4C95;
+  background: var(--highlight-color);
   color: var(--primary-color);
-  border-left-color: #0F4C95;
+  border-left-color: var(--highlight-color);
 }
 
 .sidebar-menu > li > .treeview-menu {
@@ -5380,7 +5381,7 @@ Colour theme
 }
 
 .quicklinks-menu > li > a > i {
-  color: #0F4C95;
+  color: var(--highlight-color);
 }
 
 .quicklinks-menu > li > a:hover,
@@ -5551,10 +5552,10 @@ ul.secondary_menu li a small {
   font-size: 70%;
 }
 ul.secondary_menu li:hover {
-  border-color: #0F4C95;
+  border-color: var(--highlight-color);
 }
 ul.secondary_menu li:hover a {
-  color: #0F4C95;
+  color: var(--highlight-color);
   font-weight: 500;
 }
 ul.secondary_menu li.complete {
@@ -5565,10 +5566,10 @@ ul.secondary_menu li.complete a {
   font-weight: 500;
 }
 ul.secondary_menu li.active {
-  border-color: #0F4C95;
+  border-color: var(--highlight-color);
 }
 ul.secondary_menu li.active a {
-  color: #0F4C95;
+  color: var(--highlight-color);
   font-weight: 500;
 }
 
@@ -5623,7 +5624,7 @@ ul.secondary_menu li.active a {
   color: #ffffff;
 }
 .banner .breadcrumb ol li a {
-  color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 .banner .breadcrumb ol li a:hover {
   color: #ffffff;
@@ -5632,7 +5633,7 @@ ul.secondary_menu li.active a {
   color: #ffffff;
 }
 .banner .breadcrumb ol li a .icon {
-  color: #1464c3;
+  color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
 }
 
 /* # Hero
@@ -5816,14 +5817,14 @@ Tabletas horizontales*/
 }
 
 .text-input:hover {
-  border-color: #0F4C95;
+  border-color: var(--highlight-color);
 }
 .text-input:focus {
   outline: none;
 }
 
 .date-input:focus {
-  border: 1px solid #0F4C95;
+  border: 1px solid var(--highlight-color);
   outline: none;
 }
 

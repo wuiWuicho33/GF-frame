@@ -10,8 +10,8 @@ i,.material-symbols-outlined{
 .bg-default,
 .bg-light,
 .bg-dark {
-  i {color: $highlight-color;}  
-  .material-symbols-outlined{color: $highlight-color;}
+  i {color:var(--highlight-color);}  
+  .material-symbols-outlined{color: var(--highlight-color);}
 }
 
 .bg-darker,

@@ -102,7 +102,7 @@
   color: var(--primary-text-color);
 }
 .quicklinks-menu > li > a > i{
-  color: $highlight-color;
+  color: var(--highlight-color);
 }
 .quicklinks-menu > li > a:hover,
 .quicklinks-menu > li > a:focus {

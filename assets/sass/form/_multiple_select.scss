@@ -30,7 +30,7 @@
   transition: border-color 0.15s ease-in-out;
 
   &:hover {
-    border-color: lighten($highlight-color, 10%);
+    border-color: color-mix(in srgb, var(--highlight-color) 90%, $white-color);
   }  
 
   &:after {

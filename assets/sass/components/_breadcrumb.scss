@@ -18,7 +18,7 @@
 		&::after {
 			content: "/";
 			margin: 0 0.5rem;
-			color: lighten($highlight-color, 10%);
+			color: color-mix(in srgb, var(--highlight-color) 90%, $white-color);
 		}		
 
 		&:last-child::after {
@@ -26,17 +26,17 @@
 		}		
 
 		a {
-			color: lighten($highlight-color, 10%);
+			color: color-mix(in srgb, var(--highlight-color) 90%, $white-color);
 			font-size: 0.75rem;
 		
 			&:hover {
 				text-decoration: underline;
-				color:$highlight-color;
-				.icon{color:$highlight-color;}
+				color:var(--highlight-color);
+				.icon{color:var(--highlight-color);}
 			}	
 
 			.icon{
-				color: lighten($highlight-color, 10%);
+				color: color-mix(in srgb, var(--highlight-color) 90%, $white-color);
 				margin-right: 0.25rem;
 			}			
 			

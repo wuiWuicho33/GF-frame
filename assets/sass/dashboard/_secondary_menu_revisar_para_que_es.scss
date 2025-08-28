@@ -21,19 +21,19 @@ ul.secondary_menu {
     }    
 
     &:hover {
-      border-bottom: 2px solid $highlight-color;
+      border-bottom: 2px solid var(--highlight-color);
 
       a {
-        color: $highlight-color;
+        color: var(--highlight-color);
         font-weight: bold;
       }
     }
 
     &.active {
-      border-bottom: 2px solid $highlight-color;
+      border-bottom: 2px solid var(--highlight-color);
 
       a {
-        color: $highlight-color;
+        color: var(--highlight-color);
         font-weight: bold;
       }
     }
