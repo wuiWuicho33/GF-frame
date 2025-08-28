@@ -39,6 +39,41 @@
   }
 }
 
+/* # Btn-disable
+----------------------------------------------- */
+.btn-disable {
+  background-color: var(--secondary-color);
+  color: var(--fourth-color);
+  cursor:not-allowed;
+  i {color: var(--fourth-color);}    
+}    
+
+/* # Btn-lighter
+----------------------------------------------- */
+.btn-lighter {
+  background-color: color-mix(in srgb, var(--sixty-color) 90%, $white-color);
+  color: var(--primary-color); 
+  i {color: var(--primary-color);}
+  
+  &:hover {
+    background-color: var(--sixty-color); 
+  }
+}
+
+/* btn-light-inverse */
+.btn-lighter-inverse {  
+  background-color: var(--primary-color);
+  color: color-mix(in srgb, var(--sixty-color) 90%, $white-color); 
+  border-color: color-mix(in srgb, var(--sixty-color) 90%, $white-color); 
+  i {color: color-mix(in srgb, var(--sixty-color) 90%, $white-color);}
+
+  &:hover{
+    background-color: var(--sixty-color); 
+    color: var(--primary-color);
+    i {color: var(--primary-color);}      
+  }
+}
+
 /* # Btn-light
 ----------------------------------------------- */
 .btn-light {
@@ -87,29 +122,6 @@
     background-color: color-mix(in srgb, var(--highlight-color) 90%, $white-color);
     color: var(--tertiary-color); 
     i {color: var(--tertiary-color);}
-  }
-}
-
-/* # Btn-lighter
------------------------------------------------ */
-.btn-lighter {
-  background-color: var(--secondary-color);   
-  color: var(--fifth-color);
-  i {color: var(--fifth-color);}    
-
-  &:hover{
-    background:var(--secondary-color);
-  }
-}
-/* btn-light-inverse */
-.btn-lighter-inverse {
-  background-color: var(--primary-color);
-  color: var(--fifth-color); 
-  border-color: var(--secondary-color);
-  i {color: var(--fifth-color);}
-  
-  &:hover {
-    background-color: var(--secondary-color);
   }
 }
 
@@ -193,15 +205,6 @@
     i {color: var(--primary-color);}
   }
 }
-
-/* # Btn-disable
------------------------------------------------ */
-.btn-disable {
-  background-color: var(--secondary-color);
-  color: var(--fourth-color);
-  cursor:not-allowed;
-  i {color: var(--fourth-color);}    
-}    
 
 /* # Btn-Link
 ----------------------------------------------- */

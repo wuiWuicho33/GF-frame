@@ -3254,6 +3254,47 @@ Tabletas horizontales */
   line-height: 0.5rem;
 }
 
+/* # Btn-disable
+----------------------------------------------- */
+.btn-disable {
+  background-color: var(--secondary-color);
+  color: var(--fourth-color);
+  cursor: not-allowed;
+}
+.btn-disable i {
+  color: var(--fourth-color);
+}
+
+/* # Btn-lighter
+----------------------------------------------- */
+.btn-lighter {
+  background-color: color-mix(in srgb, var(--sixty-color) 90%, #ffffff);
+  color: var(--primary-color);
+}
+.btn-lighter i {
+  color: var(--primary-color);
+}
+.btn-lighter:hover {
+  background-color: var(--sixty-color);
+}
+
+/* btn-light-inverse */
+.btn-lighter-inverse {
+  background-color: var(--primary-color);
+  color: color-mix(in srgb, var(--sixty-color) 90%, #ffffff);
+  border-color: color-mix(in srgb, var(--sixty-color) 90%, #ffffff);
+}
+.btn-lighter-inverse i {
+  color: color-mix(in srgb, var(--sixty-color) 90%, #ffffff);
+}
+.btn-lighter-inverse:hover {
+  background-color: var(--sixty-color);
+  color: var(--primary-color);
+}
+.btn-lighter-inverse:hover i {
+  color: var(--primary-color);
+}
+
 /* # Btn-light
 ----------------------------------------------- */
 .btn-light {
@@ -3312,32 +3353,6 @@ Tabletas horizontales */
 }
 .btn-dark-inverse:hover i {
   color: var(--tertiary-color);
-}
-
-/* # Btn-lighter
------------------------------------------------ */
-.btn-lighter {
-  background-color: var(--secondary-color);
-  color: var(--fifth-color);
-}
-.btn-lighter i {
-  color: var(--fifth-color);
-}
-.btn-lighter:hover {
-  background: var(--secondary-color);
-}
-
-/* btn-light-inverse */
-.btn-lighter-inverse {
-  background-color: var(--primary-color);
-  color: var(--fifth-color);
-  border-color: var(--secondary-color);
-}
-.btn-lighter-inverse i {
-  color: var(--fifth-color);
-}
-.btn-lighter-inverse:hover {
-  background-color: var(--secondary-color);
 }
 
 /* # Btn-danger
@@ -3440,17 +3455,6 @@ Tabletas horizontales */
 }
 .btn-warning-inverse:hover i {
   color: var(--primary-color);
-}
-
-/* # Btn-disable
------------------------------------------------ */
-.btn-disable {
-  background-color: var(--secondary-color);
-  color: var(--fourth-color);
-  cursor: not-allowed;
-}
-.btn-disable i {
-  color: var(--fourth-color);
 }
 
 /* # Btn-Link
