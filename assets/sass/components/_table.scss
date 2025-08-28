@@ -40,7 +40,9 @@ td, th {
 /* # Mensaje de celda agregada
 ----------------------------------------------- */
 tr.new {
-  background-color:lighten($success-color, 40%);
+  background-color:lighten($success-color, 45%);
+  color: $success-color;
+  p{color: $success-color;}
   td small{
     color:$success-color;
     display: block;

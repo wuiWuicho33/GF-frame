@@ -3978,7 +3978,11 @@ td, th {
 /* # Mensaje de celda agregada
 ----------------------------------------------- */
 tr.new {
-  background-color: #b9e8ba;
+  background-color: #cceecd;
+  color: #35a038;
+}
+tr.new p {
+  color: #35a038;
 }
 tr.new td small {
   color: #35a038;
