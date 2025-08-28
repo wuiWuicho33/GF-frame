@@ -60,8 +60,8 @@ html {box-sizing: border-box;}
   z-index: 1000;
   padding: 8px;
   width: 160px;
-  background-color: var(--primary-text-color);
-  color: #fff;
+  background-color: $dark-color;
+  color: $white-color;
   content: attr(data-tooltip);
   font-size: 14px;
   line-height: 1.2;
@@ -86,7 +86,7 @@ html {box-sizing: border-box;}
 .tooltip-top:before {
   margin-left: -6px;
   margin-bottom: -12px;
-  border-top-color: var(--primary-text-color);
+  border-top-color: $dark-color;
 }
 
 /* Horizontally align top/bottom tooltips */
@@ -138,7 +138,7 @@ html {box-sizing: border-box;}
   margin-right: -12px;
   margin-bottom: 0;
   border-top-color: transparent;
-  border-left-color: var(--primary-text-color);
+  border-left-color: $dark-color;
 }
 
 .tooltip-left:hover:before,
@@ -159,7 +159,7 @@ html {box-sizing: border-box;}
   margin-bottom: 0;
   margin-left: -12px;
   border-top-color: transparent;
-  border-right-color: var(--primary-text-color);
+  border-right-color: $dark-color;
 }
 
 .tooltip-right:hover:before,
@@ -181,7 +181,7 @@ html {box-sizing: border-box;}
   margin-top: -12px;
   margin-bottom: 0;
   border-top-color: transparent;
-  border-bottom-color: var(--primary-text-color);
+  border-bottom-color: $dark-color;
 }
 
 .tooltip-bottom:hover:before,
