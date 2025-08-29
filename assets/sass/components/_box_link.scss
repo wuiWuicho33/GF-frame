@@ -27,7 +27,7 @@
     p{
       font-family:$secondary-font;
       font-size: 1rem; 
-      color:$gray-color;
+      color:var(--primary-text-color);
       font-weight: bold;  
       margin-bottom: 0;
     }
@@ -53,12 +53,16 @@
       background-color: var(--primary-color);
       transition: background-color 0.3s;
       color:var(--highlight-color);
+
+      i{color:var(--highlight-color);}
     }   
     
     /* Hover sobre la tarjeta: cambia color del icono */
     &:hover .icon-circle {
       background-color: var(--highlight-color); 
+      border-color: var(--highlight-color);
       color:var(--primary-color);
+      i{color:$white-color;}
     }
     
     &:hover p {

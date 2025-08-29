@@ -23,7 +23,7 @@
   --fifth-color: #7A99E1;
   --sixty-color: #528BD7;
   --seventy-color: #1A6AB4;
-  --primary-text-color: #353a41;
+  --primary-text-color: #30363d;
   --highlight-color: #0F4C95;
 }
 
@@ -3143,7 +3143,7 @@ Tabletas horizontales */
 .box-link .box-icon p {
   font-family: "Roboto", serif;
   font-size: 1rem;
-  color: #5c5c5c;
+  color: var(--primary-text-color);
   font-weight: bold;
   margin-bottom: 0;
 }
@@ -3167,9 +3167,16 @@ Tabletas horizontales */
   transition: background-color 0.3s;
   color: var(--highlight-color);
 }
+.box-link .box-icon .icon-circle i {
+  color: var(--highlight-color);
+}
 .box-link .box-icon:hover .icon-circle {
   background-color: var(--highlight-color);
+  border-color: var(--highlight-color);
   color: var(--primary-color);
+}
+.box-link .box-icon:hover .icon-circle i {
+  color: #ffffff;
 }
 .box-link .box-icon:hover p {
   color: var(--highlight-color);
@@ -3606,7 +3613,7 @@ Tabletas horizontales */
   border-radius: 0.5rem;
   font-family: "Roboto", serif;
   font-size: 1rem;
-  color: #5c5c5c;
+  color: var(--primary-text-color);
   font-weight: bold;
   cursor: pointer;
 }
@@ -5558,7 +5565,7 @@ ul.secondary_menu li a {
   align-items: center;
   gap: 0.25rem;
   padding: 10px;
-  color: var(--fifth-color);
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 ul.secondary_menu li a small {
