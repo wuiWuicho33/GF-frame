@@ -5514,13 +5514,18 @@ ul.social-links {
   border-radius: 1rem;
   font-size: 1rem;
   text-align: center;
-  color: var(--seventy-color);
+  color: red;
   background-color: transparent;
 }
-
+.social-links a i {
+  color: var(--primary-color);
+}
 .social-links a:hover {
-  color: #FFFFFF;
-  background-color: #D55A77;
+  color: red;
+  background-color: red;
+}
+.social-links a:hover i {
+  color: #ffffff;
 }
 
 .social-links a.faicon-facebook:hover {
@@ -5674,10 +5679,10 @@ header.hero .hero_content {
 }
 header.hero .hero_content h1 {
   font-size: 2.3rem;
-  color: var(--primary-color);
+  color: #ffffff;
 }
 header.hero .hero_content p {
-  color: var(--primary-color);
+  color: #ffffff;
   margin-bottom: 0;
 }
 header.hero .hero_content img {

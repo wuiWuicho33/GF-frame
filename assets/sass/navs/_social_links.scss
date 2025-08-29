@@ -15,13 +15,22 @@ ul.social-links {
   border-radius: 1rem;
   font-size:1rem; 
   text-align:center;
-  color:var(--seventy-color); 
+  color:red; 
   background-color:transparent;
-}
 
-.social-links a:hover{
-  color:#FFFFFF; 
-  background-color:#D55A77;
+  i{
+    color: var(--primary-color);
+  }
+
+  &:hover{    
+    color:red; 
+    background-color:red;
+    
+    i{
+      color: $white-color;
+    }
+  }
+
 }
 
 .social-links a.faicon-facebook:hover{background-color:#3B5998;}
