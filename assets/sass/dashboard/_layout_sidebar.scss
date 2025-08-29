@@ -185,12 +185,6 @@ Colour theme
 .main-sidebar {
   background-color: color-mix(in srgb, var(--highlight-color) 90%, $white-color);
 }
-.sidebar a {
-  color: var(--fourth-color);
-}
-.sidebar a:hover {
-  text-decoration: none;
-}
 
 /* # Sidebar-footer
 ----------------------------------------------- */

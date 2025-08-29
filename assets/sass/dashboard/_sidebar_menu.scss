@@ -79,20 +79,33 @@
 
 /* # Colours
 ----------------------------------------------- */
+.sidebar a {
+  color: var(--tertiary-color);
+  &:hover {
+   text-decoration: none;
+  }
+}
+
+.sidebar-menu > li > a > i {
+	color: var(--tertiary-color);
+}
 .sidebar-menu > li > a:hover,
 .sidebar-menu > li.active > a {
   background: var(--highlight-color);
-  color: var(--primary-color);
+  color: var(--fourth-color);
   border-left-color: var(--highlight-color);
+
+  i{color: var(--fourth-color);}
 }
 .sidebar-menu > li > .treeview-menu {
-  background: var(--sixty-color);
+  background: var(--fourth-color);
 }
 
 .treeview-menu > li > a {
-  color: var(--tertiary-color);
+  color: var(--primary-text-color);
 }
 .treeview-menu > li.active > a,
 .treeview-menu > li > a:hover {
-  color: var(--primary-color);
+  color: var(--highlight-color);
+  font-weight: bold;
 }
