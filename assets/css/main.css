@@ -5518,7 +5518,7 @@ ul.social-links {
   background-color: transparent;
 }
 .social-links a i {
-  color: var(--primary-color);
+  color: var(--seventy-color);
 }
 .social-links a:hover {
   color: red;
