@@ -32,6 +32,7 @@
   justify-content: center;
   height: 38px; /* Misma altura que el input */
   width: 40px;
+  i{color: $white-color;}
   &:hover {
     background-color: var(--highlight-color);
     border: 1px solid var(--highlight-color);

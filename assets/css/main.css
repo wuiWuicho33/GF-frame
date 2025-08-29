@@ -3746,6 +3746,7 @@ Tabletas verticales o celulares horizontales*/
 ===================== */
 i, .material-symbols-outlined {
   font-size: 1rem;
+  color: var(--highlight-color);
 }
 
 /* # Background color
@@ -4666,6 +4667,9 @@ output:after {
   justify-content: center;
   height: 38px; /* Misma altura que el input */
   width: 40px;
+}
+.search-button i {
+  color: #ffffff;
 }
 .search-button:hover {
   background-color: var(--highlight-color);
