@@ -49,12 +49,12 @@ body.dark-mode {
 /*Background color*/
 body::-webkit-scrollbar {
   width: 10px;
-  background-color: var(--primary-color);
+  background-color: var(--fifth-color);
 }
 
 /*Bar color*/
 body::-webkit-scrollbar-thumb {
-  background: var(--fourth-color);
+  background: var(--primary-color);
 }
 
 body {
