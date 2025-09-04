@@ -182,7 +182,7 @@
   /* # Dropdown toggle
   ----------------------------------------------- */
   .dropdown:hover .dropdown-toggle {
-    color:$highlight-color; 
+    color:var(--highlight-color); 
     background-color: inherit; 
   }
   
