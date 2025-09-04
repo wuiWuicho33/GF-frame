@@ -19,7 +19,7 @@ ul.social-links {
   background-color:transparent;
 
   i{
-    color: var(--seventy-color);
+    color: var(--highlight-color);
   }
 
   &:hover{    
@@ -36,3 +36,13 @@ ul.social-links {
 .social-links a.faicon-facebook:hover{background-color:#3B5998;}
 .social-links a.faicon-linkedin:hover{background-color:#0E76A8;}
 .social-links a.faicon-instagram:hover{background-color:#EA4C89;}
+
+
+//Extra
+.bg-darker {
+  .social-links a{
+    i{
+      color: var(--fifth-color);
+    }
+  }  
+}

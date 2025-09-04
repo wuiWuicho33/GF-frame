@@ -5074,7 +5074,7 @@ ul.social-links {
   background-color: transparent;
 }
 .social-links a i {
-  color: var(--seventy-color);
+  color: var(--highlight-color);
 }
 .social-links a:hover {
   color: red;
@@ -5094,6 +5094,10 @@ ul.social-links {
 
 .social-links a.faicon-instagram:hover {
   background-color: #EA4C89;
+}
+
+.bg-darker .social-links a i {
+  color: var(--fifth-color);
 }
 
 /* =====================
