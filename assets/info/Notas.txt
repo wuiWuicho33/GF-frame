@@ -1,4 +1,3 @@
-Revisar los scripts del mainnav y el active_link ya que no funcionan juntos, sólo separados.
 Colocar el navbar en la página de los componentes
 Ajustar las medidas de todos los mediaqueries
 Agregar sliders
