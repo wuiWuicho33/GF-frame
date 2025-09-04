@@ -14,7 +14,6 @@
 /*Components*/
 @import 'components/_accordion';
 @import 'components/_alerts';
-@import 'components/_back_to_top';
 @import 'components/_box_link';
 @import 'components/_breadcrumb';
 @import 'components/_buttons';
@@ -37,10 +36,11 @@
 @import 'form/_upload_files';
 @import 'form/_date_group'; 
 
-/*Navs*/
-@import 'navs/_standar_navbar';//Revisar que sus estilos no choquen con el main_header y sidebar_menu del sidebar
-@import 'navs/_social_links';
-@import 'navs/_secondary_menu';
+/*Navigation*/
+@import 'navigation/_standar_navbar';//Revisar que sus estilos no choquen con el main_header y sidebar_menu del sidebar
+@import 'navigation/_social_links';
+@import 'navigation/_secondary_menu';
+@import 'navigation/_back_to_top';
 
 /*Website layout*/
 @import 'layouts/_sections';

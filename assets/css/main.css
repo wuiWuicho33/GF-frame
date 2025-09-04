@@ -3088,32 +3088,6 @@ Tabletas horizontales */
 }
 
 /* =====================
-# BACK TO TOP
-===================== */
-#back-to-top {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 45px;
-  height: 45px;
-  text-align: center;
-  z-index: 1000;
-  transition: background-color 0.3s ease;
-  opacity: 0.2;
-  color: var(--primary-text-color);
-  background-color: var(--sixty-color);
-}
-#back-to-top i {
-  line-height: 45px;
-  font-size: 24px;
-}
-
-#back-to-top:hover {
-  opacity: 1;
-}
-
-/* =====================
 # BOX LINK
 ===================== */
 .box-link {
@@ -4852,7 +4826,7 @@ output:after {
     width: 408px;
   }
 }
-/*Navs*/
+/*Navigation*/
 /* =====================
 # STANDAR NAVBAR
 ===================== */
@@ -5188,6 +5162,32 @@ ul.secondary_menu li.active a {
     padding: 0 0 0.5rem;
   }
 }
+/* =====================
+# BACK TO TOP
+===================== */
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+  opacity: 0.2;
+  color: var(--primary-text-color);
+  background-color: var(--sixty-color);
+}
+#back-to-top i {
+  line-height: 45px;
+  font-size: 24px;
+}
+
+#back-to-top:hover {
+  opacity: 1;
+}
+
 /*Website layout*/
 /* =====================
 # SECCIONES
