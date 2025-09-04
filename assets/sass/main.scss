@@ -35,13 +35,7 @@
 @import 'form/_search';
 @import 'form/_switch';
 @import 'form/_upload_files';
-
-/*Dashboard layout*/
-@import 'dashboard/_layout_sidebar';
-@import 'dashboard/_main_header';
-@import 'dashboard/_sidebar_menu';
-@import 'dashboard/_quicklinks_menu';
-@import 'dashboard/_user_panel';
+@import 'form/_date_group'; 
 
 /*Navs*/
 //@import 'navs/_standar_navbar';
@@ -51,4 +45,10 @@
 /*Website layout*/
 @import 'layouts/_sections';
 @import 'layouts/_login'; 
-@import 'components/_date_group'; 
+
+/*Dashboard layout*/
+@import 'dashboard/_layout_sidebar';
+@import 'dashboard/_main_header';
+@import 'dashboard/_sidebar_menu';
+@import 'dashboard/_quicklinks_menu';
+@import 'dashboard/_user_panel';
