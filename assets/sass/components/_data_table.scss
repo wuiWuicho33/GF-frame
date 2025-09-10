@@ -1,0 +1,121 @@
+/* =========================
+   BARRA DE BÚSQUEDA Y LENGTH MENU
+========================= */
+.dataTables_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.dataTables_length,
+.dataTables_filter {
+  margin-bottom: 10px;
+}
+
+.dataTables_length label,
+.dataTables_filter label {
+  font-weight: normal;
+  font-size: 14px;
+  color: var(--primary-text-color);
+}
+
+.dataTables_length select,
+.dataTables_filter input {
+  margin-left: 5px;
+  padding: 6px 10px;
+  border: 1px solid var(--tertiary-color);
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  background-color: var(--primary-color);
+}
+
+.dataTables_length select:focus,
+.dataTables_filter input:focus {
+  border-color:color-mix(in srgb, var(--highlight-color) 90%, $white-color); ;
+}
+
+/* =========================
+   INFORMACIÓN DE LA TABLA
+========================= */
+.dataTables_info {
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--primary-text-color);;
+}
+
+/* =========================
+   PAGINADOR
+========================= */
+.dataTables_paginate {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.dataTables_paginate .paginate_button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-left: 3px;
+  border-radius: 4px;
+  background-color: var(--tertiary-color);;
+  color: color-mix(in srgb, var(--highlight-color) 90%, $white-color);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.dataTables_paginate .paginate_button:hover {
+  background-color: color-mix(in srgb, var(--highlight-color) 90%, $white-color);
+  color: var(--tertiary-color);
+}
+
+.dataTables_paginate .paginate_button.current {
+  background-color: color-mix(in srgb, var(--highlight-color) 90%, $white-color);
+  color:var(--tertiary-color);
+}
+
+/* =========================
+   ORDENAMIENTO DE COLUMNAS
+========================= */
+table.dataTable thead th.sorting:after,
+table.dataTable thead th.sorting_asc:after,
+table.dataTable thead th.sorting_desc:after {
+  content: "";
+  float: right;
+  margin-left: 5px;
+  border: 5px solid transparent;
+  opacity: 0.6;
+}
+
+table.dataTable thead th.sorting_asc:after {
+  border-bottom-color: var(--primary-color);
+}
+
+table.dataTable thead th.sorting_desc:after {
+  border-top-color: var(--primary-color);
+}
+
+/* =========================
+   RESPONSIVE BÁSICO
+========================= */
+@media screen and (max-width: 768px) {
+  table.dataTable {
+    font-size: 12px;
+  }
+
+  .dataTables_wrapper {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .dataTables_length,
+  .dataTables_filter,
+  .dataTables_paginate {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
