@@ -57,12 +57,12 @@ $danger-color:#b92214;
 /*Background color*/
 body::-webkit-scrollbar {
   width: 10px;
-  background-color: var(--fifth-color);
+  background-color: var(--primary-color);
 }
 
 /*Bar color*/
 body::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
+  background: var(--fifth-color);
 }
 
 body {
