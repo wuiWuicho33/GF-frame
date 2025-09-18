@@ -1,7 +1,6 @@
-Colocar el navbar en la página de los componentes
+Colocar ojito a input de contraseña
 Ajustar las medidas de todos los mediaqueries
 Agregar sliders
-Colocar ojito a input de contraseña
 
 Revisar que los modales y cajas de alerta funcionen correctamente
 Agregar componente de alertas
