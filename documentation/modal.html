@@ -2,17 +2,17 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>GF - Tabs</title>
+    <title>RF - Modal</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link rel="icon" href="../assets/img/favicon.png" type="image/png">
     <!-- Styles -->
     <link href="../assets/css/main.css" rel="stylesheet" type="text/css" />         
   </head>
-  <body class="default-theme">
+  <body>
 
     <div class="wrapper fixed">                  
       <!-- ==========
-      * MAIN HEADER *
+      * MAIN-HEADER *
       =========== -->               
       <header class="main-header">
         <!-- Logo
@@ -134,7 +134,7 @@
       <aside class="main-sidebar">
         <section class="sidebar">          
           <!-- User panel
-          ========================================== -->              
+          ========================================== --> 
           <div class="user-panel">
             <div class="image">
               <img src="../assets/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
@@ -144,8 +144,8 @@
               <a href="#"><i class="fa-solid fa-circle text-success fa-xs"></i> Online</a>
             </div>
           </div>     
-          <!-- Sidebar-menu
-          ========================================== -->                        
+          <!-- Sidebar Menu
+          ========================================== -->         
           <ul class="sidebar-menu">     
             <li>
               <a href="#"><i class="fa-solid fa-book"></i> Link</a>
@@ -168,7 +168,7 @@
                   </a>
                 </li>                                                  
               </ul>
-            </li> 
+            </li>   
             <li class="treeview">
               <a href="#">
                 <i class="fa-solid fa-icons"></i>
@@ -197,7 +197,7 @@
                   </a>
                 </li>                                                 
               </ul>
-            </li>   
+            </li>    
             <li class="treeview">
               <a href="#">
                 <i class="fa-solid fa-compass"></i>
@@ -221,7 +221,7 @@
                   </a>
                 </li>                                
               </ul>
-            </li>                                                        
+            </li>                                                     
             <li class="treeview active">
               <a href="#">
                 <i class="fa-solid fa-table"></i>
@@ -233,12 +233,12 @@
                   <a href="accordion.html">
                     <i class="fa-regular fa-circle"></i> Accordion
                   </a>
-                </li>  
+                </li>                 
                 <li>
                   <a href="alerts.html">
                     <i class="fa-regular fa-circle"></i> Alertas
                   </a>
-                </li>                                                                           
+                </li>  
                 <li>
                   <a href="cards.html">
                     <i class="fa-regular fa-circle"></i> Cards
@@ -249,7 +249,7 @@
                     <i class="fa-regular fa-circle"></i> Forms
                   </a>
                 </li>                                
-                <li>
+                <li class="active">
                   <a href="modal.html">
                     <i class="fa-regular fa-circle"></i> Modal
                   </a>
@@ -258,17 +258,17 @@
                   <a href="sweet-alert.html">
                     <i class="fa-regular fa-circle"></i> Sweet alert
                   </a>
-                </li>                                                                                            
-                <li class="active">
+                </li>
+                <li>
                   <a href="tabs.html">
                     <i class="fa-regular fa-circle"></i> Tabs
                   </a>
-                </li>                                                                                                                                                                                                                                                                                                                                                                     
+                </li>                                                                                                                                                                                                                                                                                                                                                                   
                 <li>
                   <a href="tooltips.html">
                     <i class="fa-regular fa-circle"></i> Tooltips
                   </a>
-                </li>                
+                </li>                 
               </ul>
             </li>          
           </ul>
@@ -284,108 +284,38 @@
       =================== -->
       <main class="content-wrapper">
         <!-- Content-header
-        ========================================== -->        
+        ========================================== -->
         <div class="content-header">
-          <h1>Tabs style</h1>          
-        </div>
-         
+          <h1>Modal</h1>          
+        </div> 
         <!-- Content-body
-        ========================================== --> 
-        <section class="content-body">                    
-          <!-- ====== Card  ====== --> 
-          <div class="card">
-            <!-- ------ Card-user ------ -->
-            <header class="card-header">
-              <h4>Horizontal tab</h4>
-            </header>
-            <!-- ------ Card-body ------ -->
-            <div class="card-body">    
-              <!-- Tab-container -->
-              <div class="tabs-container">
-                <!-- --------
-                Buttons
-                --------- -->    
-                <div class="tabs tabs-center">
-                  <button class="tab-button active" data-target="tab-01" aria-controls="tab-01" role="tab">Pestaña 01</button>
-                  <button class="tab-button" data-target="tab-02" aria-controls="tab-02" role="tab">Pestaña 02</button>
-                  <button class="tab-button" data-target="tab-03" aria-controls="tab-03" role="tab">Pestaña 03</button>
-                  <button class="tab-button" data-target="tab-04" aria-controls="tab-04" role="tab">Pestaña 04</button>
-                </div>
-                <!-- --------
-                Content
-                --------- -->    
-                <div class="tab-content">
-                  <!-- Tab-pane-01
-                  ------------------------------------------ -->
-                  <div class="tab-pane active" id="tab-01" role="tabpanel">                                                         
-                    <p>Contenido de tab 01</p>
-                  </div>
-                  <!-- Tab-pane-02
-                  ------------------------------------------ -->                  
-                  <div class="tab-pane" id="tab-02" role="tabpanel">            
-                    <p>Contenido de tab 02</p>
-                  </div>
-                  <!-- Tab-pane-03
-                  ------------------------------------------ -->
-                  <div class="tab-pane" id="tab-03" role="tabpanel">              
-                    <p>Contenido de tab 03</p>
-                  </div>            
-                  <!-- Tab-pane-04
-                  ------------------------------------------ -->
-                  <div class="tab-pane" id="tab-04" role="tabpanel">
-                    <p>Contenido de tab 04</p>
-                  </div> 
-                </div>
-              </div>                                   
-            </div>
-          </div>
+        ========================================== -->
+        <section class="content-body">                        
+          <button class="btn btn-dark-inverse" data-modal="modal-01">
+            Modal example
+          </button>  
           
-          <!-- ====== Card  ====== --> 
-          <div class="card">
-            <!-- ------ Card-header ------ -->
-            <header class="card-header">
-              <h4>Vertical tab</h4>
-            </header>
-            <!-- ------ Card-body ------ -->
-            <div class="card-body">    
-              <!-- Vertical tabs -->
-              <div class="vertical-tabs-container">
-                <div class="vertical-tabs">
-                  <div class="vertical-tab" data-tab="vertical-tab-1">Tab 01</div>
-                  <div class="vertical-tab" data-tab="vertical-tab-2">Tab 02</div>
-                  <div class="vertical-tab" data-tab="vertical-tab-3">Tab 03</div>
-                  <div class="vertical-tab" data-tab="vertical-tab-4">Tab 04</div>
-                  <div class="vertical-tab" data-tab="vertical-tab-5">Tab 05</div>
-                  <div class="vertical-tab" data-tab="vertical-tab-6">Tab 06</div>
-                  <div class="vertical-tab" data-tab="vertical-tab-7">Tab 07</div>
-                </div>
-                <div class="vertical-tab-content">
-                  <div id="vertical-tab-1" class="vertical-tab-pane">
-                    <p>Contenido de tab 01</p>
-                  </div>
-                  <div id="vertical-tab-2" class="vertical-tab-pane">
-                    <p>Contenido de tab 02</p>
-                  </div>
-                  <div id="vertical-tab-3" class="vertical-tab-pane">
-                    <p>Contenido de tab 03</p>
-                  </div>
-                  <div id="vertical-tab-4" class="vertical-tab-pane">
-                    <p>Contenido de tab 04</p>
-                  </div>
-                  <div id="vertical-tab-5" class="vertical-tab-pane">
-                    <p>Contenido de tab 05</p>
-                  </div>
-                  <div id="vertical-tab-6" class="vertical-tab-pane">
-                    <p>Contenido de tab 06</p>
-                  </div>
-                  <div id="vertical-tab-7" class="vertical-tab-pane">
-                    <p>Contenido de tab 07</p>
-                  </div>
-                </div>
-              </div>                                             
+          <!-- ====== Modal-01 ====== -->
+          <div id="modal-01" class="modal">
+            <div class="modal-content">
+              <!-- ------ Modal-header ------ -->
+              <div class="modal-header">
+                <h2>Modal example</h2>
+                <span class="btn-close" data-dismiss="modal">
+                  <i class="fa-solid fa-xmark"></i>
+                </span>
+              </div>
+              <!-- ------ Modal-body ------ -->
+              <div class="modal-body">                
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas atque quas magni minus cupiditate veritatis autem eveniet maxime doloremque quis? Tempora architecto hic nulla voluptatem ut tenetur consequuntur facere explicabo!
+              </div>
+              <!-- ------ Modal-footer ------ -->
+              <div class="modal-footer">
+                <button type="reset" class="btn btn-dark-inverse" data-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-dark" id="btnEnviar">Guardar</button>          
+              </div>
             </div>
-          </div>              
-
+          </div>            
         </section>
       </main>
 
@@ -413,6 +343,6 @@
     <script src="../assets/js/navigation/sidebar_layout.js" type="text/javascript"></script>
     <!-- Components -->    
     <script src="../assets/js/theme_toggle.js"></script>
-    <script src="../assets/js/tabs.js"></script>	    
+    <script src="../assets/js/modal.js" type="text/javascript"></script>        
   </body>
 </html>

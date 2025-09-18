@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>GF - Buttons</title>
+    <title>GF - Alerts</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link rel="icon" href="../assets/img/favicon.png" type="image/png">
     <!-- Styles -->
@@ -35,7 +35,6 @@
                 <i class="fa-regular fa-envelope"></i>
                 <span class="label label-success">4</span>
               </a>
-              <!-- Dropdown-menu -->
               <ul class="dropdown-menu">
                 <li class="dm-header"><a>Tienes 3 mensajes</a></li>
                 <li>
@@ -74,13 +73,12 @@
                 <li class="dm-footer"><a href="#"> Ver todo </a></li>
               </ul>
             </li>
-            <!-- ------ Dropdown ------ --> 
+            <!-- ------ Dropdown ------ -->
             <li class="dropdown">
               <a href="#">
                 <i class="fa-regular fa-bell"></i>
                 <span class="label label-success">10</span>
               </a>
-              <!-- Dropdown-menu -->
               <ul class="dropdown-menu">
                 <li class="dm-header"><a>Tienes 3 notificaciones</a></li>
                 <li><a href="#"><i class="fa-solid fa-bell"></i> Lorem ipsum, dolor sit amet...</a></li>
@@ -95,7 +93,6 @@
                 <i class="fa-solid fa-flag"></i>
                 <span class="label label-danger">9</span>
               </a>
-              <!-- Dropdown-menu -->
               <ul class="dropdown-menu">
                 <li class="dm-header"><a>Tienes 3 Red flags</a></li>
                 <li><a href="#"><i class="fa-solid fa-flag"></i> Lorem ipsum, dolor sit amet...</a></li>
@@ -104,7 +101,7 @@
                 <li class="dm-footer"><a href="#"> Ver todo </a></li>
               </ul>
             </li>
-            <!-- ------ Dropdown ------ -->
+            <!-- ------ User dropdown ------ -->
             <li class="user dropdown">
               <!--Usuario con imagen .jpg-->
               <!--
@@ -117,7 +114,7 @@
                 <i class="fa-solid fa-user"></i>
                 <span class="hidden-xs">Nombre de usuario</span>
               </a>
-              <!-- Dropdown-menu -->
+              <!-- Dropdown -->
               <ul class="dropdown-menu">
                 <li><a href="#"><i class="fa-solid fa-user"></i> Mi perfil</a></li>
                 <li><a href="#"><i class="fa-solid fa-gear"></i> Ajustes</a></li>
@@ -129,11 +126,11 @@
       </header> 
 
       <!-- ===========
-      * MAIN-SIDEBAR *
+      * MAIN SIDEBAR *
       ============ -->    
       <aside class="main-sidebar">
         <section class="sidebar">          
-          <!-- User-panel
+          <!-- User panel
           ========================================== --> 
           <div class="user-panel">
             <div class="image">
@@ -168,15 +165,15 @@
                   </a>
                 </li>                                                  
               </ul>
-            </li>            
-            <li class="treeview active">
+            </li>       
+            <li class="treeview">
               <a href="#">
                 <i class="fa-solid fa-icons"></i>
                 <span>UI Kits</span>
                 <i class="fa-solid fa-angle-left float-right"></i>
               </a>              
               <ul class="treeview-menu">
-                <li class="active">
+                <li>
                   <a href="buttons.html">
                     <i class="fa-regular fa-circle"></i> Buttons
                   </a>
@@ -197,7 +194,7 @@
                   </a>
                 </li>                                                 
               </ul>
-            </li>          
+            </li>    
             <li class="treeview">
               <a href="#">
                 <i class="fa-solid fa-compass"></i>
@@ -221,8 +218,8 @@
                   </a>
                 </li>                                
               </ul>
-            </li>                                         
-            <li class="treeview">
+            </li>                                                    
+            <li class="treeview active">
               <a href="#">
                 <i class="fa-solid fa-table"></i>
                 <span>Componentes</span>
@@ -233,12 +230,12 @@
                   <a href="accordion.html">
                     <i class="fa-regular fa-circle"></i> Accordion
                   </a>
-                </li> 
-                <li>
+                </li>                 
+                <li class="active">
                   <a href="alerts.html">
                     <i class="fa-regular fa-circle"></i> Alertas
                   </a>
-                </li>                                                                                            
+                </li>                                                                                                               
                 <li>
                   <a href="cards.html">
                     <i class="fa-regular fa-circle"></i> Cards
@@ -258,24 +255,24 @@
                   <a href="sweet-alert.html">
                     <i class="fa-regular fa-circle"></i> Sweet alert
                   </a>
-                </li>                            
+                </li>                                               
                 <li>
                   <a href="tabs.html">
                     <i class="fa-regular fa-circle"></i> Tabs
                   </a>
-                </li>                                              
+                </li>                                                                                                                                                                                                                                                                                                                                                                              
                 <li>
                   <a href="tooltips.html">
                     <i class="fa-regular fa-circle"></i> Tooltips
                   </a>
-                </li>                                                                                                                                                                                                                                                                                                                                                                                                                     
+                </li>                      
               </ul>
             </li>          
           </ul>
           <!-- ------ Button theme ------ -->
           <a class="btn-circle" id="theme-btn">
             <i class="fa-solid fa-moon"></i>
-          </a>          
+          </a>
         </section>
       </aside>
 
@@ -286,213 +283,34 @@
         <!-- Content-header
         ========================================== -->
         <div class="content-header">
-          <h1>Button style</h1>          
+          <h1>Alerts</h1>          
         </div> 
         <!-- Content-body
         ========================================== -->
-        <section class="content-body">                                  
-          <!-- ====== Card ====== --> 
-          <div class="card">
-            <!-- ------ Card-header ------ -->
-            <header class="card-header">
-              <h4>Default buttons</h4>
-            </header>
-            <!-- ------ Card-body ------ -->
-            <div class="card-body flex flex-col sm:flex-row sm:justify-between gap-5">    
-              <div class="item">
-                <h6 class="mb-2">Btn-disable</h6>
-                <button class="btn btn-disable">
-                  <i class="fa-solid fa-user"></i> Disable
-                </button>      
-              </div> 
-              <div class="item">
-                <h6 class="mb-2">Btn-lighter</h6>
-                <div class="flex gap-2">
-                  <button class="btn btn-lighter">
-                    <i class="fa-solid fa-user"></i> Lighter
-                  </button>          
-                  <button class="btn btn-lighter-inverse">
-                    <i class="fa-solid fa-user"></i> Lighter inverse
-                  </button>                            
-                </div>
-              </div>                                                     
-              <div class="item">
-                <h6 class="mb-2">Btn-light</h6>
-                <div class="flex gap-2">
-                  <button class="btn btn-light">
-                    <i class="fa-solid fa-user"></i> Light
-                  </button>          
-                  <button class="btn btn-light-inverse">
-                    <i class="fa-solid fa-user"></i> Light inverse
-                  </button>               
-                </div>       
-              </div>            
-              <div class="item">
-                <h6 class="mb-2">Btn-dark</h6>
-                <div class="flex gap-2">
-                  <button class="btn btn-dark">
-                    <i class="fa-solid fa-user"></i> Dark
-                  </button>          
-                  <button class="btn btn-dark-inverse">
-                    <i class="fa-solid fa-user"></i> Dark inverse
-                  </button>        
-                </div>
-              </div>              
-            </div>
-          </div>
-          <!-- ====== Card ====== --> 
-          <div class="card">
-            <!-- ------ Card-header ------ -->
-            <header class="card-header">
-              <h4>Status buttons</h4>
-            </header>
-            <!-- ------ Card-body ------ -->
-            <div class="card-body flex flex-col sm:flex-row sm:justify-between gap-5">        
-              <!-- Btn-succes -->
-              <div class="item">
-                <h6 class="mb-2">Btn-success</h6>
-                <div class="flex gap-2">
-                  <button class="btn btn-success">
-                    <i class="fa-solid fa-user"></i> Success
-                  </button>          
-                  <button class="btn btn-success-inverse">
-                    <i class="fa-solid fa-user"></i> Success inverse
-                  </button>            
-                </div>       
-              </div>                                                     
-              <!-- Btn-danger -->
-              <div class="item">
-                <h6 class="mb-2">Btn-danger</h6>
-                <div class="flex gap-2">
-                  <button class="btn btn-danger">
-                    <i class="fa-solid fa-user"></i> Danger
-                  </button>          
-                  <button class="btn btn-danger-inverse">
-                    <i class="fa-solid fa-user"></i> Danger inverse
-                  </button>  
-                </div>       
-              </div>  
-              <!-- Btn-warning -->
-              <div class="item">
-                <h6 class="mb-2">Btn-warning</h6>
-                <div class="flex gap-2">
-                  <button class="btn btn-warning">
-                    <i class="fa-solid fa-user"></i> Warning
-                  </button>          
-                  <button class="btn btn-warning-inverse">
-                    <i class="fa-solid fa-user"></i> Warning inverse
-                  </button>                 
-                </div>       
-              </div>                      
-            </div>
-          </div>   
-          <!-- ====== Card ====== -->          
-          <div class="card">
-            <!-- ------ Card-header ------ -->
-            <header class="card-header">
-              <h4>Button sizes</h4>
-            </header>
-            <!-- ------ Card-body ------ -->
-            <div class="card-body flex flex-col sm:flex-row gap-5">       
-              <button class="btn btn-sm btn-dark">
-                <i class="fa-solid fa-user"></i> Btn-small
-              </button>          
-              <button class="btn btn-block btn-dark">
-                <i class="fa-solid fa-user"></i> Btn-block
-              </button>                                                                    
-            </div>
-          </div>               
-          <!-- ====== Card ====== -->
-          <div class="card">
-            <!-- ------ Card-header ------ -->
-            <header class="card-header">
-              <h4>Others buttons</h4>
-            </header>
-            <!-- ------ Card-body ------ -->
-            <div class="card-body flex flex-col sm:flex-row gap-5">                                            
-              <!-- Btn-link -->
-              <div class="item">
-                <h6 class="mb-2">Btn-link</h6>
-                <div class="flex gap-2">       
-                  <a href="#" class="btn btn-link">
-                    Btn link
-                  </a>
-                  <a href="#" class="btn btn-link">
-                    <i class="fa-solid fa-eye"></i> Btn link
-                  </a>                                    
-                </div>
-              </div>                                
-              <!-- Btn-circles -->
-              <div class="item">
-                <h6 class="mb-2">Btn-circles</h6>
-                <div class="flex gap-2">       
-                  <a class="btn-circle">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </a>         
-                  <a class="btn-circle-inverse">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </a>                                             
-                </div>
-              </div>            
-            </div>
-          </div>     
-          <!-- ====== Card ====== -->          
-          <div class="card">
-            <!-- ------ Card-header ------ -->
-            <header class="card-header">
-              <h4>Pagination</h4>
-            </header>
-            <!-- ------ Card-body ------ -->
-            <div class="card-body flex flex-col sm:flex-row sm:justify-between gap-5">     
-              <div class="item">
-                <h6 class="mb-2">Button group</h6>
-                <div class="button-group">
-                  <button class="button-left"><i class="fa-solid fa-user"></i> Botón izquierdo </button>
-                  <button class="button-right"><i class="fa-solid fa-user"></i> Botón derecho </button>
-                </div>                               
-              </div>       
-              <!-- Pagination -->                                                          
-              <nav class="pagination">
-                <span>Página 2 de 16</span>
-                <ul>
-                  <li><a href="#"><i class="fa-solid fa-chevron-left"></i></a></li>
-                  <li><a href="#">1</a></li>
-                  <li class="current"><strong>2</strong></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#"><i class="fa-solid fa-chevron-right"></i></a></li>
-                </ul>
-              </nav>                        
-            </div>
-          </div>    
-          <!-- ====== Card ====== -->          
-          <div class="card">
-            <!-- ------ Card-header ------ -->
-            <header class="card-header">
-              <h4>Social links</h4>
-            </header>
-            <!-- ------ Card-body ------ -->
-            <div class="card-body">     
-              <!-- Social-links -->       
-              <ul class="social-links">
-                <li>
-                  <a href="https://www.facebook.com/metroflex.sa.de.cv/" target="_blank" class="faicon-facebook">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/company/metroflex-sa-de-cv/" target="_blank" class="faicon-linkedin">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/metroflex_sadecv/" target="_blank" class="faicon-instagram">
-                    <i class="fa-brands fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>   
-            </div>
-          </div>                   
-
+        <section class="content-body">                        
+          <div class="flex flex-col gap-2"> 
+            <!-- ====== Alert ====== --> 
+            <div class="alert alert-success" role="alert" aria-live="assertive">
+              <p>Mensaje de alerta de éxito.</p>
+              <button type="button" class="btn-close" aria-label="Close" onclick="closeAlert(this)">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>                            
+            <!-- ====== Alert ====== -->
+            <div class="alert alert-danger" role="alert" aria-live="assertive">
+              <p>Mensaje de alerta de peligro.</p>
+              <button type="button" class="btn-close" aria-label="Close" onclick="closeAlert(this)">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>                            
+            <!-- ====== Alert ====== -->
+            <div class="alert alert-warning" role="alert" aria-live="assertive">
+              <p>Mensaje de alerta de advertencia.</p>
+              <button type="button" class="btn-close" aria-label="Close" onclick="closeAlert(this)">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>  
+          </div>            
         </section>
       </main>
 
@@ -515,11 +333,12 @@
     ////////-->
     <!-- Utilities-->
     <script src="https://kit.fontawesome.com/91705bc097.js" crossorigin="anonymous"></script>
-    <script src="../assets/js/jquery.min.js"></script>      	
+    <script src="../assets/js/jquery.min.js"></script>      
     <!-- Navigation -->
     <script src="../assets/js/navigation/sidebar_layout.js" type="text/javascript"></script>
     <!-- Components -->    
-    <script src="../assets/js/theme_toggle.js"></script>
-    
+    <script src="../assets/js/theme_toggle.js"></script>	 
+    <script src="../assets/js/alerts.js" type="text/javascript"></script>
+
   </body>
 </html>
