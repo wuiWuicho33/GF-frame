@@ -286,12 +286,13 @@
         <!-- Content-header
         ========================================== -->
         <div class="content-header">
-          <h1>Table style</h1>          
+          <h1>Tables</h1>          
         </div> 
         <!-- Content-body
         ========================================== -->
         <section class="content-body">  
-          <!-- ====== Table ====== -->                      
+          <!-- ====== Table ====== -->  
+          <h2>Default table</h2>                    
           <div class="table-responsive">
             <table>
               <!-- ------ Table head ------ -->
@@ -299,53 +300,47 @@
                 <tr>
                   <th>Nombre</th>
                   <th>Usuario</th>
-                  <th>Estado</th>
                   <th>Fecha y hora</th>
-                  <th>Ver noticia</th>                  
+                  <th>Correo</th>                  
                 </tr>
               </thead>
-              <!-- ------ Table body------ -->
+              <!-- ------ Table body ------ -->
               <tbody>
                 <tr>
                   <td>Shane Howell</td>
                   <td>Shane</td>
-                  <td>Publicado</td>
                   <td>26/11/2024 15:08</td>
                   <td>shane@correo.com</td>                     
                 </tr>
                 <tr>
                   <td>Aubrey Luna</td>
                   <td>Aubrey</td>
-                  <td>Publicado</td>
                   <td>26/11/2024 15:08</td>
                   <td>aubrey@correo.com</td>                         
                 </tr> 
                 <tr>
                   <td>Cassidy Vargas</td>
                   <td>Cassidy</td>
-                  <td>Publicado</td>
                   <td>26/11/2024 15:08</td>
                   <td>cassidy@correo.com</td>                         
                 </tr> 
                 <tr>
                   <td>Ashlee Robinson</td>
                   <td>Ashlee</td>
-                  <td>Publicado</td>
                   <td>26/11/2024 15:08</td>
                   <td>ashlee@correo.com</td>                         
                 </tr> 
                 <tr>
                   <td>Alfred Medina</td>
                   <td>Alfred</td>
-                  <td>Publicado</td>
                   <td>26/11/2024 15:08</td>
                   <td>alfred@correo.com</td>                         
                 </tr>                                                                                     
               </tbody>
             </table>
           </div>       
-          
           <!-- ====== Table ====== -->                    
+          <h2>Align right</h2>           
           <div class="table-responsive">
             <table class="align-right">
                <!-- ------ Table head ------ -->
@@ -357,10 +352,10 @@
                   <th>Editar</th>
                 </tr>
               </thead>
-              <!-- ------ Table body------ -->
+              <!-- ------ Table body ------ -->
               <tbody>
                 <tr class="new">
-                  <td><small>Se agregó</small>Name</td>
+                  <td><small>Se agregó</small>Shane Howell</td>
                   <td>Lorem ipsum dolor sit amet, consectetur adipiscing ...</td>
                   <td>
                     <div class="switch-group">              
@@ -379,7 +374,7 @@
                   </td>                  
                 </tr>
                 <tr>
-                  <td>Name</td>
+                  <td>Aubrey Luna</td>
                   <td>Lorem ipsum dolor sit amet, consectetur adipiscing ...</td>
                   <td>
                     <div class="switch-group">              
@@ -398,7 +393,7 @@
                   </td>                  
                 </tr> 
                 <tr>
-                  <td>Name</td>
+                  <td>Cassidy Vargas</td>
                   <td>Lorem ipsum dolor sit amet, consectetur adipiscing ...</td>
                   <td>
                     <div class="switch-group">              
@@ -419,7 +414,44 @@
               </tbody>
             </table>
           </div> 
-
+          <!-- ====== Table ====== -->     
+          <h2>DataTables</h2>                     
+          <div class="table-responsive">
+            <table id="miTabla" class="display">
+              <!-- ------ Table head ------ -->
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>Edad</th>
+                  <th>Ciudad</th>
+                </tr>
+              </thead>
+              <!-- ------ Table body ------ -->
+              <!-- Comentar lo siguiente para traer los datos dinámicos-->               
+              <tbody>
+                <tr>
+                  <td>Luis</td>
+                  <td>28</td>
+                  <td>Ciudad de México</td>
+                </tr>
+                <tr>
+                  <td>Ana</td>
+                  <td>34</td>
+                  <td>Guadalajara</td>
+                </tr>
+                <tr>
+                  <td>Carlos</td>
+                  <td>22</td>
+                  <td>Monterrey</td>
+                </tr>
+                <tr>
+                  <td>María</td>
+                  <td>45</td>
+                  <td>Puebla</td>
+                </tr>
+              </tbody>
+            </table>
+          </div> 
         </section>
       </main>
 
@@ -447,7 +479,14 @@
     <script src="../assets/js/navigation/sidebar_layout.js" type="text/javascript"></script>
     <!-- Components -->    
     <script src="../assets/js/theme_toggle.js"></script>
-    <script src="../assets/js/switches.js" type="text/javascript"></script>
+    <script src="../assets/js/form/switches.js" type="text/javascript"></script>   
+    <!-- Librería de DataTables -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#miTabla').DataTable(); // Inicializa DataTables
+      });
+    </script>        
 
   </body>
 </html>
