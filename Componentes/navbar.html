@@ -289,28 +289,31 @@
         </div> 
         <!-- Content-body
         ========================================== -->
-        <section class="content-body">                                               
-          <!-- ====== Section ====== -->        
-          <section class="bg-dark py-4">
-            <div class="container">
-              <!-- ------ Pagetitle ------ -->
-              <div id="pagetitle"> 
-                <h1>Example section</h1>
-              </div>        
-              <!-- ------ Breadcrumb ------ -->
-              <div aria-label="breadcrumb" class="breadcrumb">
-                <ol>
-                  <li>
-                    <a href="../index.html">
-                      <i class="icon fa-solid fa-house"></i> Home
-                    </a>
-                  </li>
-                  <li aria-current="page">Link</li>
-                </ol>
-              </div>         
-            </div>     
-          </section>    
-
+        <section class="content-body">     
+          <!-- ====== Navbar ====== -->        
+          <nav class="navbar">
+            <div class="navbar-wrapper container">
+              <!-- ------ Navbar-brand ------ -->
+              <div class="navbar-brand">
+                <a href="index.html">
+                  <img src="../assets/img/logo-default.svg" alt="Logo">
+                </a>
+              </div>
+              <!-- ------ Navbar-menu ------ -->
+              <div class="navbar-menu">
+                <div class="navbar-left"></div>
+                <div class="navbar-right">
+                  <a href="#" class="navbar-link">Link</a>
+                  <a href="#" class="navbar-link">Link</a>
+                  <a href="#" class="navbar-link">Link</a>
+                </div>
+              </div>
+              <!-- ------ Toggler para móviles ------ -->
+              <button class="navbar-toggler">
+                <span>&#9776;</span>
+              </button>      
+            </div>
+          </nav>
         </section>
       </main>
 
@@ -336,6 +339,7 @@
     <script src="../assets/js/jquery.min.js"></script>      
     <!-- Navigation -->
     <script src="../assets/js/navigation/sidebar_layout.js" type="text/javascript"></script>
+    <script src="../assets/js/navigation/santandar_nav.js"></script>	
     <!-- Components -->    
     <script src="../assets/js/theme_toggle.js"></script>
     <script src="../assets/js/accordeon.js" type="text/javascript"></script>
