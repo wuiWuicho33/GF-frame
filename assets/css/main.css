@@ -3503,6 +3503,9 @@ Tabletas horizontales */
   background-color: color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   color: var(--tertiary-color);
 }
+.button-left:hover i {
+  color: var(--tertiary-color);
+}
 
 /* # Botón derecho
 ----------------------------------------------- */
@@ -3511,6 +3514,9 @@ Tabletas horizontales */
   color: var(--tertiary-color);
   border: 1px solid color-mix(in srgb, var(--highlight-color) 90%, #ffffff);
   border-radius: 0 0.25rem 0.25rem 0;
+}
+.button-right i {
+  color: var(--tertiary-color);
 }
 .button-right:hover {
   background-color: var(--highlight-color);
