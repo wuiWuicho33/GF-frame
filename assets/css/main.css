@@ -3547,13 +3547,13 @@ Tabletas horizontales */
   cursor: pointer;
 }
 .btn-circle i {
-  color: var(--tertiary-color);
+  color: var(--tertiary-color) !important;
 }
 .btn-circle:hover {
   background-color: var(--tertiary-color);
 }
 .btn-circle:hover i {
-  color: var(--highlight-color);
+  color: var(--highlight-color) !important;
 }
 
 .btn-circle-inverse {

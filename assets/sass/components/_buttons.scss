@@ -286,11 +286,11 @@
   line-height: 2rem;
   text-align: center;
   cursor: pointer;
-  i{color:var(--tertiary-color);}
+  i{color:var(--tertiary-color) !important;}
 
   &:hover{
     background-color: var(--tertiary-color); 
-    i{color:var(--highlight-color);}
+    i{color:var(--highlight-color) !important;}
   }
 }
 
