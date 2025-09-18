@@ -1,6 +1,10 @@
 Colocar ojito a input de contraseña
 Ajustar las medidas de todos los mediaqueries
 Agregar sliders
+Hacer navbar con dropdown
+Hacer navbar con ícono de cambio de tema
+Hacer el botón de cambio de tema
+Darle un lugar al botón de cambio de tema en todas las páginas
 
 Revisar que los modales y cajas de alerta funcionen correctamente
 Agregar componente de alertas
