@@ -32,11 +32,12 @@
 
 /*Forms*/
 @import 'form/_form';
-@import 'form/_multiple_select';
+@import 'form/_password'; 
 @import 'form/_search';
 @import 'form/_switch';
 @import 'form/_upload_files';
 @import 'form/_date_group'; 
+@import 'form/_multiple_select';
 
 /*Navigation*/
 @import 'navigation/_standar_navbar';//Revisar que sus estilos no choquen con el main_header y sidebar_menu del sidebar
