@@ -1,0 +1,134 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>GF - Home</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <link rel="icon" href="../img/favicon.png" type="image/png">
+    <!-- Styles -->
+    <link href="../css/main.css" rel="stylesheet" type="text/css" />   
+    <link rel="stylesheet" href="organigrama.css">     
+  </head>
+  <body>
+
+    <!-- ======
+    * NAVBAR *
+    ======= -->           
+    <nav class="navbar">
+      <div class="navbar-wrapper container">
+        <!-- Navbar-brand
+        ========================================== -->  
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img src="../img/logo-default.svg" alt="Logo">
+          </a>
+        </div>
+        <!-- Navbar-menu
+        ========================================== -->          
+        <div class="navbar-menu">
+          <div class="navbar-left"></div>
+          <div class="navbar-right">
+            <a href="#" class="navbar-link">Link</a>
+            <a href="#" class="navbar-link">Link</a>
+            <a href="#" class="navbar-link">Link</a>
+          </div>
+        </div>
+        <!-- Toggler para móviles
+        ========================================== -->                  
+        <button class="navbar-toggler">
+          <span>&#9776;</span>
+        </button>      
+      </div>
+    </nav>
+
+    <!-- ======
+    * MAIN *
+    ======= -->               
+    <main class="bg-light py-8">
+      <div class="container">  
+
+        <h1>Demo de Diagrama Multinivel con GoJS</h1>
+
+        <!-- 🔹 Barra superior con buscador a la izquierda y botones de acción a la derecha -->
+        <div class="top-bar">
+          <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Buscar por nombre o rol">
+            <button id="searchBtn">Buscar</button>
+            <button id="clearBtn">Limpiar</button>
+            <span id="searchCount">0 resultados</span>
+          </div>
+          <div class="actions">
+            <button id="zoomFitBtn">Ver completo</button>
+            <button id="editBtn">Editar diagrama</button>
+            <button id="saveBtn" style="display:none;" disabled>Guardar</button>
+            <button id="cancelBtn" style="display:none;">Cancelar</button>
+          </div>
+        </div>
+
+        <!-- Diagrama -->
+        <div id="myDiagramDiv"></div>
+        <!-- Minimapa -->
+        <div id="myOverviewDiv"></div>
+
+        <!-- Modal -->
+        <div id="modalOverlay" class="modal-overlay"></div>
+        <div id="myModal" class="modal-overlay-content">
+          <h3 id="modalTitle"></h3>
+          <p id="modalBody"></p>
+          <button id="modalClose">Cerrar</button>
+        </div>
+        
+      </div>     
+    </main>     
+          
+    <!-- ======
+    * FOOTER *
+    ======= -->                   
+    <footer class="legales bg-darker py-2">
+      <div class="container">  
+        <!-- Flex
+        ========================================== -->         
+        <div class="flex flex-col items-center md:flex-row md:justify-between gap-4">
+          <!-- ====== Flex ====== -->
+          <div class="legales flex flex-col md:flex-row gap-4">
+            <p>Copyright 2025 MetroFlex S.A.De C.V.  Todos los derechos reservados</p>
+            <a href="pages/terms.html">Términos y condiciones</a>
+          </div>  
+          <!-- ====== Social-links ====== -->         
+          <ul class="social-links">
+            <li>
+              <a href="https://www.facebook.com/metroflex.sa.de.cv/" target="_blank" class="faicon-facebook">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/metroflex-sa-de-cv/" target="_blank" class="faicon-linkedin">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/metroflex_sadecv/" target="_blank" class="faicon-instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul> 
+        </div>  
+      </div>     
+    </footer>   
+
+    <!--///////
+    SCRIPTS
+    ////////-->
+    <!-- Utilities-->
+    <script src="https://kit.fontawesome.com/91705bc097.js" crossorigin="anonymous"></script>    
+    <script src="../js/jquery.min.js"></script>
+    <!-- Navigation -->
+    <script src="../js/navigation/santandar_nav.js"></script>	
+    <!-- Organigrama -->
+    <script src="https://unpkg.com/gojs/release/go.js"></script>
+    <script src="diagram.js"></script>
+    <script src="search.js"></script>
+    <script src="modal.js"></script>      
+
+  </body>
+</html>
