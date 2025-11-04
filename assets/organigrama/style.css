@@ -68,8 +68,8 @@
   transform: none;
 }
 
-/* Botón limpiar (mantiene su estilo aparte) */
-#clearBtn {
+/* Botón limpiar*/
+#clearBtn, #zoomFitBtn {
   background-color: #f2f2f2;
   color: #333;
   border: 1px solid #ccc;
@@ -77,7 +77,7 @@
   padding: 6px 10px;
 }
 
-#clearBtn:hover {
+#clearBtn:hover, #zoomFitBtn {
   background-color: #e6e6e6;
 }
 
@@ -164,6 +164,10 @@ button:hover:not(:disabled) {
 /*Editar*/
 #editBtn {
   background-color: #1E90FF;
+  color: #fff;
+}
+
+#editBtn i {
   color: #fff;
 }
 
