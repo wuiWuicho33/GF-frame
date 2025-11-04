@@ -1,61 +1,49 @@
 window.addEventListener('DOMContentLoaded', () => {
-  const overlay = document.getElementById('modalOverlay');
-  const modal = document.getElementById('myModal');
-  const title = document.getElementById('modalTitle');
-  const body = document.getElementById('modalBody');
-  const closeBtn = document.getElementById('modalClose');
+    const overlay = document.getElementById('modalOverlay');
+    const modal = document.getElementById('myModal');
+    const foto = document.getElementById('modalFoto');
+    const title = document.getElementById('modalTitle');
+    const body = document.getElementById('modalBody');
+    const closeBtn = document.getElementById('modalClose');
 
-  // Áreas simuladas
-  const areas = [
-    "Tecnologías de la Información",
-    "Finanzas",
-    "Recursos Humanos",
-    "Marketing",
-    "Operaciones",
-    "Ventas",
-    "Logística"
-  ];
+    function showModal(nodeData) {
+        
+        foto.src = nodeData.photo;
 
-  // Función para generar número de 4 cifras
-  function generarNumeroEmpleado() {
-    return Math.floor(1000 + Math.random() * 9000); // 1000 - 9999
-  }
+        // Título: nombre del empleado
+        title.textContent = nodeData.name;
 
-  // Función para generar sueldo simulado
-  function generarSueldo() {
-    const sueldo = Math.floor(15000 + Math.random() * 35000); // $15,000 - $50,000
-    return sueldo.toLocaleString("es-MX", { style: "currency", currency: "MXN" });
-  }
+        // Obtener nombre del jefe inmediato si existe
+        let agrupadorHTML = "";
+        if (nodeData.parent && window.myDiagram) {
+            // Aseguramos que window.myDiagram exista antes de buscar el nodo
+            const parentNode = window.myDiagram.model.findNodeDataForKey(nodeData.parent);
+            if (parentNode && parentNode.name) {
+                agrupadorHTML = `<p><strong>Agrupador:</strong> ${parentNode.name}</p>`;
+            }
+        }
 
-  function showModal(nodeData) {
-    // Datos dinámicos
-    const numeroEmpleado = generarNumeroEmpleado();
-    const area = areas[Math.floor(Math.random() * areas.length)];
-    const sueldo = generarSueldo();
+        // Contenido del modal - LEYENDO DATOS ESTÁTICOS DEL NODO
+        body.innerHTML = `
+<p><strong>No. Empleado:</strong> ${nodeData.employeeId}</p>
+<p><strong>Área:</strong> ${nodeData.area}</p>
+<p><strong>Cargo:</strong> ${nodeData.role}</p>
+<p><strong>Sueldo:</strong> ${nodeData.salary}</p>
+${agrupadorHTML}
+`;
 
-    // Título fijo
-    title.textContent = "Datos del empleado";
+        overlay.style.display = 'block';
+        modal.style.display = 'block';
+    }
 
-    // Información detallada en el body
-    body.innerHTML = `
-      <p><strong>Nombre:</strong> ${nodeData.name}</p>
-      <p><strong>Cargo:</strong> ${nodeData.role}</p>
-      <p><strong>No. Empleado:</strong> ${numeroEmpleado}</p>
-      <p><strong>Área:</strong> ${area}</p>
-      <p><strong>Sueldo:</strong> ${sueldo}</p>
-    `;
+    function closeModal() {
+        overlay.style.display = 'none';
+        modal.style.display = 'none';
+    }
 
-    overlay.style.display = 'block';
-    modal.style.display = 'block';
-  }
+    closeBtn.addEventListener('click', closeModal);
+    overlay.addEventListener('click', closeModal);
 
-  function closeModal() {
-    overlay.style.display = 'none';
-    modal.style.display = 'none';
-  }
-
-  closeBtn.addEventListener('click', closeModal);
-  overlay.addEventListener('click', closeModal);
-
-  window.showModal = showModal; // Exponer global
+    // Se expone la función para que el nodo del diagrama pueda llamarla
+    window.showModal = showModal;
 });

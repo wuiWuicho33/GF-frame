@@ -7,8 +7,8 @@
     <link rel="icon" href="../assets/img/favicon.png" type="image/png">
     <!-- Styles -->
     <link href="../assets/css/main.css" rel="stylesheet" type="text/css" />  
-    <!-- Libreria -->
-    <link rel="stylesheet" href="../assets/organigrama/organigrama.css">       
+    <!-- Organigrama -->
+    <link rel="stylesheet" href="../assets/organigrama/style.css">       
   </head>
   <body>
 
@@ -302,14 +302,37 @@
           <!-- Barra superior con buscador a la izquierda y botones de acción a la derecha -->
           <div class="top-bar">
             <div class="search-box">
-              <input type="text" id="searchInput" placeholder="Buscar por nombre o rol">
-              <button id="searchBtn">Buscar</button>
-              <button id="clearBtn">Limpiar</button>
+              <div class="search-group">
+                <input type="text" id="searchInput" placeholder="Buscar por nombre o rol">
+                <button id="searchBtn" title="Buscar">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <button id="clearBtn" title="Limpiar búsqueda">
+                <i class="fa-solid fa-broom"></i>
+              </button>
               <span id="searchCount">0 resultados</span>
             </div>
             <div class="actions">
-              <button id="zoomFitBtn">Ver completo</button>
-              <button id="editBtn">Editar diagrama</button>
+              <!-- Dropdown de campos del nodo -->
+              <div class="dropdown-wrapper">
+                <button id="dropdownBtn">Campos del nodo ▾</button>
+                <div class="dropdown-list">
+                  <label><input type="checkbox" data-key="photo" checked> Foto</label>
+                  <label><input type="checkbox" data-key="name" checked> Nombre</label>
+                  <label><input type="checkbox" data-key="employeeNumber"> No. Empleado</label>
+                  <label><input type="checkbox" data-key="area"> Área</label>
+                  <label><input type="checkbox" data-key="role" checked> Cargo</label>
+                  <label><input type="checkbox" data-key="salary"> Sueldo</label>
+                  <label><input type="checkbox" data-key="manager"> Agrupador</label>
+                </div>
+              </div>      
+              <button id="zoomFitBtn" title="Ver organigrama completo">
+                <i class="fa-solid fa-chart-diagram"></i>
+              </button>
+              <button id="editBtn" title="Editar organigrama">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
               <button id="saveBtn" style="display:none;" disabled>Guardar</button>
               <button id="cancelBtn" style="display:none;">Cancelar</button>
             </div>
@@ -322,10 +345,13 @@
 
           <!-- Modal -->
           <div id="modalOverlay" class="modal-overlay"></div>
-          <div id="myModal" class="modal-overlay-content">
+          <div id="myModal" class="modal-content">
+            <a id="modalClose" class="modal-close" title="Cerrar">
+              <i class="fa-solid fa-xmark"></i>
+            </a>
+            <img id="modalFoto" src="" alt="Foto" class="modal-photo"/>
             <h3 id="modalTitle"></h3>
             <p id="modalBody"></p>
-            <button id="modalClose">Cerrar</button>
           </div>
 
         </section>
@@ -358,7 +384,8 @@
     <!-- Organigrama -->
     <script src="https://unpkg.com/gojs/release/go.js"></script>
     <script src="../assets/organigrama/diagram.js"></script>
-    <script src="../assets/organigrama/search.js"></script>
-    <script src="../assets/organigrama/modal.js"></script>       
+    <script src="../assets/organigrama/search.js"></script>  
+    <script src="../assets/organigrama/modal.js"></script>  
+    <script src="../assets/organigrama/node-config.js"></script>       
   </body>
 </html>
