@@ -3053,7 +3053,6 @@ Tabletas horizontales */
   border-radius: 0 0 0.25rem 0.25rem;
 }
 .acordeon .acordeon-item .acordeon-body p {
-  margin: 0;
   color: var(--primary-text-color);
 }
 
