@@ -5,12 +5,14 @@
   width: 100%;
   margin: auto;
   border: 1px solid var(--tertiary-color);
+  border-radius: 0.5rem;
   
   .tabs{
     display: flex; 
     flex-wrap: wrap;
     background-color: var(--secondary-color);
     border-bottom: 1px solid var(--tertiary-color);
+    border-radius: 0.5rem 0.5rem 0 0 ;
   
     &.tabs-center{
       justify-content: center;
@@ -53,6 +55,7 @@
 .tab-content {
   background-color:var(--primary-color);
   padding: 20px;
+  border-radius: 0.5rem;
   
   .tab-pane {
     display: none;
