@@ -4210,8 +4210,9 @@ table.dataTable thead th.sorting_desc:after {
   font-weight: 300;
 }
 .tab-button.active, .tab-button:hover, .tab-button:focus {
-  background-color: var(--fourth-color);
-  color: var(--primary-text-color);
+  background-color: color-mix(in srgb, var(--seventy-color) 90%, #ffffff);
+  color: var(--primary-color);
+  font-weight: 600;
 }
 
 /* # Tab-content
@@ -4443,8 +4444,9 @@ html {
   font-weight: 300;
 }
 .vertical-tabs-container .vertical-tabs .vertical-tab.active, .vertical-tabs-container .vertical-tabs .vertical-tab:hover {
-  background-color: var(--fourth-color);
-  color: var(--primary-text-color);
+  background-color: color-mix(in srgb, var(--seventy-color) 90%, #ffffff);
+  color: var(--primary-color);
+  font-weight: 600;
 }
 
 .vertical-tab-content {

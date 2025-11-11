@@ -42,8 +42,9 @@
   &.active,
   &:hover, 
   &:focus {
-    background-color: var(--fourth-color);
-    color:var(--primary-text-color);  
+    background-color: color-mix(in srgb, var(--seventy-color) 90%, $white-color); 
+    color:var(--primary-color);  
+    font-weight: 600;
   }  
 }
 
